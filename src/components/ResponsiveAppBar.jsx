@@ -1,0 +1,56 @@
+import * as React from "react";
+import { Stack, Button, Container, Typography, AppBar } from "@mui/material";
+
+function ResponsiveAppBar() {
+  return (
+    <AppBar position="static" sx={{ bgcolor: '#00796B', position: 'fixed', top: 0, left: 0, right: 0 }}>
+      <Container maxWidth="xl">
+        <Stack
+          direction="row"
+          justifyContent="space-between"
+          alignItems="center"
+          m={1}
+        >
+          <Typography
+            variant="h6"
+            noWrap
+            component="a"
+            href="/"
+            sx={{
+              mr: 2,
+              display: { xs: "none", md: "flex" },
+              fontWeight: 700,
+              letterSpacing: ".3rem",
+              color: "inherit",
+              textDecoration: "none",
+            }}
+          >
+            SANTIAGO KUNICH
+          </Typography>
+          <Typography
+            variant="h5"
+            noWrap
+            component="a"
+            href=""
+            sx={{
+              mr: 2,
+              display: { xs: "flex", md: "none" },
+              flexGrow: 1,
+              fontFamily: "monospace",
+              fontWeight: 700,
+              letterSpacing: ".3rem",
+              color: "inherit",
+              textDecoration: "none",
+            }}
+          >
+            SANTIAGO KUNICH
+          </Typography>
+          <Button sx={{ bgcolor: "#009688" }} variant="contained">
+            Solicitá tu cotización
+          </Button>
+        </Stack>
+      </Container>
+    </AppBar>
+  );
+}
+export default ResponsiveAppBar;

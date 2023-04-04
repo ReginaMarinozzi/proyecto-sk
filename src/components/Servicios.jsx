@@ -1,0 +1,22 @@
+import { Stack, Typography } from '@mui/material';
+import React from 'react';
+import CardContainer from "./CardContainer";
+
+const Servicios = () => {
+  return (
+    <Stack
+    m={2}>
+      <Typography
+            variant="h4"
+            component="h4"
+            align="center"
+            color="#757575"
+            fontWeight={600}>
+            Nuestros Servicios
+          </Typography>
+          <CardContainer/>
+      </Stack>
+  )
+}
+
+export default Servicios
