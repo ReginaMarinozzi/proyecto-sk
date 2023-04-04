@@ -1,9 +1,11 @@
-import { Container } from '@mui/material'
-import React from 'react'
+import * as React from 'react';
+import Box from '@mui/material/Box';
 
 const CardContainer = () => {
   return (
-    <Container>CardContainer</Container>
+    <Box sx={{ flexGrow: 1 }}>
+   
+  </Box>
   )
 }
 
