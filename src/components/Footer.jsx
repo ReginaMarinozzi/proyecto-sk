@@ -15,6 +15,7 @@ const Footer = () => {
         p={1}
       >
         <Typography
+          color="#FFFFFF"
           variant="h6"
           component='p'
         >
@@ -25,6 +26,7 @@ const Footer = () => {
         p={1}
       >
         <Typography
+          color="#FFFFFF"
           variant="p"
           component='p'
         >

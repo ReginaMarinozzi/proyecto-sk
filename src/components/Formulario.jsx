@@ -24,7 +24,6 @@ const Formulario = () => {
       }}
     >
       <Stack
-        sx={{ bgcolor: '#4CAF50' }}
         p={10}
         spacing={2}
 
@@ -66,17 +65,7 @@ const Formulario = () => {
               <Field name="email" type="email" />
               <ErrorMessage name="email" />
             </Grid>
-            <Grid item
-              md={6}
-            >
-              <TextField
-                id="outlined-multiline-static"
-                label="Multiline"
-                multiline
-                rows={4}
-                defaultValue="Escriba su consulta"
-              />
-            </Grid>
+       
             <Grid item
               md={6}
             >

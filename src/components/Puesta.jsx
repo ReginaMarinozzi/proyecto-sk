@@ -1,6 +1,9 @@
 import { Stack, Typography } from '@mui/material';
 import React from 'react';
-import AdbIcon from '@mui/icons-material/Adb';
+import EngineeringIcon from '@mui/icons-material/Engineering';
+import CoronavirusIcon from '@mui/icons-material/Coronavirus';
+import ForestIcon from '@mui/icons-material/Forest';
+
 
 const Puesta = () => {
   return (
@@ -24,18 +27,8 @@ const Puesta = () => {
         </Typography>
       </Stack>
 
-      <Stack
-        m={3}
-        direction="row"
-        justifyContent="center"
-        alignItems="center"
-        spacing={5}>
-        <Stack
-          m={3}
-          justifyContent="center"
-          alignItems="center"
-          spacing={2}>
-          <AdbIcon />
+      
+          <EngineeringIcon sx={{ color: '#757575', fontSize: '100px' }} />
           <Typography
             variant="h6"
             component="p"
@@ -44,13 +37,8 @@ const Puesta = () => {
             fontWeight={600}>
             Reducción de riesgos laborales
           </Typography>
-        </Stack>
-        <Stack
-          m={3}
-          justifyContent="center"
-          alignItems="center"
-          spacing={2}>
-          <AdbIcon />
+       
+          <CoronavirusIcon sx={{ color: '#757575', fontSize: '100px' }} />
           <Typography
             variant="h6"
             component="p"
@@ -60,13 +48,8 @@ const Puesta = () => {
           >
             Accidentes, incendios y enfermedades
           </Typography>
-        </Stack>
-        <Stack
-          m={3}
-          justifyContent="center"
-          alignItems="center"
-          spacing={2}>
-          <AdbIcon />
+       
+          <ForestIcon sx={{ color: '#757575', fontSize: '100px' }} />
           <Typography
             variant="h6"
             component="p"
@@ -75,11 +58,9 @@ const Puesta = () => {
             fontWeight={600}>
             Protección del medioambiente
           </Typography>
-        </Stack>
-
-      </Stack>
 
     </Stack>
+
   )
 }
 

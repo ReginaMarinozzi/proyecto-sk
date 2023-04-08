@@ -5,11 +5,10 @@ const Header = () => {
   return (
     <Stack
       justifyContent="center"
-      height="80vh"
+      height="100vh"
       sx={{
         backgroundImage:
-          'url("https://images.unsplash.com/photo-1516216628859-9bccecab13ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80")',
-        backgroundPosition: "center",
+          'url("https://i.ibb.co/fDsXzHC/piotr-chrobot-M0-Wb-GFRTXq-U-unsplash.jpg")', backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
       }}
@@ -18,7 +17,7 @@ const Header = () => {
         direction="column"
         justifyContent="center"
         alignItems="center"
-        m={1}
+        p={1}
         spacing={2}
       >
         <Typography
@@ -26,15 +25,18 @@ const Header = () => {
           component="h1"
           align="center"
           color="#212121"
-          fontWeight={600}>
+          fontWeight={600}
+          sx={{ textShadow: '2px 2px 2px #FFFFFF' }}
+        >
           Servicios de higiene y seguridad
         </Typography>
         <Typography
           variant="h3"
           component="h2"
           align="center"
-          color="#FFFFFF"
-          fontWeight={600}>
+          color="#212121"
+          fontWeight={600}
+          sx={{ textShadow: '2px 2px 2px #FFFFFF' }}>
           para PyMes, industrias.
         </Typography>
       </Stack>

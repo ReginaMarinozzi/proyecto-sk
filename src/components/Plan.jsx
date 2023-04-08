@@ -1,6 +1,8 @@
 import { Stack, Typography } from '@mui/material';
 import React from 'react';
-import AdbIcon from '@mui/icons-material/Adb';
+import LooksOneOutlinedIcon from '@mui/icons-material/LooksOneOutlined';
+import LooksTwoOutlinedIcon from '@mui/icons-material/LooksTwoOutlined';
+import Looks3OutlinedIcon from '@mui/icons-material/Looks3Outlined';
 
 const Plan = () => {
   return (
@@ -34,7 +36,7 @@ const Plan = () => {
           justifyContent="center"
           alignItems="center"
           spacing={2}>
-          <AdbIcon />
+          <LooksOneOutlinedIcon sx={{color: '#757575', fontSize:'100px'}}/>
           <Typography
             variant="h6"
             component="p"
@@ -56,7 +58,7 @@ const Plan = () => {
           justifyContent="center"
           alignItems="center"
           spacing={2}>
-          <AdbIcon />
+          <LooksTwoOutlinedIcon sx={{color: '#757575', fontSize:'100px'}}/>
           <Typography
             variant="h6"
             component="p"
@@ -79,7 +81,7 @@ const Plan = () => {
           justifyContent="center"
           alignItems="center"
           spacing={2}>
-          <AdbIcon />
+          <Looks3OutlinedIcon sx={{color: '#757575', fontSize:'100px'}}/>
           <Typography
             variant="h6"
             component="p"
