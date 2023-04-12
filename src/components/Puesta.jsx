@@ -20,7 +20,7 @@ const Puesta = () => {
           variant="h4"
           component="h4"
           align="center"
-          color="#757575"
+          color="#212121"
           fontWeight={600}
           p={3}
           mb={3}>
@@ -35,13 +35,14 @@ const Puesta = () => {
           item
           md={4}
           sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center, flex', flexDirection: 'column' }} >
-          <EngineeringIcon sx={{ color: '#757575', fontSize: '100px' }} />
+          <EngineeringIcon sx={{ color: '#212121', fontSize: '100px'}} />
           <Typography
             variant="h6"
             component="p"
             align="center"
-            color="#757575"
-            fontWeight={600}>
+            color="#212121"
+            fontWeight={600}
+            >
             Reducción de riesgos laborales
           </Typography>
         </Grid>
@@ -49,12 +50,12 @@ const Puesta = () => {
           item
           md={4}
           sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center, flex', flexDirection: 'column' }}  >
-          <CoronavirusIcon sx={{ color: '#757575', fontSize: '100px' }} />
+          <CoronavirusIcon sx={{ color: '#212121', fontSize: '100px' }} />
           <Typography
             variant="h6"
             component="p"
             align="center"
-            color="#757575"
+            color="#212121"
             fontWeight={600}
           >
             Accidentes, incendios y enfermedades
@@ -65,12 +66,12 @@ const Puesta = () => {
           md={4}
           sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center, flex', flexDirection: 'column' }}
         >
-          <ForestIcon sx={{ color: '#757575', fontSize: '100px' }} />
+          <ForestIcon sx={{ color: '#212121', fontSize: '100px' }} />
           <Typography
             variant="h6"
             component="p"
             align="center"
-            color="#757575"
+            color="#212121"
             fontWeight={600}>
             Protección del medioambiente
           </Typography>

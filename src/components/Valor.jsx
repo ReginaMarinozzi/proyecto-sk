@@ -18,7 +18,7 @@ const Valor = () => {
           variant="h4"
           component="h4"
           align="center"
-          color="#757575"
+          color="#212121"
           fontWeight={600}
           m={3}>
           ¿Por qué deberías elegirnos?

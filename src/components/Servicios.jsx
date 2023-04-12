@@ -5,17 +5,19 @@ import CardContainer from "./CardContainer";
 const Servicios = () => {
   return (
     <Stack
-    m={2}>
+      m={2}>
       <Typography
-            variant="h4"
-            component="h4"
-            align="center"
-            color="#757575"
-            fontWeight={600}>
-            Nuestros Servicios
-          </Typography>
-          <CardContainer/>
-      </Stack>
+        pb={4}
+        pt={2}
+        variant="h4"
+        component="h4"
+        align="center"
+        color="#212121"
+        fontWeight={600}>
+        Nuestros Servicios
+      </Typography>
+      <CardContainer />
+    </Stack>
   )
 }
 
