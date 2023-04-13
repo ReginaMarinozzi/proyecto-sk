@@ -6,9 +6,9 @@ const Header = () => {
     <Stack
       flexDirection='row'
       alignItems='center'
-      height='90vh'
+      height='60vh'
       spacing={2}
-      my={15}
+      my={10}
     >
       <Stack
         flexDirection='column'
