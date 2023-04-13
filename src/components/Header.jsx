@@ -8,7 +8,8 @@ const Header = () => {
       alignItems='center'
       height='50vh'
       spacing={2}
-      my={10}
+      mt={15}
+      mb={10}
       pt={2}
     >
       <Stack
