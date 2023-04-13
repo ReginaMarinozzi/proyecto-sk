@@ -12,7 +12,7 @@ const Header = () => {
         py={10}
         m={5}
         spacing={2}
-        sx={{ display: 'flex', flexDirection: 'row' }}>
+        sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
 
         <Grid item md={6}      
         >
