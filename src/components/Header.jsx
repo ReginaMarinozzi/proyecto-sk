@@ -6,7 +6,7 @@ const Header = () => {
     <Stack
       flexDirection='row'
       alignItems='center'
-      height='60vh'
+      height='50vh'
       spacing={2}
       my={10}
       pt={2}
