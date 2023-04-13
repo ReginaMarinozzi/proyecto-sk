@@ -5,6 +5,7 @@ const Header = () => {
   return (
     <Stack
       flexDirection='row'
+      height='80vh'
     >
       <Grid
         container

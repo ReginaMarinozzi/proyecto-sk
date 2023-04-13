@@ -51,6 +51,31 @@ const Servicios = [
         id: '10',
         name: '',
         description: ''
+    },
+    {
+        id: '11',
+        name: '',
+        description: ''
+    },
+    {
+        id: '12',
+        name: '',
+        description: ''
+    },
+    {
+        id: '13',
+        name: '',
+        description: ''
+    },
+    {
+        id: '14',
+        name: '',
+        description: ''
+    },
+    {
+        id: '15',
+        name: '',
+        description: ''
     }
 ]
 
