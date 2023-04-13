@@ -12,7 +12,7 @@ const Mision = () => {
       px={15}>
       <Stack
         p={3}
-        my={5} 
+        my={5}
         ml={10}
         spacing={2}
         sx={{ maxWidth: '50%', bgcolor: '#FFFFFF' }}
@@ -29,8 +29,8 @@ const Mision = () => {
             color="#212121"
             fontWeight={600}
             mr={1}
-            >
-            Nuestra Misión
+          >
+            Nuestra misión
           </Typography>
           <Stack
             alignItems='center'
@@ -51,8 +51,8 @@ const Mision = () => {
             component="p"
             color="#212121"
             fontWeight={600}
-            >
-            Garantizar la implementación de la política de Higiene y Seguridad laboral fijada por cada empresa; tendiente a promover sostenibles hábitos y condiciones ambientales en los lugares de trabajo.
+          >
+            Garantizar la implementación de la política de higiene y s'eguridad laboral fijada por cada empresa; tendiente a promover sostenibles hábitos y condiciones ambientales en los lugares de trabajo.
           </Typography>
         </Stack>
       </Stack>

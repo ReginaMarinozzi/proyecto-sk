@@ -15,14 +15,14 @@ const Puesta = () => {
       alignItems="center"
       sx={{ bgcolor: '#00796B' }}>
       <Stack
-      mb={5}>
+        mb={5}>
         <Typography
           variant="h4"
           component="h4"
           align="center"
           color="#FFFFFF"
           fontWeight={600}
-          >
+        >
           Alcanzá los objetivos de tu empresa
           <br />
           y cuidá lo que más importa

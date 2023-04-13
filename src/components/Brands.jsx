@@ -17,9 +17,8 @@ const Brands = () => {
           component="p"
           color="#7c828d"
           fontWeight={600}
-
         >
-          Todos ellos confiaron, ahora te toca a vos...
+          Más de 100 de empresas ya confiaron en nosotros
         </Typography>
       </Stack>
       <Grid container
