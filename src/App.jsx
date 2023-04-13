@@ -2,7 +2,7 @@ import ResponsiveAppBar from "./components/ResponsiveAppBar";
 import Header from "./components/Header";
 import Brands from "./components/Brands";
 import Puesta from "./components/Puesta";
-import Valor from "./components/Valor"
+import Mision from "./components/Mision"
 import Plan from "./components/Plan";
 import Servicios from "./components/Servicios";
 import Formulario from "./components/Formulario";
@@ -18,7 +18,7 @@ function App() {
       <Header />
       <Brands />
       <Puesta />
-      <Valor />
+      <Mision />
       <Plan />
       <Servicios />
       <Formulario />

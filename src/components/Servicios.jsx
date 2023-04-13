@@ -7,7 +7,6 @@ const Servicios = () => {
     <Stack
       m={2}>
       <Typography
-        pb={4}
         pt={2}
         variant="h4"
         component="h4"

@@ -11,9 +11,8 @@ const Plan = () => {
       direction="column"
       justifyContent="center"
       alignItems="center"
-      spacing={2}
-      sx={{ bgcolor: '#B2DFDB' }}>
-
+      mx={10}
+      sx={{ bgcolor: '#FFFFFF' }}>
       <Stack>
         <Typography
           variant="h4"
@@ -21,69 +20,68 @@ const Plan = () => {
           align="center"
           color="#212121"
           fontWeight={600}
+          mb={4}
         >
           ¿Cómo empezamos? Simple
         </Typography>
       </Stack>
-
       <Grid container
         direction="row"
         justifyContent="center"
         alignItems="center"
-        spacing={5}>
-
-        <Grid tem
-          md={4}
-          sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center, flex', flexDirection: 'column' }} 
-          >
-          <LooksOneOutlinedIcon sx={{color: '#212121', fontSize:'100px'}}/>
+        p={2}
+      >
+        <Grid item
+          md={3}
+          m={2}
+          p={2}
+          sx={{ bgcolor: '#9fecdcde', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}
+        >
+          <LooksOneOutlinedIcon sx={{ color: '#212121', fontSize: '100px' }} />
           <Typography
             variant="h6"
             component="p"
-            align="center"
             color="#212121">
             Nos contactás
           </Typography>
           <Typography
             variant="p"
             component="p"
-            align="center"
             color="#212121"
             fontWeight={600}>
-            Recibimos tu consulta y nos ponemos en contacto a la brevedad.
+            Recibimos tu consulta y nos ponemos en contacto a la brevedad
           </Typography>
         </Grid>
-
-        <Grid tem
-          md={4}
-          sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center, flex', flexDirection: 'column' }} >
-          <LooksTwoOutlinedIcon sx={{color: '#212121', fontSize:'100px'}}/>
+        <Grid item
+          md={3}
+          m={2}
+          p={2}
+          sx={{ bgcolor: '#9fecdcde', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }} >
+          <LooksTwoOutlinedIcon sx={{ color: '#212121', fontSize: '100px' }} />
           <Typography
             variant="h6"
             component="p"
-            align="center"
             color="#212121">
             Realizamos un análisis
           </Typography>
           <Typography
             variant="p"
             component="p"
-            align="center"
             color="#212121"
             fontWeight={600}
           >
             Analizamos las necesidades de tu empresa y diseñamos un plan de trabajo
           </Typography>
         </Grid>
-
-        <Grid tem
-          md={4}
-          sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center, flex', flexDirection: 'column' }} >
-          <Looks3OutlinedIcon sx={{color: '#212121', fontSize:'100px'}}/>
+        <Grid item
+          md={3}
+          m={2}
+          p={2}
+          sx={{ bgcolor: '#9fecdcde', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }} >
+          <Looks3OutlinedIcon sx={{ color: '#212121', fontSize: '100px' }} />
           <Typography
             variant="h6"
             component="p"
-            align="center"
             color="#212121"
             fontWeight={600}>
             Comenzamos a trabajar
@@ -91,15 +89,12 @@ const Plan = () => {
           <Typography
             variant="p"
             component="p"
-            align="center"
             color="#212121"
             fontWeight={600}>
-            Comenzamos a trabajar y reportamos los resultados
+            Luego del analisis comenzamos a trabajar y reportamos los resultados
           </Typography>
         </Grid>
-
       </Grid>
-
     </Stack>
   )
 }

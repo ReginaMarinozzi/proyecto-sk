@@ -3,7 +3,7 @@ import React from 'react';
 import EngineeringIcon from '@mui/icons-material/Engineering';
 import CoronavirusIcon from '@mui/icons-material/Coronavirus';
 import ForestIcon from '@mui/icons-material/Forest';
-import Grid from '@mui/material/Grid';
+
 
 const Puesta = () => {
   return (
@@ -14,7 +14,6 @@ const Puesta = () => {
       alignItems="center"
       spacing={4}
       sx={{ bgcolor: '#00796B' }}>
-
       <Stack>
         <Typography
           variant="h4"
@@ -28,9 +27,9 @@ const Puesta = () => {
       </Stack>
 
       <Stack
-      alignItems='center'
-      flexDirection='row'
-      justifyContent='center'
+        alignItems='center'
+        flexDirection='row'
+        justifyContent='center'
       >
         <Stack
           alignItems='center'

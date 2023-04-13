@@ -15,8 +15,10 @@ const Brands = () => {
       variant="body2"
       component="p"
       color="#7c828d"
-      fontWeight={600}>
-        TODOS ELLOS CONFIARON, AHORA TE TOCA A VOS..
+      fontWeight={600}
+      textTransform="uppercase"
+      >
+        Todos ellos confiaron, ahora te toca a vos...
       </Typography>
       <Grid container
         sx={{ display: 'flex', justifyContent: 'space-evenly' }}>
