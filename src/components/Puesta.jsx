@@ -12,16 +12,15 @@ const Puesta = () => {
       direction="column"
       justifyContent="center"
       alignItems="center"
-      spacing={1}
-      px={8}
-      sx={{ bgcolor: '#d9e7e5' }}>
+      spacing={4}
+      sx={{ bgcolor: '#00796B' }}>
 
       <Stack>
         <Typography
           variant="h4"
           component="h4"
           align="center"
-          color="#212121"
+          color="#FFFFFF"
           fontWeight={600}
           mb={5}>
           Alcanzá los objetivos de tu empresa y cuidá lo que más importa
@@ -32,17 +31,17 @@ const Puesta = () => {
       alignItems='center'
       flexDirection='row'
       justifyContent='center'
-      spacing={2}>
+      >
         <Stack
           alignItems='center'
           flexDirection='column'
-          justifyContent='center'>
-          <EngineeringIcon sx={{ color: '#212121', fontSize: '160px' }} />
+          p={2}>
+          <EngineeringIcon sx={{ color: '#FFFFFF', fontSize: '160px' }} />
           <Typography
             variant="h6"
             component="p"
             align="center"
-            color="#212121"
+            color="#FFFFFF"
             fontWeight={600}
           >
             Reducción de riesgos laborales
@@ -51,13 +50,14 @@ const Puesta = () => {
         <Stack
           alignItems='center'
           flexDirection='column'
-          justifyContent='center' >
-          <CoronavirusIcon sx={{ color: '#212121', fontSize: '160px' }} />
+          justifyContent='center'
+          p={2} >
+          <CoronavirusIcon sx={{ color: '#FFFFFF', fontSize: '160px' }} />
           <Typography
             variant="h6"
             component="p"
             align="center"
-            color="#212121"
+            color="#FFFFFF"
             fontWeight={600}
           >
             Accidentes, incendios y enfermedades
@@ -67,13 +67,14 @@ const Puesta = () => {
           alignItems='center'
           flexDirection='column'
           justifyContent='center'
+          p={2}
         >
-          <ForestIcon sx={{ color: '#212121', fontSize: '160px' }} />
+          <ForestIcon sx={{ color: '#FFFFFF', fontSize: '160px' }} />
           <Typography
             variant="h6"
             component="p"
             align="center"
-            color="#212121"
+            color="#FFFFFF"
             fontWeight={600}>
             Protección del medioambiente
           </Typography>
