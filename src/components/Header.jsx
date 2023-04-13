@@ -28,18 +28,18 @@ const Header = () => {
           Higiene industrial, seguridad laboral, salud ocupacional y medio ambiente
         </Typography>
         <Typography
-          variant="body1"
+          fontSize='1.125rem'
           component="h2"
           color="#212121"
-          fontWeight={600}
+          fontWeight={500}
         >
           Licenciado en higiene, salud y seguridad ocupacional - Mat: L2- 10068-4
         </Typography>
         <Typography
-          variant="body1"
+        fontSize='1.125rem'
           component="h2"
           color="#212121"
-          fontWeight={600}>
+          fontWeight={500}>
           Consultor, experto y perito en medio ambiente - Mat: 0646
         </Typography>
         <Stack
