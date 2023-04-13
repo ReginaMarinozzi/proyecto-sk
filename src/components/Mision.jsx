@@ -47,10 +47,10 @@ const Mision = () => {
         <Stack
         >
           <Typography
-            variant="h6"
+            fontSize='1.250rem'
             component="p"
             color="#212121"
-            fontWeight={600}
+            fontWeight={500}
           >
             Garantizar la implementación de la política de higiene y s'eguridad laboral fijada por cada empresa; tendiente a promover sostenibles hábitos y condiciones ambientales en los lugares de trabajo.
           </Typography>
