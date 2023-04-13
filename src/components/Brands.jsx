@@ -16,7 +16,7 @@ const Brands = () => {
           variant="body1"
           component="p"
           color="#7c828d"
-          fontWeight={300}
+          fontWeight={400}
         >
           Más de 100 de empresas ya confiaron en nosotros
         </Typography>
