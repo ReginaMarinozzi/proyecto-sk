@@ -7,63 +7,63 @@ import Looks3OutlinedIcon from '@mui/icons-material/Looks3Outlined';
 const Plan = () => {
   return (
     <Stack
-      p={10}
       direction="column"
       justifyContent="center"
       alignItems="center"
-      mx={10}
-      sx={{ bgcolor: '#FFFFFF' }}>
-      <Stack>
+      textAlign='center'
+      m={15}
+      sx={{ bgcolor: '#FFFFFF'}}>
+      <Stack
+      mb={6}>
         <Typography
           variant="h4"
           component="h5"
           align="center"
           color="#212121"
-          fontWeight={600}
-          mb={4}
+          fontWeight={600}  
         >
           ¿Cómo empezamos? Simple
         </Typography>
       </Stack>
       <Grid container
-        direction="row"
-        justifyContent="center"
-        alignItems="center"
-        p={2}
+        sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-evenly', flexDirection: 'row' }}
       >
         <Grid item
           md={3}
-          m={2}
-          px={2}
-          py={4}
-          sx={{ bgcolor: '#9fecdcde', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}
+          p={2}
+          sx={{ bgcolor: '#9fecdcde', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', flexBasis: '28%' }}
         >
           <LooksOneOutlinedIcon sx={{ color: '#212121', fontSize: '100px' }} />
           <Typography
             variant="h6"
             component="p"
-            color="#212121">
+            color="#212121"
+            textAlign='center'
+            fontWeight={600}
+            mb={1}>
             Nos contactás
           </Typography>
           <Typography
             variant="p"
             component="p"
             color="#212121"
+            textAlign='center'
             fontWeight={600}>
             Recibimos tu consulta y nos ponemos en contacto a la brevedad
           </Typography>
         </Grid>
         <Grid item
           md={3}
-          m={2}
-          px={2}
-          py={4}
-          sx={{ bgcolor: '#9fecdcde', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }} >
+          p={2}
+          sx={{ bgcolor: '#9fecdcde', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', flexBasis: '28%' }} >
           <LooksTwoOutlinedIcon sx={{ color: '#212121', fontSize: '100px' }} />
           <Typography
             variant="h6"
             component="p"
-            color="#212121">
+            color="#212121"
+            fontWeight={600}
+            textAlign='center'
+            mb={1}>
             Realizamos un análisis
           </Typography>
           <Typography
@@ -71,28 +71,30 @@ const Plan = () => {
             component="p"
             color="#212121"
             fontWeight={600}
+            textAlign='center'
           >
             Analizamos las necesidades de tu empresa y diseñamos un plan de trabajo
           </Typography>
         </Grid>
         <Grid item
           md={3}
-          m={2}
-          px={2}
-          py={4}
-          sx={{ bgcolor: '#9fecdcde', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }} >
+          p={2}
+          sx={{ bgcolor: '#9fecdcde', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', flexBasis: '28%' }} >
           <Looks3OutlinedIcon sx={{ color: '#212121', fontSize: '100px' }} />
           <Typography
             variant="h6"
             component="p"
             color="#212121"
-            fontWeight={600}>
+            textAlign='center'
+            fontWeight={600}
+            mb={1}>
             Comenzamos a trabajar
           </Typography>
           <Typography
             variant="p"
             component="p"
             color="#212121"
+            textAlign='center'
             fontWeight={600}>
             Luego del analisis comenzamos a trabajar y reportamos los resultados
           </Typography>

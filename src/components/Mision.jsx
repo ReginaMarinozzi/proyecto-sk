@@ -8,20 +8,19 @@ const Mision = () => {
       alignItems='center'
       flexDirection='row'
       justifyContent='center'
-      my={5}
-      px={4}>
+      mt={5}
+      px={15}>
       <Stack
         p={3}
         my={5} 
         ml={10}
-        justifyContent="center"
         spacing={2}
         sx={{ maxWidth: '50%', bgcolor: '#FFFFFF' }}
       >
         <Stack
           flexDirection='row'
           alignItems='center'
-          justifyContent='center'
+          justifyContent='left'
         >
           <Typography
             variant="h4"
@@ -29,7 +28,8 @@ const Mision = () => {
             align="center"
             color="#212121"
             fontWeight={600}
-            m={3}>
+            mr={1}
+            >
             Nuestra Misión
           </Typography>
           <Stack
@@ -51,7 +51,7 @@ const Mision = () => {
             component="p"
             color="#212121"
             fontWeight={600}
-            mx={5}>
+            >
             Garantizar la implementación de la política de Higiene y Seguridad laboral fijada por cada empresa; tendiente a promover sostenibles hábitos y condiciones ambientales en los lugares de trabajo.
           </Typography>
         </Stack>
@@ -60,8 +60,8 @@ const Mision = () => {
         alignItems='center'
         justifyContent='center'
         sx={{ maxWidth: '50%' }}
-        p={10}
-        mr={10}
+        p={6}
+        mr={5}
       >
         <CardMedia
           sx={{ borderRadius: '30px' }}

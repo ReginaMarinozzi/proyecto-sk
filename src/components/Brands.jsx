@@ -11,78 +11,81 @@ const Brands = () => {
       alignItems='center'
       spacing={4}
     >
-      <Typography
-      variant="body2"
-      component="p"
-      color="#7c828d"
-      fontWeight={600}
-      textTransform="uppercase"
-      >
-        Todos ellos confiaron, ahora te toca a vos...
-      </Typography>
+      <Stack
+        my={5}>
+        <Typography
+          variant="body2"
+          component="p"
+          color="#7c828d"
+          fontWeight={600}
+          textTransform="uppercase"
+        >
+          Todos ellos confiaron, ahora te toca a vos...
+        </Typography>
+      </Stack>
       <Grid container
         sx={{ display: 'flex', justifyContent: 'space-evenly' }}>
         <Grid item md={1}
-          sx={{ bgcolor: '#BDBDBD', borderRadius: '5px' }} >
+        >
           <CardMedia
             component="img"
             height="auto"
-            image='https://i.ibb.co/fGF0vqv/1.png'
+            image=''
             alt='marca logo'
           />
         </Grid>
         <Grid item md={1}
-          sx={{ bgcolor: '#BDBDBD', borderRadius: '5px' }} >
+        >
           <CardMedia
             component="img"
             height="auto"
-            image='https://i.ibb.co/CzB5wTk/2.png'
+            image='https://i.ibb.co/C6XxWmh/2.png'
             alt='marca logo'
           />
         </Grid>
         <Grid item md={1}
-          sx={{ bgcolor: '#BDBDBD', borderRadius: '5px' }}>
+        >
           <CardMedia
             component="img"
             height="auto"
-            image='https://i.ibb.co/H7QRXPF/4.png'
+            image='https://i.ibb.co/Hqvb9c2/4.png'
             alt='marca logo'
           />
         </Grid>
 
         <Grid item md={1}
-          sx={{ bgcolor: '#BDBDBD', borderRadius: '5px' }}>
+        >
           <CardMedia
             component="img"
             height="auto"
-            image='https://i.ibb.co/1fyHx8k/3.png'
+            image='https://i.ibb.co/1X9J68S/6.png'
             alt='marca logo'
           />
         </Grid>
         <Grid item md={1}
-          sx={{ bgcolor: '#BDBDBD', borderRadius: '5px' }}>
+        >
           <CardMedia
             component="img"
             height="auto"
-            image='https://i.ibb.co/Qkw8RrW/5.png'
+            image=''
             alt='marca logo'
           />
         </Grid>
         <Grid item md={1}
-          sx={{ bgcolor: '#BDBDBD', borderRadius: '5px' }}>
+        >
           <CardMedia
             component="img"
             height="auto"
-            image='https://i.ibb.co/WsFdsg7/6.png'
+            image=''
             alt='marca logo'
           />
         </Grid>
         <Grid item md={1}
-          sx={{ bgcolor: '#BDBDBD', borderRadius: '5px' }}>
+        >
           <CardMedia
             component="img"
             height="auto"
-            image='https://i.ibb.co/3d7Z9Xs/7.png'
+            image='https://i.ibb.co/cCP8zn5/7.png'
             alt='marca logo'
           />
         </Grid>

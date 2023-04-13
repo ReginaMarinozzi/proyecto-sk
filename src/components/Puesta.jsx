@@ -1,4 +1,4 @@
-import { Stack, Typography } from '@mui/material';
+import { Stack, Typography, Grid } from '@mui/material';
 import React from 'react';
 import EngineeringIcon from '@mui/icons-material/Engineering';
 import CoronavirusIcon from '@mui/icons-material/Coronavirus';
@@ -8,33 +8,34 @@ import ForestIcon from '@mui/icons-material/Forest';
 const Puesta = () => {
   return (
     <Stack
-      py={12}
+      py={10}
+      px={20}
       direction="column"
       justifyContent="center"
       alignItems="center"
-      spacing={4}
       sx={{ bgcolor: '#00796B' }}>
-      <Stack>
+      <Stack
+      mb={5}>
         <Typography
           variant="h4"
           component="h4"
           align="center"
           color="#FFFFFF"
           fontWeight={600}
-          mb={5}>
-          Alcanzá los objetivos de tu empresa y cuidá lo que más importa
+          >
+          Alcanzá los objetivos de tu empresa
+          <br />
+          y cuidá lo que más importa
         </Typography>
       </Stack>
-
-      <Stack
-        alignItems='center'
-        flexDirection='row'
-        justifyContent='center'
+      <Grid container
+        sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'row' }}
       >
-        <Stack
-          alignItems='center'
-          flexDirection='column'
-          p={4}>
+        <Grid item
+          md={3}
+          py={4}
+          sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}
+        >
           <EngineeringIcon sx={{ color: '#FFFFFF', fontSize: '160px' }} />
           <Typography
             variant="h6"
@@ -43,14 +44,15 @@ const Puesta = () => {
             color="#FFFFFF"
             fontWeight={600}
           >
-            Reducción de riesgos laborales
+            Reducción de
+            <br />
+            riesgos laborales
           </Typography>
-        </Stack>
-        <Stack
-          alignItems='center'
-          flexDirection='column'
-          justifyContent='center'
-          p={4} >
+        </Grid>
+        <Grid item
+          md={3}
+          py={4}
+          sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }} >
           <CoronavirusIcon sx={{ color: '#FFFFFF', fontSize: '160px' }} />
           <Typography
             variant="h6"
@@ -59,15 +61,15 @@ const Puesta = () => {
             color="#FFFFFF"
             fontWeight={600}
           >
-            Accidentes, incendios y enfermedades
+            Accidentes, incendios
+            <br />
+            y enfermedades
           </Typography>
-        </Stack>
-        <Stack
-          alignItems='center'
-          flexDirection='column'
-          justifyContent='center'
-          p={4}
-        >
+        </Grid>
+        <Grid item
+          md={3}
+          py={4}
+          sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }} >
           <ForestIcon sx={{ color: '#FFFFFF', fontSize: '160px' }} />
           <Typography
             variant="h6"
@@ -75,14 +77,13 @@ const Puesta = () => {
             align="center"
             color="#FFFFFF"
             fontWeight={600}>
-            Protección del medioambiente
+            Protección del
+            <br />
+            medioambiente
           </Typography>
-        </Stack>
-      </Stack>
-
-
+        </Grid>
+      </Grid>
     </Stack>
-
   )
 }
 
