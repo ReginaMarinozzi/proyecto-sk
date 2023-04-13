@@ -34,7 +34,8 @@ const Plan = () => {
         <Grid item
           md={3}
           m={2}
-          p={2}
+          px={2}
+          py={4}
           sx={{ bgcolor: '#9fecdcde', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}
         >
           <LooksOneOutlinedIcon sx={{ color: '#212121', fontSize: '100px' }} />
@@ -55,7 +56,8 @@ const Plan = () => {
         <Grid item
           md={3}
           m={2}
-          p={2}
+          px={2}
+          py={4}
           sx={{ bgcolor: '#9fecdcde', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }} >
           <LooksTwoOutlinedIcon sx={{ color: '#212121', fontSize: '100px' }} />
           <Typography
@@ -76,7 +78,8 @@ const Plan = () => {
         <Grid item
           md={3}
           m={2}
-          p={2}
+          px={2}
+          py={4}
           sx={{ bgcolor: '#9fecdcde', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }} >
           <Looks3OutlinedIcon sx={{ color: '#212121', fontSize: '100px' }} />
           <Typography
