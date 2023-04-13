@@ -30,7 +30,7 @@ const Brands = () => {
           <CardMedia
             component="img"
             height="auto"
-            image=''
+            image='https://i.ibb.co/J7x0mF6/1.png'
             alt='marca logo'
           />
         </Grid>
@@ -39,7 +39,7 @@ const Brands = () => {
           <CardMedia
             component="img"
             height="auto"
-            image='https://i.ibb.co/C6XxWmh/2.png'
+            image='https://i.ibb.co/K0qrSwW/2.png'
             alt='marca logo'
           />
         </Grid>
@@ -48,7 +48,7 @@ const Brands = () => {
           <CardMedia
             component="img"
             height="auto"
-            image='https://i.ibb.co/Hqvb9c2/4.png'
+            image='https://i.ibb.co/zJYV5Lg/3.png'
             alt='marca logo'
           />
         </Grid>
@@ -58,7 +58,7 @@ const Brands = () => {
           <CardMedia
             component="img"
             height="auto"
-            image='https://i.ibb.co/1X9J68S/6.png'
+            image='https://i.ibb.co/JpgSnjk/4.png'
             alt='marca logo'
           />
         </Grid>
@@ -67,7 +67,7 @@ const Brands = () => {
           <CardMedia
             component="img"
             height="auto"
-            image=''
+            image='https://i.ibb.co/7j2Hbwn/5.png'
             alt='marca logo'
           />
         </Grid>
@@ -76,7 +76,7 @@ const Brands = () => {
           <CardMedia
             component="img"
             height="auto"
-            image=''
+            image='https://i.ibb.co/wBMqVcN/6.png'
             alt='marca logo'
           />
         </Grid>
@@ -85,7 +85,7 @@ const Brands = () => {
           <CardMedia
             component="img"
             height="auto"
-            image='https://i.ibb.co/cCP8zn5/7.png'
+            image='https://i.ibb.co/bKL9f7L/7.png'
             alt='marca logo'
           />
         </Grid>

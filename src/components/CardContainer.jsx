@@ -81,12 +81,11 @@ const servicios = [
 const CardContainer = () => {
   return (
     <Stack
+    mx={20}
       >
-      <Grid container 
-      width='100%'
-      sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+      <Grid container
+      sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }} 
       p={5}
-      m={0}
    >
         {servicios.map((servicio) => {
           return <Grid md={3} m={1} key={servicio.id}

@@ -4,16 +4,15 @@ import React from 'react'
 
 const Item = ({servicios}) => {
     return (
-            <Card sx={{ bgcolor: '#00796B'}}>
-                <CardContent
-                sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}
+            <Card
+            sx={{ bgcolor: '#00796B'}}>
+                <CardContent            
                 >
                     <Typography
                     variant="body1"
                     component="p"
                     color="#FFFFFF"
-                    fontWeight={600}
-                   
+                    fontWeight={600}              
                     >
                         {servicios.name}
                     </Typography>
