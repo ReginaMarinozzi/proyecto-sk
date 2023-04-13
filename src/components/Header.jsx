@@ -7,7 +7,7 @@ const Header = () => {
       flexDirection='row'
       alignItems='center'
       height='90vh'
-      spacing={5}
+      spacing={2}
       my={15}
     >
       <Stack
@@ -66,12 +66,12 @@ const Header = () => {
           </Button>
         </Stack>
       </Stack>
-
       <Stack
         alignItems='center'
         justifyContent='center'
         sx={{ width: '50%' }}
         p={15}
+        mr={3}
       >
         <CardMedia
           component="img"
@@ -79,7 +79,6 @@ const Header = () => {
           alt='chica'
         />
       </Stack>
-
     </Stack>
   );
 };

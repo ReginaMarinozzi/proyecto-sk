@@ -9,73 +9,68 @@ const Servicios = [
     },
     {
         id: '2',
-        name: '',
-        description: ''
+        name: 'Supervisión',
+        description: 'Supervisión, coordinación y evaluación sobre los riesgos laborales en los puestos de trabajo con fin de detectar oportunidades de mejoras y resolución de problemas; e implementación de control en la gestión de empresas tercerizadas o contratistas.'
     },
     {
         id: '3',
-        name: '',
-        description: ''
+        name: 'Mediciones',
+        description: 'Mediciones laborales, ambientales y estudios ergonómicos en los sectores de trabajo requeridos, así adoptar correcciones en los puestos y/o lugares de trabajo de ser necesario.'
     },
     {
         id: '4',
-        name: '',
-        description: ''
+        name: 'Reportes',
+        description: 'Reportes de accidentes laborales, enfermedades profesionales y contingencias ambientales. Confección de Pericias y Plan de Acción para reducir el índice de siniestralidad y administrar los registros en el Legajo Técnico.'
     },
     {
         id: '5',
-        name: '',
-        description: ''
+        name: 'Provisión',
+        description: 'Provisión de personal técnico matriculado permanente; para empresas que lo soliciten.'
     },
     {
         id: '6',
-        name: '',
-        description: ''
+        name: 'Capacitaciones',
+        description: 'Capacitaciones dinámicas en materia de Higiene y Seguridad Laboral, en prevención de accidentes Laborales y enfermedades profesionales, para los integrantes de los diferentes niveles jerárquicos, ya sean instruidos teóricamente y también entrenados en temas vinculados al bienestar laboral.'
     },
     {
         id: '7',
-        name: '',
-        description: ''
+        name: 'Reporte de gestión',
+        description: 'Reporte de gestión respecto a los avances de proceso, creación de estadísticas cuantitativas y cualitativas, informes, protocolos y documentos internos sobre las metas planteadas y los resultados generados, para presentar a nivel regional, gerencial o autoridades que requieran esta información.'
     },
     {
         id: '8',
-        name: '',
-        description: ''
+        name: 'Liderar',
+        description: 'Liderar actividades para la formación de “Brigada de Emergencia”, así realizar periódicamente el simulacro de evacuación. Autoría o actualización de estudio de Carga de Fuego.'
     },
     {
         id: '9',
-        name: '',
-        description: ''
+        name: 'Protección Contra Incendios',
+        description: 'Protección Contra Incendios. Control y recarga de matafuegos e instalación de nueva, mantenimiento y/o mejora de Red de Incendio.'
     },
     {
         id: '10',
-        name: '',
-        description: ''
+        name: 'Responder ante auditorías internas y externas',
+        description: 'Responder ante auditorías internas y externas; dar respuestas y registros de acciones ante cada visita de entes controladores y reguladores; como el Ministerio de Trabajo y Seguridad Social de Santa Fe, Superintendencia de Riesgos del trabajo (SRT) y/o Aseguradoras de Riesgo de Trabajo (ART); siendo nexo con dichos agentes.'
     },
     {
         id: '11',
-        name: '',
-        description: ''
+        name: 'Normas ISO',
+        description: 'Planificación, desarrollo y ejecución y del Sistemas de Gestión en Seguridad y Salud en laboral (Normas ISO 45001) y Sistema de Gestión Ambiental en (ISO 14001); con foco en promover la mejora continua.'
     },
     {
         id: '12',
-        name: '',
-        description: ''
+        name: 'Gestión de residuos peligrosos',
+        description: 'Gestión de residuos peligrosos industriales y contaminación generada por la actividad laboral.'
     },
     {
         id: '13',
-        name: '',
-        description: ''
+        name: 'Conductas eficientes ambientales',
+        description: 'Propuestas técnicas o tecnológicas tendientes a generar conductas eficientes ambientales.'
     },
     {
         id: '14',
-        name: '',
-        description: ''
-    },
-    {
-        id: '15',
-        name: '',
-        description: ''
+        name: 'Creación de manuales de procedimientos',
+        description: 'Creación de manuales de procedimientos y grupos interdisciplinarios que puedan conformarse para la prevención de riesgos ly cumplimiento de legislaciones vigentes.'
     }
 ]
 

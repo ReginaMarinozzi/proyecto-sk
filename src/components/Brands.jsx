@@ -6,11 +6,11 @@ const Brands = () => {
   return (
     <Stack
       m={2}
-      >
+    >
       <Grid container
-      sx={{ display: 'flex', justifyContent: 'space-evenly'}}>
+        sx={{ display: 'flex', justifyContent: 'space-evenly' }}>
         <Grid item md={1}
-        sx={{ bgcolor: '#BDBDBD', borderRadius: '5px' }} >
+          sx={{ bgcolor: '#BDBDBD', borderRadius: '5px' }} >
           <CardMedia
             component="img"
             height="auto"
@@ -19,7 +19,7 @@ const Brands = () => {
           />
         </Grid>
         <Grid item md={1}
-        sx={{ bgcolor: '#BDBDBD', borderRadius: '5px' }} >
+          sx={{ bgcolor: '#BDBDBD', borderRadius: '5px' }} >
           <CardMedia
             component="img"
             height="auto"
@@ -28,7 +28,7 @@ const Brands = () => {
           />
         </Grid>
         <Grid item md={1}
-        sx={{ bgcolor: '#BDBDBD', borderRadius: '5px' }}>
+          sx={{ bgcolor: '#BDBDBD', borderRadius: '5px' }}>
           <CardMedia
             component="img"
             height="auto"
@@ -38,7 +38,7 @@ const Brands = () => {
         </Grid>
 
         <Grid item md={1}
-        sx={{ bgcolor: '#BDBDBD', borderRadius: '5px' }}>
+          sx={{ bgcolor: '#BDBDBD', borderRadius: '5px' }}>
           <CardMedia
             component="img"
             height="auto"
@@ -47,7 +47,7 @@ const Brands = () => {
           />
         </Grid>
         <Grid item md={1}
-        sx={{ bgcolor: '#BDBDBD', borderRadius: '5px' }}>
+          sx={{ bgcolor: '#BDBDBD', borderRadius: '5px' }}>
           <CardMedia
             component="img"
             height="auto"
@@ -56,7 +56,7 @@ const Brands = () => {
           />
         </Grid>
         <Grid item md={1}
-        sx={{ bgcolor: '#BDBDBD', borderRadius: '5px' }}>
+          sx={{ bgcolor: '#BDBDBD', borderRadius: '5px' }}>
           <CardMedia
             component="img"
             height="auto"
@@ -65,7 +65,7 @@ const Brands = () => {
           />
         </Grid>
         <Grid item md={1}
-        sx={{ bgcolor: '#BDBDBD', borderRadius: '5px' }}>
+          sx={{ bgcolor: '#BDBDBD', borderRadius: '5px' }}>
           <CardMedia
             component="img"
             height="auto"
