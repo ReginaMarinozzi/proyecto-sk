@@ -8,12 +8,12 @@ import Grid from '@mui/material/Grid';
 const Puesta = () => {
   return (
     <Stack
-      p={10}
+      py={12}
       direction="column"
       justifyContent="center"
       alignItems="center"
       spacing={2}
-      sx={{ bgcolor: '#B2DFDB' }}>
+      sx={{ bgcolor: '#d9e7e5' }}>
 
       <Stack>
         <Typography
