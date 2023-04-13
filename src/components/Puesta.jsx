@@ -12,7 +12,8 @@ const Puesta = () => {
       direction="column"
       justifyContent="center"
       alignItems="center"
-      spacing={2}
+      spacing={1}
+      px={8}
       sx={{ bgcolor: '#d9e7e5' }}>
 
       <Stack>
@@ -22,34 +23,36 @@ const Puesta = () => {
           align="center"
           color="#212121"
           fontWeight={600}
-          mb={3}>
+          mb={5}>
           Alcanzá los objetivos de tu empresa y cuidá lo que más importa
         </Typography>
       </Stack>
 
-      <Grid 
-      container
-      >
-        <Grid
-          item
-          md={4}
-          sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center, flex', flexDirection: 'column' }} >
-          <EngineeringIcon sx={{ color: '#212121', fontSize: '100px'}} />
+      <Stack
+      alignItems='center'
+      flexDirection='row'
+      justifyContent='center'
+      spacing={2}>
+        <Stack
+          alignItems='center'
+          flexDirection='column'
+          justifyContent='center'>
+          <EngineeringIcon sx={{ color: '#212121', fontSize: '160px' }} />
           <Typography
             variant="h6"
             component="p"
             align="center"
             color="#212121"
             fontWeight={600}
-            >
+          >
             Reducción de riesgos laborales
           </Typography>
-        </Grid>
-        <Grid
-          item
-          md={4}
-          sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center, flex', flexDirection: 'column' }}  >
-          <CoronavirusIcon sx={{ color: '#212121', fontSize: '100px' }} />
+        </Stack>
+        <Stack
+          alignItems='center'
+          flexDirection='column'
+          justifyContent='center' >
+          <CoronavirusIcon sx={{ color: '#212121', fontSize: '160px' }} />
           <Typography
             variant="h6"
             component="p"
@@ -59,13 +62,13 @@ const Puesta = () => {
           >
             Accidentes, incendios y enfermedades
           </Typography>
-        </Grid>
-        <Grid
-          item
-          md={4}
-          sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center, flex', flexDirection: 'column' }}
+        </Stack>
+        <Stack
+          alignItems='center'
+          flexDirection='column'
+          justifyContent='center'
         >
-          <ForestIcon sx={{ color: '#212121', fontSize: '100px' }} />
+          <ForestIcon sx={{ color: '#212121', fontSize: '160px' }} />
           <Typography
             variant="h6"
             component="p"
@@ -74,8 +77,10 @@ const Puesta = () => {
             fontWeight={600}>
             Protección del medioambiente
           </Typography>
-        </Grid>
-      </Grid>
+        </Stack>
+      </Stack>
+
+
     </Stack>
 
   )

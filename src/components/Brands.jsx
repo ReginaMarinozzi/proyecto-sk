@@ -1,4 +1,4 @@
-import { Stack, Grid, CardMedia } from '@mui/material';
+import { Stack, Grid, CardMedia, Typography } from '@mui/material';
 import React from 'react';
 
 
@@ -8,7 +8,16 @@ const Brands = () => {
       m={2}
       pt={5}
       pb={8}
+      alignItems='center'
+      spacing={4}
     >
+      <Typography
+      variant="body2"
+      component="p"
+      color="#7c828d"
+      fontWeight={600}>
+        TODOS ELLOS CONFIARON, AHORA TE TOCA A VOS..
+      </Typography>
       <Grid container
         sx={{ display: 'flex', justifyContent: 'space-evenly' }}>
         <Grid item md={1}

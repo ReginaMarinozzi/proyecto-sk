@@ -3,7 +3,7 @@ import { Stack, Button, Container, Typography, AppBar } from "@mui/material";
 
 function ResponsiveAppBar() {
   return (
-    <AppBar position="static" sx={{ bgcolor: '#00796B', position: 'fixed', top: 0, left: 0, right: 0 }}>
+    <AppBar position="fixed" sx={{ bgcolor: '#00796B'}}>
       <Container maxWidth="xl">
         <Stack
           direction="row"
