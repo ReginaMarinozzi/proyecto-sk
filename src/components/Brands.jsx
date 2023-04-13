@@ -13,7 +13,7 @@ const Brands = () => {
       <Stack
         my={2}>
         <Typography
-          variant="body1"
+          fontSize='1.125rem'
           component="p"
           color="#7c828d"
           fontWeight={400}
