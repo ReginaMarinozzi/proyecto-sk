@@ -17,7 +17,7 @@ const Brands = () => {
           component="p"
           color="#7c828d"
           fontWeight={600}
-          textTransform="uppercase"
+
         >
           Todos ellos confiaron, ahora te toca a vos...
         </Typography>

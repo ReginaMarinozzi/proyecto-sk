@@ -25,7 +25,7 @@ const Header = () => {
           color="#212121"
           fontWeight={600}
         >
-          Higiene Industrial, Seguridad Laboral, Salud Ocupacional y Medio Ambiente
+          Higiene industrial, seguridad laboral, salud ocupacional y medio ambiente
         </Typography>
         <Typography
           variant="body1"
@@ -33,14 +33,14 @@ const Header = () => {
           color="#212121"
           fontWeight={600}
         >
-          Licenciado en Higiene, salud y seguridad ocupacional - MAT: L2- 10068-4
+          Licenciado en higiene, salud y seguridad ocupacional - Mat: L2- 10068-4
         </Typography>
         <Typography
           variant="body1"
           component="h2"
           color="#212121"
           fontWeight={600}>
-          Consultor, experto y perito en Medio Ambiente - Mat: 0646
+          Consultor, experto y perito en medio ambiente - Mat: 0646
         </Typography>
         <Stack
           direction="row"
