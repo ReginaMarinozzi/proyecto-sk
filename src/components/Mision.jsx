@@ -51,7 +51,7 @@ const Mision = () => {
             component="p"
             color="#212121"
             fontWeight={600}
-            mx={20}>
+            mx={5}>
             Garantizar la implementación de la política de Higiene y Seguridad laboral fijada por cada empresa; tendiente a promover sostenibles hábitos y condiciones ambientales en los lugares de trabajo.
           </Typography>
         </Stack>
