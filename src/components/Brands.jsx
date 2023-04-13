@@ -6,7 +6,8 @@ const Brands = () => {
   return (
     <Stack
       m={2}
-      py={5}
+      pt={5}
+      pb={8}
     >
       <Grid container
         sx={{ display: 'flex', justifyContent: 'space-evenly' }}>
