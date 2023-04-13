@@ -6,7 +6,8 @@ const Brands = () => {
   return (
     <Stack
       m={2}
-      py={5}
+      pt={3}
+      pb={2}
       alignItems='center'
       spacing={4}
     >
