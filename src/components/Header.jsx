@@ -1,89 +1,85 @@
-import { Stack, Button, Typography, Grid } from "@mui/material";
+import { Stack, Button, Typography, CardMedia } from "@mui/material";
 import React from "react";
 
 const Header = () => {
   return (
     <Stack
       flexDirection='row'
-      height='80vh'
+      alignItems='center'
+      height='90vh'
+      spacing={5}
+      my={15}
     >
-      <Grid
-        container
-        py={10}
-        m={5}
-        spacing={2}
-        sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
-
-        <Grid item md={6}      
+      <Stack
+        flexDirection='column'
+        justifyContent='left'
+        sx={{ width: '50%' }}
+        spacing={4}
+        m={15}
+      >
+        <Typography
+          variant="h3"
+          component="h1"
+          color="#212121"
+          fontWeight={600}
         >
-          <Stack
-            direction="column"
-            justifyContent="center"
-            alignItems="left"
-            spacing={2}
-          >
-            <Typography
-              variant="h3"
-              component="h1"
-              align="left"
-              color="#212121"
-              fontWeight={600}
-            >
-              Higiene Industrial, Seguridad Laboral, Salud Ocupacional y Medio Ambiente
-            </Typography>
-            <Typography
-              variant="body1"
-              component="h2"
-              align="left"
-              color="#212121"
-              fontWeight={600}
-            >
-              Licenciado en Higiene, salud y seguridad ocupacional - MAT: L2- 10068-4
-            </Typography>
-            <Typography
-              variant="body1"
-              component="h2"
-              align="left"
-              color="#212121"
-              fontWeight={600}>
-              Consultor, experto y perito en Medio Ambiente - Mat: 0646
-            </Typography>
-          </Stack>
-          <Stack
-            direction="row"
-            alignItems="left"
-            spacing={2}
-            mt={2}
-          >
-            <Button
-              sx={{
-                bgcolor: "#009688", '&:hover': {
-                  backgroundColor: '#006458'
-                }
-              }}
-              variant="contained">
-              Nuestros servicios
-            </Button>
-            <Button
-              sx={{
-                bgcolor: "#009688", '&:hover': {
-                  backgroundColor: '#006458'
-                }
+          Higiene Industrial, Seguridad Laboral, Salud Ocupacional y Medio Ambiente
+        </Typography>
+        <Typography
+          variant="body1"
+          component="h2"
+          color="#212121"
+          fontWeight={600}
+        >
+          Licenciado en Higiene, salud y seguridad ocupacional - MAT: L2- 10068-4
+        </Typography>
+        <Typography
+          variant="body1"
+          component="h2"
+          color="#212121"
+          fontWeight={600}>
+          Consultor, experto y perito en Medio Ambiente - Mat: 0646
+        </Typography>
+        <Stack
+          direction="row"
+          spacing={2}
+          mt={2}
+        >
+          <Button
+            sx={{
+              bgcolor: "#009688", '&:hover': {
+                backgroundColor: '#006458'
               }
+            }}
+            variant="contained">
+            Nuestros servicios
+          </Button>
+          <Button
+            sx={{
+              bgcolor: "#009688", '&:hover': {
+                backgroundColor: '#006458'
               }
-              variant="contained">
-              Solicitá tu cotización
-            </Button>
-          </Stack>
-        </Grid>
-        <Grid item md={6}
-        sx={{ bgcolor: '#B2DFDB' }}>
-          <Stack
-            >
+            }
+            }
+            variant="contained">
+            Solicitá tu cotización
+          </Button>
+        </Stack>
+      </Stack>
 
-          </Stack>
-        </Grid>
-      </Grid>
+      <Stack
+        alignItems='center'
+        justifyContent='center'
+        sx={{ width: '50%' }}
+        p={15}
+      >
+        <CardMedia
+          component="img"
+          image='https://www.adhoc.com.ar/web/image/715437-6a75228e/wbagfmj4ulvnvyy8niff.png'
+          alt='chica'
+        />
+      </Stack>
+
     </Stack>
   );
 };
