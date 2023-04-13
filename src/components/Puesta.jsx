@@ -1,6 +1,6 @@
 import { Stack, Typography, Grid } from '@mui/material';
 import React from 'react';
-import EngineeringIcon from '@mui/icons-material/Engineering';
+import WarningAmberIcon from '@mui/icons-material/WarningAmber';
 import CoronavirusIcon from '@mui/icons-material/Coronavirus';
 import ForestIcon from '@mui/icons-material/Forest';
 
@@ -36,7 +36,7 @@ const Puesta = () => {
           py={4}
           sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}
         >
-          <EngineeringIcon sx={{ color: '#FFFFFF', fontSize: '160px' }} />
+          <WarningAmberIcon sx={{ color: '#FFFFFF', fontSize: '160px' }} />
           <Typography
             variant="h6"
             component="p"
