@@ -22,7 +22,6 @@ const Puesta = () => {
           align="center"
           color="#212121"
           fontWeight={600}
-          p={3}
           mb={3}>
           Alcanzá los objetivos de tu empresa y cuidá lo que más importa
         </Typography>

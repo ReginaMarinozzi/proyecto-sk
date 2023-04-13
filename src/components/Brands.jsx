@@ -5,69 +5,71 @@ import React from 'react';
 const Brands = () => {
   return (
     <Stack
-      m={3}
-      direction="row"
-      justifyContent="center"
-      alignItems="center"
-      spacing={2}>
-      <Grid container>
-        <Grid item md={2} >
+      m={2}
+      >
+      <Grid container
+      sx={{ display: 'flex', justifyContent: 'space-evenly'}}>
+        <Grid item md={1}
+        sx={{ bgcolor: '#BDBDBD', borderRadius: '5px' }} >
           <CardMedia
             component="img"
             height="auto"
-            image='https://i.ibb.co/MGctwN2/dikalogo.png'
-            alt='marca logo'
-            sx={{ bgcolor: 'black' }}
-          />
-        </Grid>
-        <Grid item md={2} >
-          <CardMedia
-            component="img"
-            height="auto"
-            image='https://i.ibb.co/RgCKyKT/caffelogo.jpg'
+            image='https://i.ibb.co/fGF0vqv/1.png'
             alt='marca logo'
           />
         </Grid>
-        <Grid item md={2} >
+        <Grid item md={1}
+        sx={{ bgcolor: '#BDBDBD', borderRadius: '5px' }} >
           <CardMedia
             component="img"
             height="auto"
-            image='  https://i.ibb.co/Bnbhj5d/empresa-argentinalogo.png'
+            image='https://i.ibb.co/CzB5wTk/2.png'
             alt='marca logo'
-            sx={{ bgcolor: 'black' }}
+          />
+        </Grid>
+        <Grid item md={1}
+        sx={{ bgcolor: '#BDBDBD', borderRadius: '5px' }}>
+          <CardMedia
+            component="img"
+            height="auto"
+            image='https://i.ibb.co/H7QRXPF/4.png'
+            alt='marca logo'
           />
         </Grid>
 
-        <Grid item md={2} >
+        <Grid item md={1}
+        sx={{ bgcolor: '#BDBDBD', borderRadius: '5px' }}>
           <CardMedia
             component="img"
             height="auto"
-            image='https://i.ibb.co/Xt08css/chevallier-logo.png'
+            image='https://i.ibb.co/1fyHx8k/3.png'
             alt='marca logo'
           />
         </Grid>
-        <Grid item md={2} >
+        <Grid item md={1}
+        sx={{ bgcolor: '#BDBDBD', borderRadius: '5px' }}>
           <CardMedia
             component="img"
             height="auto"
-            image='https://i.ibb.co/Ptcp3HT/pelcologo.png'
-            alt='marca logo'
-            sx={{ bgcolor: 'black' }}
-          />
-        </Grid>
-        <Grid item md={2} >
-          <CardMedia
-            component="img"
-            height="auto"
-            image='https://i.ibb.co/FsSM8Vw/tormeclogo.jpg'
+            image='https://i.ibb.co/Qkw8RrW/5.png'
             alt='marca logo'
           />
         </Grid>
-        <Grid item md={2} >
+        <Grid item md={1}
+        sx={{ bgcolor: '#BDBDBD', borderRadius: '5px' }}>
           <CardMedia
             component="img"
             height="auto"
-            image='https://i.ibb.co/184H2Cc/logoveronica.png'
+            image='https://i.ibb.co/WsFdsg7/6.png'
+            alt='marca logo'
+          />
+        </Grid>
+        <Grid item md={1}
+        sx={{ bgcolor: '#BDBDBD', borderRadius: '5px' }}>
+          <CardMedia
+            component="img"
+            height="auto"
+            image='https://i.ibb.co/3d7Z9Xs/7.png'
             alt='marca logo'
           />
         </Grid>
