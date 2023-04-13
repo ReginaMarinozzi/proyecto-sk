@@ -9,6 +9,7 @@ const Header = () => {
       height='60vh'
       spacing={2}
       my={10}
+      pt={2}
     >
       <Stack
         flexDirection='column'
