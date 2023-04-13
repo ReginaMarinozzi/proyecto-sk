@@ -6,13 +6,12 @@ const Brands = () => {
   return (
     <Stack
       m={2}
-      pt={3}
-      pb={2}
+      py={5}
       alignItems='center'
       spacing={4}
     >
       <Stack
-        my={5}>
+        my={2}>
         <Typography
           variant="body2"
           component="p"
