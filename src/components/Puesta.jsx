@@ -35,7 +35,7 @@ const Puesta = () => {
         <Stack
           alignItems='center'
           flexDirection='column'
-          p={2}>
+          p={4}>
           <EngineeringIcon sx={{ color: '#FFFFFF', fontSize: '160px' }} />
           <Typography
             variant="h6"
@@ -51,7 +51,7 @@ const Puesta = () => {
           alignItems='center'
           flexDirection='column'
           justifyContent='center'
-          p={2} >
+          p={4} >
           <CoronavirusIcon sx={{ color: '#FFFFFF', fontSize: '160px' }} />
           <Typography
             variant="h6"
@@ -67,7 +67,7 @@ const Puesta = () => {
           alignItems='center'
           flexDirection='column'
           justifyContent='center'
-          p={2}
+          p={4}
         >
           <ForestIcon sx={{ color: '#FFFFFF', fontSize: '160px' }} />
           <Typography
