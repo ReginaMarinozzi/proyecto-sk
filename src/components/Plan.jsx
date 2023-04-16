@@ -12,15 +12,16 @@ const Plan = () => {
       alignItems="center"
       textAlign='center'
       m={15}
-      sx={{ bgcolor: '#FFFFFF'}}>
+    >
       <Stack
-      mb={6}>
+        mb={6}
+      >
         <Typography
           variant="h4"
           component="h5"
           align="center"
           color="#212121"
-          fontWeight={600}  
+          fontWeight={600}
         >
           ¿Cómo empezamos? Simple
         </Typography>
@@ -30,8 +31,9 @@ const Plan = () => {
       >
         <Grid item
           md={3}
-          p={2}
-          sx={{ bgcolor: '#9fecdcde', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', flexBasis: '28%' }}
+          py={4}
+          px={1}
+          sx={{ bgcolor: '#9fecdcde', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}
         >
           <LooksOneOutlinedIcon sx={{ color: '#212121', fontSize: '100px' }} />
           <Typography
@@ -49,13 +51,18 @@ const Plan = () => {
             color="#212121"
             textAlign='center'
             fontWeight={600}>
-            Recibimos tu consulta y nos ponemos en contacto a la brevedad
+            Recibimos tu consulta y nos 
+            <br />
+            ponemos en contacto a la brevedad
           </Typography>
         </Grid>
+
         <Grid item
           md={3}
-          p={2}
-          sx={{ bgcolor: '#9fecdcde', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', flexBasis: '28%' }} >
+          py={4}
+          px={1}
+          sx={{ bgcolor: '#9fecdcde', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}
+        >
           <LooksTwoOutlinedIcon sx={{ color: '#212121', fontSize: '100px' }} />
           <Typography
             variant="h6"
@@ -76,10 +83,12 @@ const Plan = () => {
             Analizamos las necesidades de tu empresa y diseñamos un plan de trabajo
           </Typography>
         </Grid>
+
         <Grid item
           md={3}
-          p={2}
-          sx={{ bgcolor: '#9fecdcde', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', flexBasis: '28%' }} >
+          py={4}
+          px={1}
+          sx={{ bgcolor: '#9fecdcde', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }} >
           <Looks3OutlinedIcon sx={{ color: '#212121', fontSize: '100px' }} />
           <Typography
             variant="h6"
