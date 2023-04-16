@@ -10,6 +10,7 @@ const Item = ({ servicios }) => {
             <Typography
                 variant="body1"
                 component="p"
+                textAlign='center'
                 color="#FFFFFF"
                 fontWeight={600}
             >

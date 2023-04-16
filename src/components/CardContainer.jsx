@@ -81,17 +81,18 @@ const servicios = [
 const CardContainer = () => {
   return (
     <Stack
-    justifyContent='center' 
+    alignItems='center'
+    justifyContent='space-between' 
     px={20}
       >
       <Grid container
-      sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }} 
+      sx={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-start' }} 
       
    >
         {servicios.map((servicio) => {
           return <Grid md={2} key={servicio.id}
           px={1}
-          m={3}
+          m={1}
           py={5} 
           sx={{ bgcolor: '#00796B', borderRadius: '10px', display: 'flex', alignItems: 'center', justifyContent: 'flex-start', flexDirection: 'column', height: '200px' }}
         >
