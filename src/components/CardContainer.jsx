@@ -85,7 +85,7 @@ const CardContainer = () => {
     px={20}
       >
       <Grid container
-      sx={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-start' }} 
+      sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }} 
       
    >
         {servicios.map((servicio) => {
@@ -93,7 +93,7 @@ const CardContainer = () => {
           px={1}
           m={3}
           py={5} 
-          sx={{ bgcolor: '#00796B', borderRadius: '10px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', height: '200px' }}
+          sx={{ bgcolor: '#00796B', borderRadius: '10px', display: 'flex', alignItems: 'center', justifyContent: 'flex-start', flexDirection: 'column', height: '200px' }}
         >
             <Item servicios={servicio} />
           </Grid>
