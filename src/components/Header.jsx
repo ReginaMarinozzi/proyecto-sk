@@ -72,12 +72,12 @@ const Header = () => {
         alignItems='center'
         justifyContent='center'
         sx={{ width: '50%' }}
-        p={15}
+        p={10}
         mr={3}
       >
         <CardMedia
           component="img"
-          image='https://www.adhoc.com.ar/web/image/715437-6a75228e/wbagfmj4ulvnvyy8niff.png'
+          image='https://i.ibb.co/FYcDvGq/Imagen-Header.png'
           alt='chica'
         />
       </Stack>
