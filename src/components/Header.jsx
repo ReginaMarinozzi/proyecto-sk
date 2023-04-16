@@ -49,8 +49,8 @@ const Header = () => {
         >
           <Button
             sx={{
-              bgcolor: "#F79D21", '&:hover': {
-                backgroundColor: '#F79D21'
+              bgcolor: "#00796B", '&:hover': {
+                backgroundColor: '#006458'
               }
             }}
             variant="contained">
@@ -59,7 +59,7 @@ const Header = () => {
           <Button
             sx={{
               bgcolor: "#F79D21", '&:hover': {
-                backgroundColor: '#F79D21'
+                backgroundColor: '#C97400'
               }
             }
             }
@@ -72,7 +72,7 @@ const Header = () => {
         alignItems='center'
         justifyContent='center'
         sx={{ width: '50%' }}
-        p={10}
+        p={20}
         mr={3}
       >
         <CardMedia

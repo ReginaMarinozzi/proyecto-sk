@@ -46,7 +46,7 @@ function ResponsiveAppBar() {
             SANTIAGO KUNICH
           </Typography>
           <Button sx={{ bgcolor: "#F79D21", '&:hover': {
-            backgroundColor: '#006458' }} } variant="contained">
+            backgroundColor: '#C97400' }} } variant="contained">
             Solicitá tu cotización
           </Button>
         </Stack>

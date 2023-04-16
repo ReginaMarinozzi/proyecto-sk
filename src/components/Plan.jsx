@@ -31,7 +31,7 @@ const Plan = () => {
       >
         <Grid item
           md={3}
-          sx={{ bgcolor: '#F79D21', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', height: '300px' }}
+          sx={{ bgcolor: '#FFD6A0', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', height: '300px' }}
         >
           <LooksOneOutlinedIcon sx={{ color: '#212121', fontSize: '100px' }} />
           <Typography
@@ -57,7 +57,7 @@ const Plan = () => {
 
         <Grid item
           md={3}
-          sx={{ bgcolor: '#F79D21', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', height: '300px'  }}
+          sx={{ bgcolor: '#FFD6A0', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', height: '300px'  }}
         >
           <LooksTwoOutlinedIcon sx={{ color: '#212121', fontSize: '100px' }} />
           <Typography
@@ -82,7 +82,7 @@ const Plan = () => {
 
         <Grid item
           md={3}
-          sx={{ bgcolor: '#F79D21', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', height: '300px'  }} >
+          sx={{ bgcolor: '#FFD6A0', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', height: '300px'  }} >
           <Looks3OutlinedIcon sx={{ color: '#212121', fontSize: '100px' }} />
           <Typography
             variant="h6"
