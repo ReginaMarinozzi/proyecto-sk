@@ -1,8 +1,6 @@
-import { Grid, Stack, Typography } from '@mui/material';
+import { Grid, Stack, Typography, Avatar } from '@mui/material';
 import React from 'react';
-import LooksOneOutlinedIcon from '@mui/icons-material/LooksOneOutlined';
-import LooksTwoOutlinedIcon from '@mui/icons-material/LooksTwoOutlined';
-import Looks3OutlinedIcon from '@mui/icons-material/Looks3Outlined';
+
 
 const Plan = () => {
   return (
@@ -33,7 +31,19 @@ const Plan = () => {
           md={3}
           sx={{ bgcolor: '#FFD6A0', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', height: '300px' }}
         >
-          <LooksOneOutlinedIcon sx={{ color: '#212121', fontSize: '100px' }} />
+          <Avatar
+            sx={{ bgcolor: '#FFFFFF', color: '#212121', width: '80px', height: '80px', marginBottom: 2 }}
+          >
+            <Typography
+              variant="h4"
+              component="p"
+              align="center"
+              color="#212121"
+              fontWeight={600}
+            >
+              1
+            </Typography>
+          </Avatar>
           <Typography
             variant="h6"
             component="p"
@@ -49,7 +59,7 @@ const Plan = () => {
             color="#212121"
             textAlign='center'
             fontWeight={600}>
-            Recibimos tu consulta y nos 
+            Recibimos tu consulta y nos
             <br />
             ponemos en contacto a la brevedad
           </Typography>
@@ -57,16 +67,29 @@ const Plan = () => {
 
         <Grid item
           md={3}
-          sx={{ bgcolor: '#FFD6A0', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', height: '300px'  }}
+          px={2}
+          sx={{ bgcolor: '#FFD6A0', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', height: '300px' }}
         >
-          <LooksTwoOutlinedIcon sx={{ color: '#212121', fontSize: '100px' }} />
+             <Avatar
+            sx={{ bgcolor: '#FFFFFF', color: '#212121', width: '80px', height: '80px', marginBottom: 2 }}
+          >
+            <Typography
+              variant="h4"
+              component="p"
+              align="center"
+              color="#212121"
+              fontWeight={600}
+            >
+              2
+            </Typography>
+          </Avatar>
           <Typography
             variant="h6"
             component="p"
             color="#212121"
             fontWeight={600}
             textAlign='center'
-            mb={1}>
+            mb={2}>
             Realizamos un análisis
           </Typography>
           <Typography
@@ -82,8 +105,21 @@ const Plan = () => {
 
         <Grid item
           md={3}
-          sx={{ bgcolor: '#FFD6A0', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', height: '300px'  }} >
-          <Looks3OutlinedIcon sx={{ color: '#212121', fontSize: '100px' }} />
+          px={2}
+          sx={{ bgcolor: '#FFD6A0', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', height: '300px' }} >
+             <Avatar
+            sx={{ bgcolor: '#FFFFFF', color: '#212121', width: '80px', height: '80px', marginBottom: 2 }}
+          >
+            <Typography
+              variant="h4"
+              component="p"
+              align="center"
+              color="#212121"
+              fontWeight={600}
+            >
+              3
+            </Typography>
+          </Avatar>
           <Typography
             variant="h6"
             component="p"
