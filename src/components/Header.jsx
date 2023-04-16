@@ -49,7 +49,7 @@ const Header = () => {
         >
           <Button
             sx={{
-              bgcolor: "#009688", '&:hover': {
+              bgcolor: "#F79D21", '&:hover': {
                 backgroundColor: '#F79D21'
               }
             }}
@@ -58,7 +58,7 @@ const Header = () => {
           </Button>
           <Button
             sx={{
-              bgcolor: "#009688", '&:hover': {
+              bgcolor: "#F79D21", '&:hover': {
                 backgroundColor: '#F79D21'
               }
             }
