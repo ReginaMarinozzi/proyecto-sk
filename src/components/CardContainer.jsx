@@ -89,7 +89,7 @@ const CardContainer = () => {
       
    >
         {servicios.map((servicio) => {
-          return <Grid md={1} key={servicio.id}
+          return <Grid md={2} key={servicio.id}
           px={1}
           m={3}
           py={5} 
