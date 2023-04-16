@@ -50,7 +50,7 @@ const Header = () => {
           <Button
             sx={{
               bgcolor: "#009688", '&:hover': {
-                backgroundColor: '#006458'
+                backgroundColor: '#F79D21'
               }
             }}
             variant="contained">
@@ -59,7 +59,7 @@ const Header = () => {
           <Button
             sx={{
               bgcolor: "#009688", '&:hover': {
-                backgroundColor: '#006458'
+                backgroundColor: '#F79D21'
               }
             }
             }

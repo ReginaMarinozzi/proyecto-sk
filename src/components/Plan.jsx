@@ -27,13 +27,11 @@ const Plan = () => {
         </Typography>
       </Stack>
       <Grid container
-        sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-evenly', flexDirection: 'row' }}
+        sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-evenly', flexDirection: 'row', maxWidth: '1200px' }}
       >
         <Grid item
           md={3}
-          py={4}
-          px={1}
-          sx={{ bgcolor: '#9fecdcde', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}
+          sx={{ bgcolor: '#F79D21', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', height: '300px' }}
         >
           <LooksOneOutlinedIcon sx={{ color: '#212121', fontSize: '100px' }} />
           <Typography
@@ -59,9 +57,7 @@ const Plan = () => {
 
         <Grid item
           md={3}
-          py={4}
-          px={1}
-          sx={{ bgcolor: '#9fecdcde', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}
+          sx={{ bgcolor: '#F79D21', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', height: '300px'  }}
         >
           <LooksTwoOutlinedIcon sx={{ color: '#212121', fontSize: '100px' }} />
           <Typography
@@ -86,9 +82,7 @@ const Plan = () => {
 
         <Grid item
           md={3}
-          py={4}
-          px={1}
-          sx={{ bgcolor: '#9fecdcde', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }} >
+          sx={{ bgcolor: '#F79D21', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', height: '300px'  }} >
           <Looks3OutlinedIcon sx={{ color: '#212121', fontSize: '100px' }} />
           <Typography
             variant="h6"
