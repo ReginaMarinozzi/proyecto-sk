@@ -28,7 +28,12 @@ const Formulario = () => {
         pb={10}
         pt={5}
         spacing={2}
-        sx={{ bgcolor: '#FFD6A0' }}
+        sx={{
+          backgroundImage: 'url(" https://i.ibb.co/ZzTp2Zt/Dise-o-sin-t-tulo.png")',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover',
+        }}
       >
         <Typography
           variant="h4"
