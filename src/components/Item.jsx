@@ -1,24 +1,24 @@
-import { CardContent, Typography } from '@mui/material'
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import { CardContent, Typography, Stack } from '@mui/material'
 import React from 'react'
 
 const Item = ({ servicios }) => {
     return (
-
-        <CardContent
+        <Stack
         >
-            <Typography
-                variant="body1"
-                component="p"
-                textAlign='center'
-                color="#FFFFFF"
-                fontWeight={600}
+            <CardContent
+            sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column'}}
             >
-                {servicios.name}
-            </Typography>
-            <KeyboardArrowDownIcon sx={{ color: "#FFFFFF" }} />
-        </CardContent>
-
+                <Typography
+                    variant="body1"
+                    component="p"
+                    textAlign='center'
+                    color="#FFFFFF"
+                    fontWeight={600}
+                >
+                    {servicios.name}
+                </Typography>
+            </CardContent>
+        </Stack>
     )
 }
 

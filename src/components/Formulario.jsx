@@ -24,9 +24,11 @@ const Formulario = () => {
       }}
     >
       <Stack
-        p={10}
+        px={10}
+        pb={10}
+        pt={5}
         spacing={2}
-
+        sx={{ bgcolor: '#FFD6A0' }}
       >
         <Typography
           variant="h4"
@@ -35,7 +37,17 @@ const Formulario = () => {
           color="#212121"
           fontWeight={600}
         >
-          ¿Qué estás esperando? Completá tus datos y te contactamos
+          ¿Qué estás esperando?
+        </Typography>
+        <Typography
+          variant="h5"
+          component="h5"
+          align="center"
+          color="#212121"
+          fontWeight={500}
+          mb={4}
+        >
+          Completá tus datos y te contactamos
         </Typography>
         <Grid container
           justifyContent="center"
@@ -65,7 +77,7 @@ const Formulario = () => {
               <Field name="email" type="email" />
               <ErrorMessage name="email" />
             </Grid>
-       
+
             <Grid item
               md={6}
             >

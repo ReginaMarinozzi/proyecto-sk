@@ -7,12 +7,14 @@ const Servicios = () => {
     <Stack
       m={2}>
       <Typography
-        pt={2}
+        py={3}
         variant="h4"
         component="h4"
         align="center"
         color="#212121"
-        fontWeight={600}>
+        fontWeight={600}
+        textTransform='uppercase'
+        >
         Nuestros Servicios
       </Typography>
       <CardContainer />

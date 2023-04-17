@@ -72,7 +72,7 @@ const Header = () => {
         alignItems='center'
         justifyContent='center'
         sx={{ width: '50%' }}
-        p={20}
+        p={10}
         mr={3}
       >
         <CardMedia

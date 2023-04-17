@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Grid from '@mui/material/Grid';
-import { Stack, Typography } from '@mui/material';
+import { Stack } from '@mui/material';
 import Item from './Item';
 
 const servicios = [
@@ -77,25 +77,21 @@ const servicios = [
 ]
 
 
-
 const CardContainer = () => {
   return (
     <Stack
-    alignItems='center'
-    justifyContent='space-between' 
-    px={20}
-      >
+      px={20}
+    >
       <Grid container
-      sx={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-start' }} 
-      
-   >
+        sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
+      >
         {servicios.map((servicio) => {
           return <Grid md={2} key={servicio.id}
-          px={1}
-          m={1}
-          py={5} 
-          sx={{ bgcolor: '#00796B', borderRadius: '10px', display: 'flex', alignItems: 'center', justifyContent: 'flex-start', flexDirection: 'column', height: '200px' }}
-        >
+            px={1}
+            m={2}
+            py={5}
+            sx={{ bgcolor: '#00796B', borderRadius: '10px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', height: '200px' }}
+          >
             <Item servicios={servicio} />
           </Grid>
         })}
@@ -103,4 +99,5 @@ const CardContainer = () => {
     </Stack>
   );
 }
+
 export default CardContainer
