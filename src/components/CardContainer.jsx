@@ -86,7 +86,7 @@ const CardContainer = () => {
         sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
       >
         {servicios.map((servicio) => {
-          return <Grid md={2} key={servicio.id}
+          return <Grid item md={2} key={servicio.id}
             px={1}
             m={2}
             py={5}

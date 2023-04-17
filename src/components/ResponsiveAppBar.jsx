@@ -1,9 +1,12 @@
 import * as React from "react";
 import { Stack, Button, Container, Typography, AppBar } from "@mui/material";
+import { Link } from 'react-router-dom'
 
 function ResponsiveAppBar() {
+
+
   return (
-    <AppBar position="fixed" sx={{ bgcolor: '#00796B'}}>
+    <AppBar position="fixed" sx={{ bgcolor: '#00796B' }}>
       <Container maxWidth="xl">
         <Stack
           direction="row"
@@ -14,8 +17,6 @@ function ResponsiveAppBar() {
           <Typography
             variant="h6"
             noWrap
-            component="a"
-            href="/"
             sx={{
               mr: 2,
               display: { xs: "none", md: "flex" },
@@ -30,8 +31,7 @@ function ResponsiveAppBar() {
           <Typography
             variant="h5"
             noWrap
-            component="a"
-            href=""
+
             sx={{
               mr: 2,
               display: { xs: "flex", md: "none" },
@@ -45,8 +45,11 @@ function ResponsiveAppBar() {
           >
             SANTIAGO KUNICH
           </Typography>
-          <Button sx={{ bgcolor: "#F79D21", '&:hover': {
-            backgroundColor: '#C97400' }} } variant="contained">
+          <Button
+            sx={{ bgcolor: "#F79D21", '&:hover': { backgroundColor: '#C97400' } }}
+            variant="contained"
+            component={Link} to='/Formulario'
+          >
             Solicitá tu cotización
           </Button>
         </Stack>
@@ -55,3 +58,5 @@ function ResponsiveAppBar() {
   );
 }
 export default ResponsiveAppBar;
+
+// // component={Link} to='#bottom

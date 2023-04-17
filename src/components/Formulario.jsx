@@ -24,6 +24,7 @@ const Formulario = () => {
       }}
     >
       <Stack
+      className=''
         px={10}
         pb={10}
         pt={5}
