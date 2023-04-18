@@ -1,5 +1,6 @@
 import { Stack, Button, Typography, CardMedia } from "@mui/material";
 import React from "react";
+import { HashLink } from 'react-router-hash-link'
 
 const Header = () => {
   return (
@@ -53,7 +54,9 @@ const Header = () => {
                 backgroundColor: '#006458'
               }
             }}
-            variant="contained">
+            variant="contained"
+            component={HashLink} smooth to={'/proyecto-sk/#servicios'}
+            >
             Nuestros servicios
           </Button>
           <Button
@@ -63,7 +66,9 @@ const Header = () => {
               }
             }
             }
-            variant="contained">
+            variant="contained"
+            component={HashLink} smooth to={'/proyecto-sk/#contacto'}
+            >
             CONTACTANOS
           </Button>
         </Stack>
