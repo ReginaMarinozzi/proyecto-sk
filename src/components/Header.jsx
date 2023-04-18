@@ -25,7 +25,7 @@ const Header = () => {
           color="#212121"
           fontWeight={600}
         >
-          Higiene industrial, seguridad laboral, salud ocupacional y medio ambiente
+          Higiene y seguridad laboral. Salud ocupacional y medio ambiente
         </Typography>
         <Typography
           fontSize='1.125rem'
@@ -64,7 +64,7 @@ const Header = () => {
             }
             }
             variant="contained">
-            Solicitá tu cotización
+            CONTACTANOS
           </Button>
         </Stack>
       </Stack>

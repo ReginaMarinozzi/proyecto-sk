@@ -1,7 +1,7 @@
 import { Stack, Typography, Grid } from '@mui/material';
 import React from 'react';
 import WarningAmberIcon from '@mui/icons-material/WarningAmber';
-import CoronavirusIcon from '@mui/icons-material/Coronavirus';
+import InventorySharpIcon from '@mui/icons-material/InventorySharp';
 import ForestIcon from '@mui/icons-material/Forest';
 
 
@@ -53,7 +53,7 @@ const Puesta = () => {
           md={3}
           py={4}
           sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }} >
-          <CoronavirusIcon sx={{ color: '#FFFFFF', fontSize: '160px' }} />
+          <InventorySharpIcon sx={{ color: '#FFFFFF', fontSize: '160px' }} />
           <Typography
             variant="h6"
             component="p"
@@ -61,9 +61,9 @@ const Puesta = () => {
             color="#FFFFFF"
             fontWeight={600}
           >
-            Accidentes, incendios
+            Cumplimiento de toda
             <br />
-            y enfermedades
+            legislación vigente
           </Typography>
         </Grid>
         <Grid item

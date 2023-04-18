@@ -43,7 +43,7 @@ const Formulario = () => {
           color="#212121"
           fontWeight={600}
         >
-          ¿Qué estás esperando?
+          Trabajemos juntos
         </Typography>
         <Typography
           variant="h5"

@@ -20,6 +20,7 @@ const Plan = () => {
           align="center"
           color="#212121"
           fontWeight={600}
+         
         >
           ¿Cómo empezamos? Simple
         </Typography>
@@ -49,7 +50,8 @@ const Plan = () => {
             component="p"
             color="#212121"
             textAlign='center'
-            fontWeight={600}
+            fontWeight={700}
+            textTransform='uppercase'
             mb={1}>
             Nos contactás
           </Typography>
@@ -58,7 +60,7 @@ const Plan = () => {
             component="p"
             color="#212121"
             textAlign='center'
-            fontWeight={600}>
+            fontWeight={500}>
             Recibimos tu consulta y nos
             <br />
             ponemos en contacto a la brevedad
@@ -89,6 +91,7 @@ const Plan = () => {
             color="#212121"
             fontWeight={600}
             textAlign='center'
+            textTransform='uppercase'
             mb={2}>
             Realizamos un análisis
           </Typography>
@@ -126,6 +129,7 @@ const Plan = () => {
             color="#212121"
             textAlign='center'
             fontWeight={600}
+            textTransform='uppercase'
             mb={1}>
             Comenzamos a trabajar
           </Typography>
@@ -135,7 +139,7 @@ const Plan = () => {
             color="#212121"
             textAlign='center'
             fontWeight={600}>
-            Luego del analisis comenzamos a trabajar y reportamos los resultados
+            Comenzamos a trabajar y reportamos los resultados
           </Typography>
         </Grid>
       </Grid>
@@ -144,3 +148,4 @@ const Plan = () => {
 }
 
 export default Plan
+

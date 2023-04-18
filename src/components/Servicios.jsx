@@ -13,9 +13,8 @@ const Servicios = () => {
         align="center"
         color="#212121"
         fontWeight={600}
-        textTransform='uppercase'
         >
-        Nuestros Servicios
+        Nuestros servicios
       </Typography>
       <CardContainer />
     </Stack>

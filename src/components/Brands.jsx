@@ -18,7 +18,7 @@ const Brands = () => {
           color="#7c828d"
           fontWeight={500}
         >
-          Más de 100 de empresas ya confiaron en nosotros
+          Ya son muchas las empresas que confian en nosotros
         </Typography>
       </Stack>
       <Grid container
