@@ -80,7 +80,11 @@ const CardContainer = () => {
             px={1}
             m={2}
             py={5}
-            sx={{ bgcolor: '#00796B', borderRadius: '10px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', height: '200px' }}
+            sx={{ borderRadius: '10px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', height: '200px',
+            backgroundImage: `url(${servicio.img})`,
+            backgroundPosition: 'top',
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover' }}
           >
             <Item servicios={servicio} />
           </Grid>
