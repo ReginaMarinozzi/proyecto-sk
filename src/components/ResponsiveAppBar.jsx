@@ -50,7 +50,7 @@ function ResponsiveAppBar() {
             variant="contained"
             component={Link} to='/Formulario'
           >
-            Solicitá tu cotización
+            CONTACTANOS
           </Button>
         </Stack>
       </Container>

@@ -33,14 +33,14 @@ const Header = () => {
           color="#212121"
           fontWeight={500}
         >
-          Licenciado en higiene, salud y seguridad ocupacional - Mat: L2- 10068-4
+          Licenciado en higiene, salud y seguridad ocupacional - MAT: L2- 10068-4
         </Typography>
         <Typography
         fontSize='1.125rem'
           component="h2"
           color="#212121"
           fontWeight={500}>
-          Consultor, experto y perito en medio ambiente - Mat: 0646
+          Consultor, experto y perito en medio ambiente - MAT: 0646
         </Typography>
         <Stack
           direction="row"

@@ -40,7 +40,7 @@ const Formulario = () => {
           pt={10}
           spacing={2}
           sx={{
-            backgroundImage: 'url("https://i.ibb.co/J725ht4/fondo-Contacto.png")',
+            backgroundImage: 'url("https://i.ibb.co/s2qrkrg/Disen-o-sin-ti-tulo-47.png")',
             backgroundPosition: 'top',
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover',
