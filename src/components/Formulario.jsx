@@ -34,6 +34,7 @@ const Formulario = () => {
       {({ submitForm, isSubmitting }) => (
 
         <Stack
+        id='contacto'
           height='60vh'
           px={10}
           pb={10}

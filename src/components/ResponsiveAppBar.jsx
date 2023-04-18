@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Stack, Button, Container, Typography, AppBar } from "@mui/material";
-import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 
 function ResponsiveAppBar() {
 
@@ -48,7 +48,7 @@ function ResponsiveAppBar() {
           <Button
             sx={{ bgcolor: "#F79D21", '&:hover': { backgroundColor: '#C97400' } }}
             variant="contained"
-            component={Link} to='/Formulario'
+            component={HashLink} smooth to={'/proyecto-sk/#contacto'}
           >
             CONTACTANOS
           </Button>
