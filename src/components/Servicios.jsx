@@ -5,7 +5,6 @@ import CardContainer from "./CardContainer";
 const Servicios = () => {
   return (
     <Stack
-    id='servicios'
       m={2}>
       <Typography
         py={3}
@@ -14,6 +13,7 @@ const Servicios = () => {
         align="center"
         color="#212121"
         fontWeight={600}
+        id='servicios'
         >
         Nuestros servicios
       </Typography>
