@@ -1,12 +1,13 @@
-import { CardContent, Typography, Stack } from '@mui/material'
+import { CardContent, Typography, Card, CardMedia } from '@mui/material'
 import React from 'react'
 
 const Item = ({ servicios }) => {
     return (
-        <Stack
+        <Card
+
         >
             <CardContent
-            sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column'}}
+                sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}
             >
                 <Typography
                     variant="body1"
@@ -17,8 +18,13 @@ const Item = ({ servicios }) => {
                 >
                     {servicios.name}
                 </Typography>
+                <CardMedia
+                    component="img"
+                    image={servicios.img}
+                    alt='cascos'
+                />
             </CardContent>
-        </Stack>
+        </Card>
     )
 }
 
