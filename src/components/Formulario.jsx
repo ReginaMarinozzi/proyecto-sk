@@ -1,103 +1,166 @@
-import React from 'react';
-import { Formik, Field, Form, ErrorMessage } from 'formik';
-import * as Yup from 'yup';
-import { Button, Stack, Typography, Grid, TextField } from '@mui/material';
+import { Button, Typography, Grid, Stack } from '@mui/material'
+import { Formik, Form, Field } from 'formik'
+import { TextField } from 'formik-mui'
+import * as React from 'react'
+import * as Yup from 'yup'
+
 
 const Formulario = () => {
+
+  const phoneRegExp = /^((\\+[1-9]{1,4}[ \\-])|(\\([0-9]{2,3}\\)[ \\-])|([0-9]{2,4})[ \\-])?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/
+
   return (
-    <Stack
-      height='60vh'
-      px={10}
-      pb={10}
-      pt={10}
-      spacing={2}
-      sx={{
-        backgroundImage: 'url("https://i.ibb.co/J725ht4/fondo-Contacto.png")',
-        backgroundPosition: 'top',
-        backgroundRepeat: 'no-repeat',
-        backgroundSize: 'cover',
+
+    <Formik
+      initialValues={{ nombre: '', apellido: '', email: '', telefono: '' }}
+      validationSchema={Yup.object({
+        nombre: Yup.string()
+          .required('Requerido'),
+        apellido: Yup.string()
+          .required('Requerido'),
+        email: Yup.string()
+          .required('Requerido'),
+        telefono: Yup.string()
+          .matches(phoneRegExp, 'Telefono incorrecto')
+          .required('Requerido'),
+      })}
+      onSubmit={(values, { setSubmitting }) => {
+        setTimeout(() => {
+          alert(JSON.stringify(values, null, 2));
+          setSubmitting(false);
+        }, 400);
       }}
     >
-      <Formik
-        initialValues={{ firstName: '', lastName: '', email: '' }}
-        validationSchema={Yup.object({
-          firstName: Yup.string()
-            .max(15, 'Must be 15 characters or less')
-            .required('Required'),
-          lastName: Yup.string()
-            .max(20, 'Must be 20 characters or less')
-            .required('Required'),
-          email: Yup.string().email('Invalid email address').required('Required'),
-        })}
-        onSubmit={(values, { setSubmitting }) => {
-          setTimeout(() => {
-            alert(JSON.stringify(values, null, 2));
-            setSubmitting(false);
-          }, 400);
-        }}
-      >
+      {({ submitForm, isSubmitting }) => (
+
         <Stack
+          height='60vh'
+          px={10}
+          pb={10}
+          pt={10}
+          spacing={2}
+          sx={{
+            backgroundImage: 'url("https://i.ibb.co/J725ht4/fondo-Contacto.png")',
+            backgroundPosition: 'top',
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover',
+          }}
         >
-          <Typography
-            variant="h4"
-            component="h5"
-            align="center"
-            color="#212121"
-            fontWeight={600}
+
+          <Stack
           >
-            Trabajemos juntos
-          </Typography>
-          <Typography
-            variant="h5"
-            component="h5"
-            align="center"
-            color="#212121"
-            fontWeight={500}
-            mb={5}
+            <Typography
+              variant="h4"
+              component="h5"
+              align="center"
+              color="#212121"
+              fontWeight={600}
+            >
+              Trabajemos juntos
+            </Typography>
+            <Typography
+              variant="h5"
+              component="h5"
+              align="center"
+              color="#212121"
+              fontWeight={500}
+              mb={5}
+            >
+              Completá tus datos y te contactamos
+            </Typography>
+          </Stack>
+
+          <Form
           >
-            Completá tus datos y te contactamos
-          </Typography>
-          <Grid container
-            justifyContent="center"
-            spacing={2}
-          >
-            <Form>
+            <Grid container
+              justifyContent="center"
+              alignItems="center"
+              spacing={2}
+            >
               <Grid item
                 md={6}
+                display='flex'
+                justifyContent="center"
+                alignItems="center"
               >
-                <label htmlFor="firstName">Nombre</label>
-                <Field name="firstName" type="text" />
-                <ErrorMessage name="firstName" />
+                <Field          
+                  fullWidth
+                  component={TextField}
+                  name="nombre"
+                  type="nombre"
+                  label="Nombre"
+                />
               </Grid>
-
               <Grid item
                 md={6}
+                display='flex'
+                justifyContent="center"
+                alignItems="center"
               >
-                <label htmlFor="lastName">Apellido</label>
-                <Field name="lastName" type="text" />
-                <ErrorMessage name="lastName" />
+                <Field
+                  fullWidth
+                  component={TextField}
+                  name="apellido"
+                  type="apellido"
+                  label="Apellido"
+                />
               </Grid>
-
               <Grid item
                 md={6}
+                display='flex'
+                justifyContent="center"
+                alignItems="center"
               >
-                <label htmlFor="email">Email</label>
-                <Field name="email" type="email" />
-                <ErrorMessage name="email" />
+                <Field
+                  fullWidth
+                  component={TextField}
+                  type="email"
+                  name="email"
+                  label="Email"
+                />
               </Grid>
-
               <Grid item
                 md={6}
+                display='flex'
+                justifyContent="center"
+                alignItems="center"
               >
-                <Button type="submit">Enviar</Button>
+                <Field
+                  fullWidth
+                  component={TextField}
+                  type="telefono"
+                  name="telefono"
+                  label="Telefono"
+                />
               </Grid>
-            </Form>
 
-          </Grid>
+            </Grid>
+
+            <Stack
+            >
+              <Button
+                sx={{
+                  marginTop: 2, padding: 1,
+                  bgcolor: "#00796B", '&:hover': {
+                    backgroundColor: '#006458'
+                  }
+                }}
+                disabled={isSubmitting}
+                onClick={submitForm}
+                size='small'
+                variant="contained"
+              >
+                Enviar
+              </Button>
+            </Stack>
+
+          </Form>
         </Stack>
-      </Formik>
-    </Stack>
+      )}
+
+    </Formik>
+
   )
 }
 
-export default Formulario;
+export default Formulario
