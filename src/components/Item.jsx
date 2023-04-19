@@ -4,7 +4,8 @@ import React from 'react'
 const Item = ({ array }) => {
     return (
         <Stack
-        
+        maxWidth='100%'
+        mb={2}
         >
             <Box
                 sx={{
@@ -17,7 +18,7 @@ const Item = ({ array }) => {
                     textAlign='center'
                     color="#FFFFFF"
                     fontWeight={700}
-                    mb={2}
+                    textTransform='uppercase'
                 >
                     {array.name}
                 </Typography>

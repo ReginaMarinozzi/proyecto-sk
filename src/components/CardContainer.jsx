@@ -16,7 +16,6 @@ const CardContainer = ({ array }) => {
       >
         {array.map((array) => {
           return <Grid item md={2} key={array.id}
-            px={2}
             m={2}
             sx={{
               borderRadius: '10px',
