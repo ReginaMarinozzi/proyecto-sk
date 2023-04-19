@@ -6,17 +6,27 @@ const Item = ({ servicios }) => {
         <Stack
         >
             <CardContent
-                sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}
+                sx={{ backgroundColor: 'rgba(0,0,0,0.4)', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}
             >
                 <Typography
-                    variant="body1"
+                    variant="h6"
                     component="p"
                     textAlign='center'
                     color="#FFFFFF"
-                    fontWeight={600}
+                    fontWeight={700}
+                    mb={1}
                 >
                     {servicios.name}
-                </Typography>    
+                </Typography>   
+                <Typography
+                    variant="body2"
+                    component="p"
+                    textAlign='center'
+                    color="#FFFFFF"
+                    fontWeight={400}
+                >
+                    {servicios.description}
+                </Typography> 
             </CardContent>
         </Stack>
     )

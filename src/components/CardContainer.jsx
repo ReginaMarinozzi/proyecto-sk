@@ -76,12 +76,10 @@ const CardContainer = () => {
         sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
       >
         {servicios.map((servicio) => {
-          return <Grid item md={2} key={servicio.id}
-            px={1}
-            m={2}
-            py={5}
-            sx={{ borderRadius: '10px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', height: '200px',
-            backgroundImage: `url(${servicio.img})`,
+          return <Grid item md={3} key={servicio.id}
+            px={2}
+            m={2} 
+            sx={{ borderRadius: '10px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', height: '45vh', backgroundImage: `url(${servicio.img})`,
             backgroundPosition: 'top',
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover' }}
