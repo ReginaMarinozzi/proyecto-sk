@@ -37,7 +37,7 @@ const Header = () => {
           Licenciado en higiene, salud y seguridad ocupacional - MAT: L2- 10068-4
         </Typography>
         <Typography
-        fontSize='1.125rem'
+          fontSize='1.125rem'
           component="h2"
           color="#212121"
           fontWeight={500}>
@@ -56,7 +56,7 @@ const Header = () => {
             }}
             variant="contained"
             component={HashLink} smooth to={'/proyecto-sk/#servicios'}
-            >
+          >
             Nuestros servicios
           </Button>
           <Button
@@ -68,7 +68,7 @@ const Header = () => {
             }
             variant="contained"
             component={HashLink} smooth to={'/proyecto-sk/#contacto'}
-            >
+          >
             CONTACTANOS
           </Button>
         </Stack>

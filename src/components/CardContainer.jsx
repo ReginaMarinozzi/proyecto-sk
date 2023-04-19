@@ -13,7 +13,7 @@ const CardContainer = ({ array }) => {
         sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
       >
         {array.map((array) => {
-          return <Grid item md={3} key={array.id}
+          return <Grid item md={2} key={array.id}
             px={2}
             m={2}
             sx={{
