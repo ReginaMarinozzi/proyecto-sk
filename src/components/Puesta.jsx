@@ -29,14 +29,29 @@ const Puesta = () => {
         </Typography>
       </Stack>
       <Grid container
-        sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'row' }}
+        sx={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          flexDirection: 'row'
+        }}
       >
         <Grid item
           md={3}
           py={4}
-          sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}
+          sx={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            flexDirection: 'column'
+          }}
         >
-          <WarningAmberIcon sx={{ color: '#FFFFFF', fontSize: '160px' }} />
+          <WarningAmberIcon
+            sx={{
+              color: '#FFFFFF',
+              fontSize: '160px'
+            }}
+          />
           <Typography
             variant="h6"
             component="p"
@@ -52,8 +67,19 @@ const Puesta = () => {
         <Grid item
           md={3}
           py={4}
-          sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }} >
-          <InventorySharpIcon sx={{ color: '#FFFFFF', fontSize: '160px' }} />
+          sx={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            flexDirection: 'column'
+          }}
+        >
+          <InventorySharpIcon
+            sx={{
+              color: '#FFFFFF',
+              fontSize: '160px'
+            }}
+          />
           <Typography
             variant="h6"
             component="p"
@@ -69,8 +95,19 @@ const Puesta = () => {
         <Grid item
           md={3}
           py={4}
-          sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }} >
-          <ForestIcon sx={{ color: '#FFFFFF', fontSize: '160px' }} />
+          sx={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            flexDirection: 'column'
+          }}
+        >
+          <ForestIcon
+            sx={{
+              color: '#FFFFFF',
+              fontSize: '160px'
+            }}
+          />
           <Typography
             variant="h6"
             component="p"

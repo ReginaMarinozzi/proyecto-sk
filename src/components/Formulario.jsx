@@ -32,9 +32,8 @@ const Formulario = () => {
       }}
     >
       {({ submitForm, isSubmitting }) => (
-
         <Stack
-        id='contacto'
+          id='contacto'
           height='60vh'
           px={10}
           pb={10}
@@ -47,7 +46,6 @@ const Formulario = () => {
             backgroundSize: 'cover',
           }}
         >
-
           <Stack
           >
             <Typography
@@ -70,7 +68,6 @@ const Formulario = () => {
               Completá tus datos y te contactamos
             </Typography>
           </Stack>
-
           <Form
           >
             <Grid container
@@ -84,7 +81,7 @@ const Formulario = () => {
                 justifyContent="center"
                 alignItems="center"
               >
-                <Field          
+                <Field
                   fullWidth
                   component={TextField}
                   name="nombre"
@@ -134,9 +131,7 @@ const Formulario = () => {
                   label="Telefono"
                 />
               </Grid>
-
             </Grid>
-
             <Stack
             >
               <Button
@@ -154,13 +149,10 @@ const Formulario = () => {
                 Enviar
               </Button>
             </Stack>
-
           </Form>
         </Stack>
       )}
-
     </Formik>
-
   )
 }
 

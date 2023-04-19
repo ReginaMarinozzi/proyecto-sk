@@ -1,11 +1,11 @@
-import { CardContent, Typography, Stack } from '@mui/material'
+import { Box, Typography, Stack } from '@mui/material'
 import React from 'react'
 
 const Item = ({ array }) => {
     return (
         <Stack
         >
-            <CardContent
+            <Box
                 sx={{
                     backgroundColor: 'rgba(0,0,0,0.4)',
                     display: 'flex',
@@ -31,11 +31,11 @@ const Item = ({ array }) => {
                     color="#FFFFFF"
                     fontWeight={400}
                     textAlign='center'
-                    px={8}
+                    mx={1}
                 >
                     {array.description}
                 </Typography>
-            </CardContent>
+            </Box>
         </Stack>
     )
 }

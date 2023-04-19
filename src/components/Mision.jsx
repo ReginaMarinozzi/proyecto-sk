@@ -1,4 +1,4 @@
-import { CardMedia, Stack, Typography } from '@mui/material';
+import { Box, Stack, Typography } from '@mui/material';
 import * as React from 'react';
 
 
@@ -37,9 +37,15 @@ const Mision = () => {
             justifyContent='center'
             sx={{ maxWidth: '5%' }}
           >
-            <CardMedia
+            <Box
+              sx={{
+                display: 'block',
+                maxWidth: 400,
+                overflow: 'hidden',
+                width: '100%',
+              }}
               component="img"
-              image='https://i.ibb.co/72Fj2mN/direct-hit-microsoft.webp'
+              src='https://i.ibb.co/72Fj2mN/direct-hit-microsoft.webp'
               alt='chica'
             />
           </Stack>
@@ -52,7 +58,9 @@ const Mision = () => {
             color="#212121"
             fontWeight={500}
           >
-            Garantizar la implementación de la política de higiene y seguridad laboral fijada por cada empresa; tendiente a promover sostenibles hábitos y condiciones ambientales en los lugares de trabajo.
+            Garantizar la implementación de la política de higiene y
+            seguridad laboral fijada por cada empresa; tendiente a promover 
+            sostenibles hábitos y condiciones ambientales en los lugares de trabajo.
           </Typography>
         </Stack>
       </Stack>
@@ -63,14 +71,18 @@ const Mision = () => {
         p={6}
         mr={5}
       >
-        <CardMedia
-          sx={{ borderRadius: '30px' }}
+        <Box
           component="img"
-          image='https://i.ibb.co/k6SJDqt/pop-zebra-wp81-Dx-KUd1-E-unsplash.jpg'
-          alt='cascos'
+          sx={{
+            borderRadius: '30px',
+            display: 'block',
+            overflow: 'hidden',
+            width: '100%',
+          }}
+          src='https://i.ibb.co/k6SJDqt/pop-zebra-wp81-Dx-KUd1-E-unsplash.jpg'
+          alt='cascos logo'
         />
       </Stack>
-
     </Stack>
   )
 }

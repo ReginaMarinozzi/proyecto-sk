@@ -20,20 +20,39 @@ const Plan = () => {
           align="center"
           color="#212121"
           fontWeight={600}
-         
         >
           ¿Cómo empezamos? Simple
         </Typography>
       </Stack>
       <Grid container
-        sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-evenly', flexDirection: 'row', maxWidth: '1200px' }}
+        sx={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-evenly',
+          flexDirection: 'row',
+          maxWidth: '1200px'
+        }}
       >
         <Grid item
           md={3}
-          sx={{ bgcolor: '#FFD6A0', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', height: '300px' }}
+          sx={{
+            bgcolor: '#FFD6A0',
+            borderRadius: '30px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            flexDirection: 'column',
+            height: '300px'
+          }}
         >
           <Avatar
-            sx={{ bgcolor: '#FFFFFF', color: '#212121', width: '80px', height: '80px', marginBottom: 2 }}
+            sx={{
+              bgcolor: '#FFFFFF',
+              color: '#212121',
+              width: '80px',
+              height: '80px',
+              marginBottom: 2
+            }}
           >
             <Typography
               variant="h4"
@@ -66,14 +85,27 @@ const Plan = () => {
             ponemos en contacto a la brevedad
           </Typography>
         </Grid>
-
         <Grid item
           md={3}
           px={2}
-          sx={{ bgcolor: '#FFD6A0', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', height: '300px' }}
+          sx={{
+            bgcolor: '#FFD6A0',
+            borderRadius: '30px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            flexDirection: 'column',
+            height: '300px'
+          }}
         >
-             <Avatar
-            sx={{ bgcolor: '#FFFFFF', color: '#212121', width: '80px', height: '80px', marginBottom: 2 }}
+          <Avatar
+            sx={{
+              bgcolor: '#FFFFFF',
+              color: '#212121',
+              width: '80px',
+              height: '80px',
+              marginBottom: 2
+            }}
           >
             <Typography
               variant="h4"
@@ -102,16 +134,30 @@ const Plan = () => {
             fontWeight={600}
             textAlign='center'
           >
-            Analizamos las necesidades de tu empresa y diseñamos un plan de trabajo
+            Analizamos las necesidades de tu empresa y
+            diseñamos un plan de trabajo
           </Typography>
         </Grid>
-
         <Grid item
           md={3}
           px={2}
-          sx={{ bgcolor: '#FFD6A0', borderRadius: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', height: '300px' }} >
-             <Avatar
-            sx={{ bgcolor: '#FFFFFF', color: '#212121', width: '80px', height: '80px', marginBottom: 2 }}
+          sx={{
+            bgcolor: '#FFD6A0',
+            borderRadius: '30px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            flexDirection: 'column',
+            height: '300px'
+          }} >
+          <Avatar
+            sx={{
+              bgcolor: '#FFFFFF',
+              color: '#212121',
+              width: '80px',
+              height: '80px',
+              marginBottom: 2
+            }}
           >
             <Typography
               variant="h4"

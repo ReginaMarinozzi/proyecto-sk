@@ -8,7 +8,6 @@ import Mision from "../components/Mision"
 import Plan from "../components/Plan";
 import Servicios from "../components/Servicios";
 import Formulario from "../components/Formulario";
-import SwiperMio from './SwiperMio';
 import Footer from "../components/Footer";
 
 const Home = () => {
@@ -21,8 +20,7 @@ const Home = () => {
             <Mision />
             <Plan />
             <Servicios array={array} />
-            <Formulario />
-            <SwiperMio array={array} />
+            <Formulario />    
             <Footer />
         </div>
     )
