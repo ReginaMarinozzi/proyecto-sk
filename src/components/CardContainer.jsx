@@ -10,7 +10,9 @@ const CardContainer = ({ array }) => {
       px={20}
     >
       <Grid container
-        sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
+        sx={{ display: 'flex',
+         justifyContent: 'center',
+          alignItems: 'center' }}
       >
         {array.map((array) => {
           return <Grid item md={2} key={array.id}
@@ -19,8 +21,7 @@ const CardContainer = ({ array }) => {
             sx={{
               borderRadius: '10px',
               display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
+              justifyContent: 'flex-end',
               flexDirection: 'column',
               height: '30vh',
               backgroundImage: `url(${array.img})`,
