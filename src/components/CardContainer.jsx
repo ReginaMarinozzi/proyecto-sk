@@ -22,7 +22,7 @@ const CardContainer = ({ array }) => {
               alignItems: 'center',
               justifyContent: 'center',
               flexDirection: 'column',
-              height: '45vh',
+              height: '30vh',
               backgroundImage: `url(${array.img})`,
               backgroundPosition: 'top',
               backgroundRepeat: 'no-repeat',
