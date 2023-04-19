@@ -9,7 +9,7 @@ const Header = () => {
       alignItems='center'
       height='50vh'
       spacing={2}
-      mt={20}
+      mt={30}
       mb={10}
       pt={2}
     >

@@ -6,8 +6,12 @@ function ResponsiveAppBar() {
 
 
   return (
-    <AppBar position="fixed" sx={{ bgcolor: '#00796B' }}>
-      <Container maxWidth="xl">
+    <AppBar position="fixed"
+      sx={{ bgcolor: '#00796B', paddingY: 2 }}
+    >
+      <Container maxWidth="xl"
+
+      >
         <Stack
           direction="row"
           justifyContent="space-between"
