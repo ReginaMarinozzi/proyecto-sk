@@ -2,7 +2,7 @@ import { Stack, Typography } from '@mui/material';
 import React from 'react';
 import CardContainer from "./CardContainer";
 
-const Servicios = () => {
+const Servicios = ({ array }) => {
   return (
     <Stack
       m={2}>
@@ -17,7 +17,7 @@ const Servicios = () => {
         >
         Nuestros servicios
       </Typography>
-      <CardContainer />
+      <CardContainer array={array} />
     </Stack>
   )
 }
