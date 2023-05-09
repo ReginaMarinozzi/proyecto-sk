@@ -58,9 +58,11 @@ const Mision = () => {
             color="#212121"
             fontWeight={500}
           >
-            Garantizar la implementación de la política de higiene y
-            seguridad laboral fijada por cada empresa; tendiente a promover 
-            sostenibles hábitos y condiciones ambientales en los lugares de trabajo.
+            Agregar valor profesional en el desarrollo de nuestros clientes,
+            garantizando el cumplimiento de la normativa vigente.
+            Aportar soluciones fomentando la prevención en cuanto a Higiene,
+            seguridad y medio ambiente. Cuidar sus instalaciones, sostener
+            la salud y el bienestar del personal.
           </Typography>
         </Stack>
       </Stack>

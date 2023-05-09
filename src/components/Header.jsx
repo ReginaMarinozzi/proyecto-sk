@@ -21,7 +21,7 @@ const Header = () => {
         m={15}
       >
         <Typography
-          variant="h3"
+          fontSize='4.2rem'
           component="h1"
           color="#212121"
           fontWeight={600}
@@ -29,7 +29,7 @@ const Header = () => {
           Higiene y seguridad laboral. Salud ocupacional y medio ambiente
         </Typography>
         <Typography
-          fontSize='1.125rem'
+          fontSize='1.5rem'
           component="h2"
           color="#212121"
           fontWeight={500}
@@ -37,7 +37,7 @@ const Header = () => {
           Licenciado en higiene, salud y seguridad ocupacional - MAT: L2- 10068-4
         </Typography>
         <Typography
-          fontSize='1.125rem'
+          fontSize='1.5rem'
           component="h2"
           color="#212121"
           fontWeight={500}>

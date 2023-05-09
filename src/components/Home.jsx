@@ -4,7 +4,8 @@ import ResponsiveAppBar from "../components/ResponsiveAppBar";
 import Header from "../components/Header";
 import Brands from "../components/Brands";
 import Puesta from "../components/Puesta";
-import Mision from "../components/Mision"
+import Mision from "../components/Mision";
+import Vision from "../components/Vision";
 import Plan from "../components/Plan";
 import Servicios from "../components/Servicios";
 import Formulario from "../components/Formulario";
@@ -18,9 +19,10 @@ const Home = () => {
             <Brands />
             <Puesta />
             <Mision />
+            <Vision />
             <Plan />
             <Servicios array={array} />
-            <Formulario />    
+            <Formulario />
             <Footer />
         </div>
     )

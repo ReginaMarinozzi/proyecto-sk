@@ -15,14 +15,14 @@ const CardContainer = ({ array }) => {
           alignItems: 'center' }}
       >
         {array.map((array) => {
-          return <Grid item md={2} key={array.id}
+          return <Grid item md={3} key={array.id}
             m={2}
             sx={{
               borderRadius: '10px',
               display: 'flex',
               justifyContent: 'flex-end',
               flexDirection: 'column',
-              height: '30vh',
+              height: '50vh',
               backgroundImage: `url(${array.img})`,
               backgroundPosition: 'top',
               backgroundRepeat: 'no-repeat',
