@@ -1,15 +1,17 @@
-import { Box, Typography, Stack } from '@mui/material'
+import { Typography, Stack } from '@mui/material'
 import React from 'react'
 
 const Item = ({ array }) => {
     return (
         <Stack
-        maxWidth='100%'
-        mb={2}
+            maxWidth='100%'
+            mb={2}
         >
-            <Box
+            <Stack
+                justifyContent='center'
+                alignItems='center'
                 sx={{
-                    backgroundColor: 'rgba(0,0,0,0.8)'
+                    backgroundColor: 'rgba(0,0,0,0.8)',
                 }}
             >
                 <Typography
@@ -22,7 +24,7 @@ const Item = ({ array }) => {
                 >
                     {array.name}
                 </Typography>
-            </Box>
+            </Stack>
         </Stack>
     )
 }

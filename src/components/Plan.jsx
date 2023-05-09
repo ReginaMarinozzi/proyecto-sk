@@ -72,7 +72,7 @@ const Plan = () => {
             fontWeight={700}
             textTransform='uppercase'
             mb={1}>
-            Nos contactás
+            Relevamiento inicial
           </Typography>
           <Typography
             variant="p"
@@ -80,9 +80,13 @@ const Plan = () => {
             color="#212121"
             textAlign='center'
             fontWeight={500}>
-            Recibimos tu consulta y nos
-            <br />
-            ponemos en contacto a la brevedad
+            Relevamos toda
+            la empresa en materia de higiene,
+            seguridad laboral y medio ambiente,
+            analizamos la documentación existente,
+            establecemos las prioridades según los
+            objetivos del cliente y proyectamos un
+            plan de trabajo.
           </Typography>
         </Grid>
         <Grid item
@@ -125,17 +129,19 @@ const Plan = () => {
             textAlign='center'
             textTransform='uppercase'
             mb={2}>
-            Realizamos un análisis
+            Estudio
           </Typography>
           <Typography
             variant="p"
             component="p"
             color="#212121"
-            fontWeight={600}
+            fontWeight={500}
             textAlign='center'
           >
-            Analizamos las necesidades de tu empresa y
-            diseñamos un plan de trabajo
+            Realizamos todas las mediciones,
+            estudios y confeccionamos todos
+            los documentos en corto plazo,
+            sobre todo aquellos que estén en infracción.
           </Typography>
         </Grid>
         <Grid item
@@ -177,15 +183,19 @@ const Plan = () => {
             fontWeight={600}
             textTransform='uppercase'
             mb={1}>
-            Comenzamos a trabajar
+           Acción
           </Typography>
           <Typography
             variant="p"
             component="p"
             color="#212121"
             textAlign='center'
-            fontWeight={600}>
-            Comenzamos a trabajar y reportamos los resultados
+            fontWeight={500}>
+            En esta etapa nuestro equipo ya
+            consiguió conocer su empresa,
+            y es ahí donde proponemos mejoras,
+            o alternativas para que usted tome
+            mejores decisiones evitando costos innecesarios.
           </Typography>
         </Grid>
       </Grid>

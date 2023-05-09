@@ -9,7 +9,7 @@ const Mision = () => {
       flexDirection='row'
       justifyContent='center'
       mt={5}
-      px={15}>
+      px={20}>
       <Stack
         p={3}
         my={5}

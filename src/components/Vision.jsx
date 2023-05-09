@@ -9,7 +9,7 @@ const Vision = () => {
       flexDirection='row'
       justifyContent='center'
       mt={5}
-      px={15}>
+      px={20}>
       <Stack
         alignItems='center'
         justifyContent='center'

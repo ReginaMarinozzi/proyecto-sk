@@ -8,8 +8,10 @@ import Mision from "../components/Mision";
 import Vision from "../components/Vision";
 import Plan from "../components/Plan";
 import Servicios from "../components/Servicios";
+import Nosotros from './Nosotros';
 import Formulario from "../components/Formulario";
 import Footer from "../components/Footer";
+
 
 const Home = () => {
     return (
@@ -22,6 +24,7 @@ const Home = () => {
             <Vision />
             <Plan />
             <Servicios array={array} />
+            <Nosotros/>
             <Formulario />
             <Footer />
         </div>
