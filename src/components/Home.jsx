@@ -7,7 +7,7 @@ import Puesta from "../components/Puesta";
 import Mision from "../components/Mision";
 import Vision from "../components/Vision";
 import Plan from "../components/Plan";
-import Servicios from "../components/Servicios";
+import Servicios from "../components/servicios/Servicios";
 import Nosotros from './Nosotros';
 import Formulario from "../components/Formulario";
 import Footer from "../components/Footer";

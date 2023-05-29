@@ -2,7 +2,8 @@ import { Box, Stack, Typography } from '@mui/material';
 import * as React from 'react';
 
 
-const Nosotros = () => {
+const Gestion = () => {
+    
     return (
         <Stack
             alignItems='center'
@@ -30,7 +31,7 @@ const Nosotros = () => {
                         fontWeight={600}
                         mr={1}
                     >
-                        Nosotros
+                        Gestión y diseño
                     </Typography>
                     <Stack
                         alignItems='center'
@@ -58,16 +59,11 @@ const Nosotros = () => {
                         color="#212121"
                         fontWeight={500}
                     >
-                        Nuestro compromiso es con brindar un servicio integral y de calidad, en materia de Higiene, Seguridad y Medio Ambiente.  Vinculando el conocimiento legal y práctico, para la prevención de riesgos laborales.
-                        Manteniéndonos en constante formación para poder proveer las mejores soluciones a medida, para cada requerimiento planteado.
-                        Nuestro trabajo se enfoca hacía industrias, comercios, instituciones privadas, públicas y obras en construcción.
-
-                        Herramientas de trabajo y legales:
-                        Cumplimentar los lineamientos de:
-                        -	Ley Nacional de Higiene y Seguridad en el Trabajo N°19.587 y decretos reglamentarios.
-                        -	Ley Nacional de Riesgo del Trabajo N° 24.557.
-                        -	Ley Nacional 25.675 de Presupuestos mínimos, para la gestión sustentable y adecuada del ambiente y respectivos.
-                        -	Leyes provinciales y/o normativas municipales/comunales.
+                        Contamos con una amplia variedad de servicios
+                        de asesoría en Higiene y Seguridad Laboral
+                        adaptados a cada rubro y necesidad; con finalidad
+                        de cumplimiento de normativas vigentes
+                        de forma inmediata.
                     </Typography>
                 </Stack>
             </Stack>
@@ -94,4 +90,4 @@ const Nosotros = () => {
     )
 }
 
-export default Nosotros
+export default Gestion

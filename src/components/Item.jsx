@@ -1,11 +1,14 @@
 import { Typography, Stack } from '@mui/material'
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Item = ({ array }) => {
     return (
         <Stack
             maxWidth='100%'
             mb={2}
+            component={Link}
+            to={array.link}
         >
             <Stack
                 justifyContent='center'
