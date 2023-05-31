@@ -2,16 +2,19 @@
 import { Route, Routes } from "react-router-dom";
 import  Home from "../components/Home";
 import Formulario from "../components/Formulario";
-import Footer from "../components/Footer";
 import Ambiente from "../components/servicios/pages/Ambiente";
 import Capacitaciones from "../components/servicios/pages/Capacitaciones";
 import Gestion from "../components/servicios/pages/Gestion";
 import Mediciones from "../components/servicios/pages/Mediciones";
 import Prevencion from "../components/servicios/pages/Prevencion";
 import Seguridad from "../components/servicios/pages/Seguridad";
+import ResponsiveAppBar from "../components/ResponsiveAppBar";
+import Footer from "../components/Footer";
 
 const AppRouter = () => {
   return (
+    <>
+    <ResponsiveAppBar />
     <Routes>
         <Route path='/home' element={<Home />} />     
         <Route  path='/ambiente' element={<Ambiente />}/>
@@ -24,6 +27,8 @@ const AppRouter = () => {
         <Route path='/Footer' element={<Footer />} />
         <Route path='/*' element={<Home />} />
       </Routes>
+      <Footer />
+      </>
   )
 }
 
