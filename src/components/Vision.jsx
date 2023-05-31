@@ -25,7 +25,7 @@ const Vision = () => {
             overflow: 'hidden',
             width: '100%',
           }}
-          src="https://i.ibb.co/JQgH3cz/scott-blake-x-ghf9-Ljr-Vg-unsplash.jpg"
+          src="https://i.ibb.co/zSZ5L2b/thisisengineering-raeng-u-Oh-Bx-B23-Wao-unsplash.jpg"
           alt='cascos logo'
         />
       </Stack>

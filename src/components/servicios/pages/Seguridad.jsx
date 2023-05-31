@@ -2,7 +2,7 @@ import { Box, Stack, Typography } from '@mui/material';
 import * as React from 'react';
 
 
-const Prevencion = () => {
+const Seguridad = () => {
 
     return (
         <Stack
@@ -89,4 +89,4 @@ const Prevencion = () => {
     )
 }
 
-export default Prevencion
+export default Seguridad

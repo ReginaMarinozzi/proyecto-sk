@@ -13,6 +13,7 @@ const Item = ({ array }) => {
             <Stack
                 justifyContent='center'
                 alignItems='center'
+                height='5em'
                 sx={{
                     backgroundColor: 'rgba(0,0,0,0.8)',
                 }}

@@ -32,23 +32,7 @@ const Nosotros = () => {
                     >
                         Nosotros
                     </Typography>
-                    <Stack
-                        alignItems='center'
-                        justifyContent='center'
-                        sx={{ maxWidth: '5%' }}
-                    >
-                        <Box
-                            sx={{
-                                display: 'block',
-                                maxWidth: 400,
-                                overflow: 'hidden',
-                                width: '100%',
-                            }}
-                            component="img"
-                            src='https://i.ibb.co/72Fj2mN/direct-hit-microsoft.webp'
-                            alt='chica'
-                        />
-                    </Stack>
+                    
                 </Stack>
                 <Stack
                 >
@@ -86,8 +70,8 @@ const Nosotros = () => {
                         overflow: 'hidden',
                         width: '100%',
                     }}
-                    src='https://i.ibb.co/k6SJDqt/pop-zebra-wp81-Dx-KUd1-E-unsplash.jpg'
-                    alt='cascos logo'
+                    src='https://i.ibb.co/JQgH3cz/scott-blake-x-ghf9-Ljr-Vg-unsplash.jpg'
+                    alt='trabajadores en una construcción usando protección'
                 />
             </Stack>
         </Stack>
