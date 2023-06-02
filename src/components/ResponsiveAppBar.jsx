@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Stack, Button, Container, Typography, AppBar } from "@mui/material";
+import { Stack, Button, Container, Typography, AppBar, Box } from "@mui/material";
 import { HashLink } from 'react-router-hash-link'
 
 function ResponsiveAppBar() {
@@ -10,7 +10,6 @@ function ResponsiveAppBar() {
       sx={{ bgcolor: '#00796B', paddingY: 2 }}
     >
       <Container maxWidth="xl"
-
       >
         <Stack
           direction="row"
@@ -18,37 +17,26 @@ function ResponsiveAppBar() {
           alignItems="center"
           m={1}
         >
-          <Typography
-            variant="h6"
+          <Box
+            component="img"
             noWrap
             sx={{
-              mr: 2,
               display: { xs: "none", md: "flex" },
-              fontWeight: 700,
-              letterSpacing: ".3rem",
-              color: "inherit",
-              textDecoration: "none",
+              overflow: 'hidden',
+              width: '10%',
             }}
-          >
-            SANTIAGO KUNICH
-          </Typography>
-          <Typography
-            variant="h5"
+            src="https://i.postimg.cc/d3NvqpvH/5124a84a97064affbb6d79ec39cd6d29p-T2ac-TJCKNe2-THdc-1.png"
+            alt='logo'
+          />
+          <Box
             noWrap
-
+            component="img"
             sx={{
-              mr: 2,
               display: { xs: "flex", md: "none" },
-              flexGrow: 1,
-              fontFamily: "monospace",
-              fontWeight: 700,
-              letterSpacing: ".3rem",
-              color: "inherit",
-              textDecoration: "none",
+              overflow: 'hidden',
+              width: '10%',
             }}
-          >
-            SANTIAGO KUNICH
-          </Typography>
+          />
           <Button
             sx={{ bgcolor: "#F79D21", '&:hover': { backgroundColor: '#C97400' } }}
             variant="contained"
