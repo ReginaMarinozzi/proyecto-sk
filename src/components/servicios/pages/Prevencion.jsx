@@ -46,7 +46,7 @@ const Prevencion = () => {
                                 width: '100%',
                             }}
                             component="img"
-                            src='https://i.ibb.co/72Fj2mN/direct-hit-microsoft.webp'
+                            src='https://i.ibb.co/RDxvztj/piotr-chrobot-M0-Wb-GFRTXq-U-unsplash.jpg'
                             alt='chica'
                         />
                     </Stack>
@@ -79,7 +79,7 @@ const Prevencion = () => {
                         overflow: 'hidden',
                         width: '100%',
                     }}
-                    src='https://i.ibb.co/k6SJDqt/pop-zebra-wp81-Dx-KUd1-E-unsplash.jpg'
+                    src='https://i.ibb.co/RDxvztj/piotr-chrobot-M0-Wb-GFRTXq-U-unsplash.jpg'
                     alt='cascos logo'
                 />
             </Stack>

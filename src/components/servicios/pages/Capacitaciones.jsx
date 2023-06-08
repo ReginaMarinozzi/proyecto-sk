@@ -46,7 +46,7 @@ const Capacitaciones = () => {
                                 width: '100%',
                             }}
                             component="img"
-                            src='https://i.ibb.co/72Fj2mN/direct-hit-microsoft.webp'
+                            src='https://i.ibb.co/wN1ttMf/Image-2023-04-24-at-14-22-57.jpg'
                             alt='chica'
                         />
                     </Stack>
@@ -82,7 +82,7 @@ const Capacitaciones = () => {
                         overflow: 'hidden',
                         width: '100%',
                     }}
-                    src='https://i.ibb.co/k6SJDqt/pop-zebra-wp81-Dx-KUd1-E-unsplash.jpg'
+                    src='https://i.ibb.co/wN1ttMf/Image-2023-04-24-at-14-22-57.jpg'
                     alt='cascos logo'
                 />
             </Stack>

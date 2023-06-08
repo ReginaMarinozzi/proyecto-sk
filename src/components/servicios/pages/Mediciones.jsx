@@ -46,7 +46,7 @@ const Mediciones = () => {
                                 width: '100%',
                             }}
                             component="img"
-                            src='https://i.ibb.co/72Fj2mN/direct-hit-microsoft.webp'
+                            src='https://i.ibb.co/09Q0m2t/scott-graham-5f-Nm-Wej4t-AA-unsplash.jpg'
                             alt='chica'
                         />
                     </Stack>
@@ -80,7 +80,7 @@ const Mediciones = () => {
                         overflow: 'hidden',
                         width: '100%',
                     }}
-                    src='https://i.ibb.co/k6SJDqt/pop-zebra-wp81-Dx-KUd1-E-unsplash.jpg'
+                    src='https://i.ibb.co/09Q0m2t/scott-graham-5f-Nm-Wej4t-AA-unsplash.jpg'
                     alt='cascos logo'
                 />
             </Stack>

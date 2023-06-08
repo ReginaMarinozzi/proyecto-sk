@@ -46,7 +46,7 @@ const Ambiente = () => {
                                 width: '100%',
                             }}
                             component="img"
-                            src='https://i.ibb.co/72Fj2mN/direct-hit-microsoft.webp'
+                            src='https://i.ibb.co/3RVGvfD/cdc-wz3ij-PHv-L54-unsplash.jpg'
                             alt='chica'
                         />
                     </Stack>

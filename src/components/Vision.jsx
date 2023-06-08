@@ -63,8 +63,34 @@ const Vision = () => {
             Ser una referencia en cuanto a servicios de higiene,
             seguridad y medio ambiente en nuestra zona de influencia,
             manteniendo nuestros valores y acompañando el crecimiento de cada organización.
-            Nuestros valores son el profesionalismo - ética - honestidad - trabajo en equipo y comunicación - confidencialidad.
           </Typography>
+          <Box
+            sx={{
+              fontFamily: 'Roboto',
+              fontWeight: '500',
+              fontSize: '20px',
+              lineHeight: '30px',
+              color: '#212121'
+            }} >
+            Nuestros valores son:
+            <ul>
+              <li>
+                Profesionalismo
+              </li>
+              <li>
+                Ética
+              </li>
+              <li>
+                Honestidad
+              </li>
+              <li>
+                Trabajo en equipo y comunicación
+              </li>
+              <li>
+                Confidencialidad
+              </li>
+            </ul>
+          </Box>
         </Stack>
 
       </Stack>

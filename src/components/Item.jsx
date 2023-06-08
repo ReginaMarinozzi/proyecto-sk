@@ -8,7 +8,7 @@ const Item = ({ array }) => {
             maxWidth='100%'
             mb={2}
             component={Link}
-            to={array.link}
+            to={array.link}       
         >
             <Stack
                 justifyContent='center'

@@ -35,6 +35,7 @@ const Plan = () => {
       >
         <Grid item
           md={3}
+          px={2}
           sx={{
             bgcolor: '#FFD6A0',
             borderRadius: '30px',
@@ -68,25 +69,22 @@ const Plan = () => {
             variant="h6"
             component="p"
             color="#212121"
+            fontWeight={600}
             textAlign='center'
-            fontWeight={700}
             textTransform='uppercase'
-            mb={1}>
+            mb={2}>
             Relevamiento inicial
           </Typography>
           <Typography
             variant="p"
             component="p"
             color="#212121"
+            fontWeight={500}
             textAlign='center'
-            fontWeight={500}>
-            Relevamos toda
-            la empresa en materia de higiene,
-            seguridad laboral y medio ambiente,
-            analizamos la documentación existente,
-            establecemos las prioridades según los
-            objetivos del cliente y proyectamos un
-            plan de trabajo.
+          >
+            Relevamos toda la empresa, establecemos
+            las prioridades según los objetivos del cliente y
+            proyectamos un plan de trabajo.
           </Typography>
         </Grid>
         <Grid item
@@ -138,8 +136,7 @@ const Plan = () => {
             fontWeight={500}
             textAlign='center'
           >
-            Realizamos todas las mediciones,
-            estudios y confeccionamos todos
+            Confeccionamos todos
             los documentos en corto plazo,
             sobre todo aquellos que estén en infracción.
           </Typography>
@@ -183,7 +180,7 @@ const Plan = () => {
             fontWeight={600}
             textTransform='uppercase'
             mb={1}>
-           Acción
+            Acción
           </Typography>
           <Typography
             variant="p"
@@ -191,9 +188,7 @@ const Plan = () => {
             color="#212121"
             textAlign='center'
             fontWeight={500}>
-            En esta etapa nuestro equipo ya
-            consiguió conocer su empresa,
-            y es ahí donde proponemos mejoras,
+            En esta etapa proponemos mejoras,
             o alternativas para que usted tome
             mejores decisiones evitando costos innecesarios.
           </Typography>

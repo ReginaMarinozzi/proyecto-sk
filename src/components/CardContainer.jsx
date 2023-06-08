@@ -13,7 +13,7 @@ const CardContainer = ({ array }) => {
         sx={{
           display: 'flex',
           justifyContent: 'center',
-          alignItems: 'center'
+          alignItems: 'center',  
         }}
       >
         {array.map((array) => {
