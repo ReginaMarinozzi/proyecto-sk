@@ -15,7 +15,7 @@ const Nosotros = () => {
                 my={5}
                 ml={10}
                 spacing={2}
-                sx={{ maxWidth: '50%', bgcolor: '#FFFFFF' }}
+                sx={{ maxWidth: '60%', bgcolor: '#FFFFFF' }}
             >
                 <Stack
                     flexDirection='row'
@@ -76,7 +76,7 @@ const Nosotros = () => {
             <Stack
                 alignItems='center'
                 justifyContent='center'
-                sx={{ maxWidth: '50%' }}
+                sx={{ maxWidth: '40%' }}
                 p={6}
                 mr={5}
             >

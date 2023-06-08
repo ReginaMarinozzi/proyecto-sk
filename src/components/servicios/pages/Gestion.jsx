@@ -1,9 +1,10 @@
 import { Box, Stack, Typography } from '@mui/material';
 import * as React from 'react';
+import DesignServicesIcon from '@mui/icons-material/DesignServices';
 
 
 const Gestion = () => {
-    
+
     return (
         <Stack
             alignItems='center'
@@ -34,23 +35,12 @@ const Gestion = () => {
                     >
                         Gestión y diseño
                     </Typography>
-                    <Stack
+                    <Box
                         alignItems='center'
                         justifyContent='center'
-                        sx={{ maxWidth: '5%' }}
                     >
-                        <Box
-                            sx={{
-                                display: 'block',
-                                maxWidth: 400,
-                                overflow: 'hidden',
-                                width: '100%',
-                            }}
-                            component="img"
-                            src='https://i.ibb.co/6t0xQV5/thisisengineering-raeng-Sy-Rl-D4s-amw-unsplash.jpg'
-                            alt='chica'
-                        />
-                    </Stack>
+                        <DesignServicesIcon />
+                    </Box>
                 </Stack>
                 <Stack
                 >
@@ -72,7 +62,7 @@ const Gestion = () => {
                 alignItems='center'
                 justifyContent='center'
                 sx={{ maxWidth: '30%' }}
-                p={6}   
+                p={6}
             >
                 <Box
                     component="img"

@@ -1,9 +1,9 @@
 import { Box, Stack, Typography } from '@mui/material';
 import * as React from 'react';
-
+import SpaIcon from '@mui/icons-material/Spa';
 
 const Ambiente = () => {
-    
+
     return (
         <Stack
             alignItems='center'
@@ -37,19 +37,8 @@ const Ambiente = () => {
                     <Stack
                         alignItems='center'
                         justifyContent='center'
-                        sx={{ maxWidth: '5%' }}
                     >
-                        <Box
-                            sx={{
-                                display: 'block',
-                                maxWidth: 400,
-                                overflow: 'hidden',
-                                width: '100%',
-                            }}
-                            component="img"
-                            src='https://i.ibb.co/3RVGvfD/cdc-wz3ij-PHv-L54-unsplash.jpg'
-                            alt='chica'
-                        />
+                        <SpaIcon />
                     </Stack>
                 </Stack>
                 <Stack

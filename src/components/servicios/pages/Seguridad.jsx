@@ -1,5 +1,6 @@
 import { Box, Stack, Typography } from '@mui/material';
 import * as React from 'react';
+import HealthAndSafetyIcon from '@mui/icons-material/HealthAndSafety';
 
 
 const Seguridad = () => {
@@ -12,14 +13,16 @@ const Seguridad = () => {
             mt={20}
             mb={10}
             px={20}
-            >
+        >
             <Stack
                 p={3}
                 my={5}
                 ml={10}
                 spacing={2}
-                sx={{ maxWidth: '70%', 
-                bgcolor: '#FFFFFF' }}
+                sx={{
+                    maxWidth: '70%',
+                    bgcolor: '#FFFFFF'
+                }}
             >
                 <Stack
                     flexDirection='row'
@@ -36,23 +39,12 @@ const Seguridad = () => {
                     >
                         Seguridad laboral en la construcción
                     </Typography>
-                    <Stack
+                    <Box
                         alignItems='center'
                         justifyContent='center'
-                        sx={{ maxWidth: '5%' }}
                     >
-                        <Box
-                            sx={{
-                                display: 'block',
-                                maxWidth: 400,
-                                overflow: 'hidden',
-                                width: '100%',
-                            }}
-                            component="img"
-                            src='https://i.ibb.co/qsvpxbx/max-larochelle-Qz-P1-Gc-DOSC8-unsplash.jpg'
-                            alt='chica'
-                        />
-                    </Stack>
+                        <HealthAndSafetyIcon />
+                    </Box>
                 </Stack>
                 <Stack
                 >

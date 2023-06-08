@@ -1,5 +1,6 @@
 import { Box, Stack, Typography } from '@mui/material';
 import * as React from 'react';
+import LocalFireDepartmentIcon from '@mui/icons-material/LocalFireDepartment';
 
 
 const Prevencion = () => {
@@ -35,23 +36,12 @@ const Prevencion = () => {
                     >
                         Prevención - protección contra incendios
                     </Typography>
-                    <Stack
+                    <Box
                         alignItems='center'
-                        justifyContent='center'
-                        sx={{ maxWidth: '5%' }}
+                        justifyContent='center'        
                     >
-                        <Box
-                            sx={{
-                                display: 'block',
-                                maxWidth: 400,
-                                overflow: 'hidden',
-                                width: '100%',
-                            }}
-                            component="img"
-                            src='https://i.ibb.co/RDxvztj/piotr-chrobot-M0-Wb-GFRTXq-U-unsplash.jpg'
-                            alt='chica'
-                        />
-                    </Stack>
+                        <LocalFireDepartmentIcon />
+                    </Box>
                 </Stack>
                 <Stack
                 >

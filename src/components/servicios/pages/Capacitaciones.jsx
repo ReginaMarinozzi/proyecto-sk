@@ -1,16 +1,16 @@
 import { Box, Stack, Typography } from '@mui/material';
 import * as React from 'react';
-
+import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
 
 const Capacitaciones = () => {
-    
+
     return (
         <Stack
             alignItems='center'
             flexDirection='row'
             justifyContent='center'
             mt={20}
-            mb={23}
+            mb={25}
             px={20}>
             <Stack
                 p={3}
@@ -37,19 +37,8 @@ const Capacitaciones = () => {
                     <Stack
                         alignItems='center'
                         justifyContent='center'
-                        sx={{ maxWidth: '5%' }}
                     >
-                        <Box
-                            sx={{
-                                display: 'block',
-                                maxWidth: 400,
-                                overflow: 'hidden',
-                                width: '100%',
-                            }}
-                            component="img"
-                            src='https://i.ibb.co/wN1ttMf/Image-2023-04-24-at-14-22-57.jpg'
-                            alt='chica'
-                        />
+                        <LocalLibraryIcon />
                     </Stack>
                 </Stack>
                 <Stack

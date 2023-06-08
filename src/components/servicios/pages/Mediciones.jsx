@@ -1,5 +1,6 @@
 import { Box, Stack, Typography } from '@mui/material';
 import * as React from 'react';
+import SquareFootIcon from '@mui/icons-material/SquareFoot';
 
 
 const Mediciones = () => {
@@ -37,19 +38,8 @@ const Mediciones = () => {
                     <Stack
                         alignItems='center'
                         justifyContent='center'
-                        sx={{ maxWidth: '5%' }}
                     >
-                        <Box
-                            sx={{
-                                display: 'block',
-                                maxWidth: 400,
-                                overflow: 'hidden',
-                                width: '100%',
-                            }}
-                            component="img"
-                            src='https://i.ibb.co/09Q0m2t/scott-graham-5f-Nm-Wej4t-AA-unsplash.jpg'
-                            alt='chica'
-                        />
+                        <SquareFootIcon />
                     </Stack>
                 </Stack>
                 <Stack
