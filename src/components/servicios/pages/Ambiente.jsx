@@ -9,7 +9,8 @@ const Ambiente = () => {
             alignItems='center'
             flexDirection='row'
             justifyContent='center'
-            mt={5}
+            mt={20}
+            mb={23}
             px={20}>
             <Stack
                 p={3}
@@ -82,7 +83,7 @@ const Ambiente = () => {
                         overflow: 'hidden',
                         width: '100%',
                     }}
-                    src='https://i.ibb.co/k6SJDqt/pop-zebra-wp81-Dx-KUd1-E-unsplash.jpg'
+                    src='https://i.ibb.co/3RVGvfD/cdc-wz3ij-PHv-L54-unsplash.jpg'
                     alt='cascos logo'
                 />
             </Stack>

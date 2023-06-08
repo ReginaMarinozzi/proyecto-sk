@@ -9,7 +9,8 @@ const Mediciones = () => {
             alignItems='center'
             flexDirection='row'
             justifyContent='center'
-            mt={5}
+            mt={20}
+            mb={20}
             px={20}>
             <Stack
                 p={3}

@@ -9,14 +9,17 @@ const Seguridad = () => {
             alignItems='center'
             flexDirection='row'
             justifyContent='center'
-            mt={5}
-            px={20}>
+            mt={20}
+            mb={10}
+            px={20}
+            >
             <Stack
                 p={3}
                 my={5}
                 ml={10}
                 spacing={2}
-                sx={{ maxWidth: '50%', bgcolor: '#FFFFFF' }}
+                sx={{ maxWidth: '70%', 
+                bgcolor: '#FFFFFF' }}
             >
                 <Stack
                     flexDirection='row'
@@ -69,7 +72,7 @@ const Seguridad = () => {
             <Stack
                 alignItems='center'
                 justifyContent='center'
-                sx={{ maxWidth: '50%' }}
+                sx={{ maxWidth: '35%' }}
                 p={6}
                 mr={5}
             >

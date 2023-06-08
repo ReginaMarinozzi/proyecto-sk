@@ -9,8 +9,10 @@ const Prevencion = () => {
             alignItems='center'
             flexDirection='row'
             justifyContent='center'
-            mt={5}
-            px={20}>
+            mt={20}
+            mb={30}
+            px={20}
+            >
             <Stack
                 p={3}
                 my={5}

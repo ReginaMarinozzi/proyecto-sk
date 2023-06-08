@@ -9,7 +9,8 @@ const Gestion = () => {
             alignItems='center'
             flexDirection='row'
             justifyContent='center'
-            mt={5}
+            mt={20}
+            mb={10}
             px={20}>
             <Stack
                 p={3}
@@ -70,9 +71,8 @@ const Gestion = () => {
             <Stack
                 alignItems='center'
                 justifyContent='center'
-                sx={{ maxWidth: '50%' }}
-                p={6}
-                mr={5}
+                sx={{ maxWidth: '30%' }}
+                p={6}   
             >
                 <Box
                     component="img"

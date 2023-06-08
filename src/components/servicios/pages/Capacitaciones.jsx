@@ -9,7 +9,8 @@ const Capacitaciones = () => {
             alignItems='center'
             flexDirection='row'
             justifyContent='center'
-            mt={5}
+            mt={20}
+            mb={23}
             px={20}>
             <Stack
                 p={3}
@@ -70,7 +71,7 @@ const Capacitaciones = () => {
             <Stack
                 alignItems='center'
                 justifyContent='center'
-                sx={{ maxWidth: '50%' }}
+                sx={{ maxWidth: '70%' }}
                 p={6}
                 mr={5}
             >
