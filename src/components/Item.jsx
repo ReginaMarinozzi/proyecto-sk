@@ -11,6 +11,7 @@ const Item = ({ array }) => {
             mb={2}
             component={Link}
             to={array.link}
+            sx={{ textDecoration: 'none' }}
         >
             <Stack
                 justifyContent='center'
