@@ -10,7 +10,8 @@ const CardContainer = ({ array }) => {
 
     <Stack
       px={20}
-    > <Fade
+    > 
+    <Fade
       delay={250}
       duration={3000}
     >
