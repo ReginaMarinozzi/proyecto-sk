@@ -1,9 +1,15 @@
 import { Box, Stack, Typography } from '@mui/material';
 import * as React from 'react';
-
+import { Slide } from "react-awesome-reveal";
 
 const Vision = () => {
+  
   return (
+    <Slide
+    delay={250}
+    duration={3000}
+    left
+    >
     <Stack
       alignItems='center'
       flexDirection='row'
@@ -92,10 +98,9 @@ const Vision = () => {
             </ul>
           </Box>
         </Stack>
-
       </Stack>
-
     </Stack>
+    </Slide>
   )
 }
 

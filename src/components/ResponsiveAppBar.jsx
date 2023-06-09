@@ -23,7 +23,7 @@ function ResponsiveAppBar() {
               overflow: 'hidden',
               width: '8%',
             }}
-            src="https://i.postimg.cc/d3NvqpvH/5124a84a97064affbb6d79ec39cd6d29p-T2ac-TJCKNe2-THdc-1.png"
+            src="https://i.ibb.co/PGPhjYg/sklogoo.png"
             alt='logo'
           />
           <Box
@@ -33,6 +33,8 @@ function ResponsiveAppBar() {
               overflow: 'hidden',
               width: '10%',
             }}
+            src="https://i.ibb.co/PGPhjYg/sklogoo.png"
+            alt='logo'
           />
           <Button
             sx={{ bgcolor: "#F79D21", 

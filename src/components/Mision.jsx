@@ -1,9 +1,13 @@
 import { Box, Stack, Typography } from '@mui/material';
 import * as React from 'react';
-
+import { Slide } from "react-awesome-reveal";
 
 const Mision = () => {
   return (
+    <Slide
+    delay={250}
+    duration={3000}
+    >
     <Stack
       alignItems='center'
       flexDirection='row'
@@ -86,6 +90,7 @@ const Mision = () => {
         />
       </Stack>
     </Stack>
+    </Slide>
   )
 }
 
