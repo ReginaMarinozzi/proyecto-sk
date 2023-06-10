@@ -1,10 +1,10 @@
 import { Box, Stack, Typography } from '@mui/material';
 import * as React from 'react';
-import { Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 const Nosotros = () => {
     return (
-        <Slide
+        <Fade
             delay={250}
             duration={3000}
         >
@@ -97,7 +97,8 @@ const Nosotros = () => {
                     />
                 </Stack>
             </Stack>
-        </Slide>
+        </Fade>
+
     )
 }
 

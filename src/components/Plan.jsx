@@ -1,9 +1,14 @@
 import { Grid, Stack, Typography, Avatar } from '@mui/material';
 import React from 'react';
-
+import * as React from 'react';
+import { Fade } from "react-awesome-reveal";
 
 const Plan = () => {
   return (
+    <Fade
+    delay={250}
+    duration={3000}
+  >
     <Stack
       direction="column"
       justifyContent="center"
@@ -195,6 +200,7 @@ const Plan = () => {
         </Grid>
       </Grid>
     </Stack>
+    </Fade>
   )
 }
 

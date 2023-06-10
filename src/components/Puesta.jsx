@@ -3,10 +3,14 @@ import React from 'react';
 import WarningAmberIcon from '@mui/icons-material/WarningAmber';
 import InventorySharpIcon from '@mui/icons-material/InventorySharp';
 import ForestIcon from '@mui/icons-material/Forest';
-
+import { Fade } from "react-awesome-reveal";
 
 const Puesta = () => {
   return (
+    <Fade
+    delay={250}
+    duration={3000}
+  >
     <Stack
       py={10}
       px={20}
@@ -121,6 +125,7 @@ const Puesta = () => {
         </Grid>
       </Grid>
     </Stack>
+    </Fade>
   )
 }
 
