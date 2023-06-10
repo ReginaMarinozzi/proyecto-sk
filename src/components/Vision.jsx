@@ -8,6 +8,7 @@ const Vision = () => {
     <Fade
     delay={250}
     duration={3000}
+    triggerOnce={true}
   >
     <Stack
       alignItems='center'
