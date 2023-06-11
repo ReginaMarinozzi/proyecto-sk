@@ -9,8 +9,9 @@ const Plan = () => {
       justifyContent="center"
       alignItems="center"
       textAlign='center'
-      minHeight='60vh'
+      minHeight='50vh'
       width='100%'
+      my={5}
     >
       <Stack
         mb={6}
@@ -34,8 +35,7 @@ const Plan = () => {
           maxWidth: '1200px'
         }}
       >
-        <Grid item
-          md={3}
+        <Grid item md={3} xs={12}
           px={2}
           m={2}
           sx={{
@@ -89,8 +89,7 @@ const Plan = () => {
             proyectamos un plan de trabajo.
           </Typography>
         </Grid>
-        <Grid item
-          md={3}
+        <Grid item md={3} xs={12}
           px={2}
           m={2}
           sx={{
@@ -144,8 +143,7 @@ const Plan = () => {
             sobre todo aquellos que estén en infracción.
           </Typography>
         </Grid>
-        <Grid item
-          md={3}
+        <Grid item md={3} xs={12}
           m={2}
           px={2}
           sx={{

@@ -7,11 +7,11 @@ const Header = () => {
     <Stack
       flexDirection='row'
       alignItems='center'
-      minHeight='100vh'
+      minHeight='70vh'
       width='100%'
+      mt={10}
     >
       <Grid container
-        m={5}
         p={5}
         sx={{
           display: 'flex',
@@ -21,6 +21,7 @@ const Header = () => {
       >
         <Grid item
           md={8}
+          xs={12}
           sx={{
             display: 'flex',
             flexDirection: 'column',
@@ -33,15 +34,15 @@ const Header = () => {
             spacing={4}
           >
             <Typography
-              fontSize='4.2rem'
               component="h1"
+              variant='h3'
               color="#212121"
               fontWeight={600}
             >
               Higiene y seguridad laboral. Salud ocupacional y medio ambiente
             </Typography>
             <Typography
-              fontSize='1.5rem'
+              variant='h5'
               component="h2"
               color="#212121"
               fontWeight={500}
@@ -49,7 +50,7 @@ const Header = () => {
               Licenciado en higiene, salud y seguridad ocupacional - MAT: L2- 10068-4
             </Typography>
             <Typography
-              fontSize='1.5rem'
+              variant='h5'
               component="h2"
               color="#212121"
               fontWeight={500}>
@@ -88,8 +89,9 @@ const Header = () => {
         </Grid>
         <Grid item
           md={4}
+          xs={12}
           sx={{
-            display: 'flex',
+            display: { xs: 'none', md: 'flex' },
             flexDirection: 'column',
             alignItems: 'center',
           }}

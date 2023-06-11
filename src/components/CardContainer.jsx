@@ -1,12 +1,10 @@
 import * as React from 'react';
-import Grid from '@mui/material/Grid';
-import { Stack } from '@mui/material';
+import { Stack, Grid } from '@mui/material';
 import Item from './Item';
 
 const CardContainer = ({ array }) => {
   return (
     <Stack
-      px={20}
     >
       <Grid container
         sx={{
@@ -17,7 +15,7 @@ const CardContainer = ({ array }) => {
       >
 
         {array.map((array) => {
-          return <Grid item md={3} key={array.id}
+          return <Grid item md={3} xs={12} key={array.id}
             m={2}
             sx={{
               borderRadius: '10px',
@@ -35,7 +33,7 @@ const CardContainer = ({ array }) => {
           </Grid>
         })}
       </Grid>
-    </Stack>
+      </Stack>
   );
 }
 

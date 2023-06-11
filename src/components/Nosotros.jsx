@@ -4,12 +4,14 @@ import * as React from 'react';
 const Nosotros = () => {
     return (
         <Grid container
-            spacing={4}
-            p={2}
+            spacing={2}
+            my={2}
             sx={{
                 display: 'flex',
                 justifyContent: 'center',
-                alignItems: 'center'
+                alignItems: 'center',
+                minHeight: '50vh',
+                
             }}
         >
             <Grid item
@@ -92,6 +94,7 @@ const Nosotros = () => {
                 <Stack
                     alignItems='center'
                     justifyContent='center'
+                    p={3}
                 >
                     <Box
                         component="img"

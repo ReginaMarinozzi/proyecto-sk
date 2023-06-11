@@ -34,10 +34,12 @@ const Formulario = () => {
       {({ submitForm, isSubmitting }) => (
         <Stack
           id='contacto'
-          minHeight='70vh'
+          minHeight='50vh'
           width='100%'
           alignItems='center'
           justifyContent='center'
+          px={2}
+          py={5}
           spacing={2}
           sx={{
             backgroundImage: 'url("https://i.ibb.co/s2qrkrg/Disen-o-sin-ti-tulo-47.png")',
@@ -47,7 +49,8 @@ const Formulario = () => {
           }}
         >
           <Stack
-          mb={6}
+            mb={6}
+            pt={2}
           >
             <Typography
               variant="h4"
@@ -75,27 +78,27 @@ const Formulario = () => {
               sx={{
                 display: 'flex',
                 alignItems: 'center',
+                justifyContent: 'center'
               }}
               spacing={2}
             >
-              <Grid item
-                md={6}
+              <Grid item md={6} xs={8}
                 sx={{
                   display: 'flex',
-                  flexDirection: 'column',
-                  alignItems: 'center',
+                  flexDirection: 'column'
                 }}
               >
                 <Field
                   fullWidth
+                  sx={{ bgcolor: '#FFFFFF', borderRadius: '5px' }}
                   component={TextField}
                   name="nombre"
                   type="nombre"
                   label="Nombre"
+
                 />
               </Grid>
-              <Grid item
-                md={6}
+              <Grid item md={6} xs={8}
                 sx={{
                   display: 'flex',
                   flexDirection: 'column',
@@ -104,14 +107,14 @@ const Formulario = () => {
               >
                 <Field
                   fullWidth
+                  sx={{ bgcolor: '#FFFFFF', borderRadius: '5px' }}
                   component={TextField}
                   name="apellido"
                   type="apellido"
                   label="Apellido"
                 />
               </Grid>
-              <Grid item
-                md={6}
+              <Grid item md={6} xs={8}
                 sx={{
                   display: 'flex',
                   flexDirection: 'column',
@@ -120,14 +123,14 @@ const Formulario = () => {
               >
                 <Field
                   fullWidth
+                  sx={{ bgcolor: '#FFFFFF', borderRadius: '5px' }}
                   component={TextField}
                   type="email"
                   name="email"
                   label="Email"
                 />
               </Grid>
-              <Grid item
-                md={6}
+              <Grid item md={6} xs={8}
                 sx={{
                   display: 'flex',
                   flexDirection: 'column',
@@ -136,6 +139,7 @@ const Formulario = () => {
               >
                 <Field
                   fullWidth
+                  sx={{ bgcolor: '#FFFFFF', borderRadius: '5px' }}
                   component={TextField}
                   type="telefono"
                   name="telefono"
@@ -143,17 +147,21 @@ const Formulario = () => {
                 />
               </Grid>
             </Grid>
-            <Grid container>
-              <Grid item 
-              md={12}
-              sx={{
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-              }}
+            <Grid container
+             sx={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}>
+              <Grid item md={12} xs={8}
+                sx={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'center',
+                }}
               >
                 <Button
-                fullWidth
+                  fullWidth
                   sx={{
                     marginTop: 2, padding: 1,
                     bgcolor: "#00796B", '&:hover': {

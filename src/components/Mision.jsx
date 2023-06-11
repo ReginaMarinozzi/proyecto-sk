@@ -4,18 +4,17 @@ import * as React from 'react';
 const Mision = () => {
   return (
     <Grid container
-      spacing={4}
+      spacing={2}
       my={2}
       sx={{
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
         minHeight: '70vh',
-        width: '100%'
+        
       }}
     >
-      <Grid item
-        md={5}
+      <Grid item md={5}
         sx={{
           display: 'flex',
           flexDirection: 'column',
@@ -24,7 +23,7 @@ const Mision = () => {
       >
         <Stack
           spacing={5}
-          sx={{ bgcolor: '#FFFFFF' }}
+          sx={{ bgcolor: '#FFFFFF', padding: 2 }}
         >
           <Stack
             flexDirection='row'
@@ -55,7 +54,7 @@ const Mision = () => {
                 }}
                 component="img"
                 src='https://i.ibb.co/72Fj2mN/direct-hit-microsoft.webp'
-                alt='chica'
+                alt='tiro al blanco'
               />
             </Stack>
           </Stack>
@@ -76,8 +75,7 @@ const Mision = () => {
           </Stack>
         </Stack>
       </Grid>
-      <Grid item
-        md={5}
+      <Grid item md={5}
         sx={{
           display: 'flex',
           flexDirection: 'column',
@@ -87,6 +85,7 @@ const Mision = () => {
         <Stack
           alignItems='center'
           justifyContent='center'
+          p={2}
         >
           <Box
             component="img"

@@ -3,22 +3,18 @@ import React from 'react';
 import WarningAmberIcon from '@mui/icons-material/WarningAmber';
 import InventorySharpIcon from '@mui/icons-material/InventorySharp';
 import ForestIcon from '@mui/icons-material/Forest';
-import { Fade } from "react-awesome-reveal";
+import { useTheme } from '@mui/material/styles';
 
 const Puesta = () => {
-  return (
-    <Fade
-      delay={250}
-      duration={3000}
-      triggerOnce={true}
-    >
+  const theme = useTheme();
+  return (  
       <Stack
         direction="column"
         justifyContent="center"
         alignItems="center"
         sx={{
           bgcolor: '#00796B',
-          minHeight: '70vh',
+          minHeight: '50vh',
           width: '100%'
         }}
       >
@@ -26,11 +22,12 @@ const Puesta = () => {
           mb={6}
         >
           <Typography
-            variant="h4"
+            variant={theme.breakpoints.up('md') ? 'h4' : 'p'}
             component="h4"
             align="center"
             color="#FFFFFF"
             fontWeight={600}
+            pt={5}
           >
             Alcanzá los objetivos de tu empresa
             <br />
@@ -47,6 +44,7 @@ const Puesta = () => {
         >
           <Grid item
             md={3}
+            xs={12}
             py={4}
             sx={{
               display: 'flex',
@@ -75,6 +73,7 @@ const Puesta = () => {
           </Grid>
           <Grid item
             md={3}
+            xs={12}
             py={4}
             sx={{
               display: 'flex',
@@ -103,6 +102,7 @@ const Puesta = () => {
           </Grid>
           <Grid item
             md={3}
+            xs={12}
             py={4}
             sx={{
               display: 'flex',
@@ -130,7 +130,6 @@ const Puesta = () => {
           </Grid>
         </Grid>
       </Stack>
-    </Fade>
   )
 }
 

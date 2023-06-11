@@ -4,26 +4,29 @@ import * as React from 'react';
 const Vision = () => {
   return (
     <Grid container
-    my={2}
+    spacing={2}
+    mb={2}
+    mt={1}
       sx={{
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
         minHeight: '70vh',
-        width: '100%'
+        
       }}
     >
-      <Grid item
-        md={5}
+      <Grid item md={5}
         sx={{
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
+          justifyContent: 'center'
         }}
       >
         <Stack
           alignItems='center'
           justifyContent='center'
+          p={2}
         >
           <Box
             component="img"
@@ -34,12 +37,11 @@ const Vision = () => {
               width: '100%',
             }}
             src="https://i.ibb.co/zSZ5L2b/thisisengineering-raeng-u-Oh-Bx-B23-Wao-unsplash.jpg"
-            alt='cascos logo'
+            alt='chico y chica mostrando una pizarra'
           />
         </Stack>
       </Grid>
-      <Grid item
-        md={6}
+      <Grid item md={6}
         sx={{
           display: 'flex',
           flexDirection: 'column',
@@ -48,7 +50,7 @@ const Vision = () => {
       >
         <Stack
           spacing={2}
-          sx={{ bgcolor: '#FFFFFF' }}
+          sx={{ bgcolor: '#FFFFFF', padding: 2 }}
         >
           <Stack
             flexDirection='row'

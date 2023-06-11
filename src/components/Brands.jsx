@@ -17,6 +17,7 @@ const Brands = () => {
           component="p"
           color="#7c828d"
           fontWeight={500}
+          textAlign='center'
         >
           Ya son muchas las empresas que confian en nosotros
         </Typography>
@@ -68,7 +69,6 @@ const Brands = () => {
             alt='marca logo'
           />
         </Grid>
-
         <Grid item md={1}
         >
           <Box
