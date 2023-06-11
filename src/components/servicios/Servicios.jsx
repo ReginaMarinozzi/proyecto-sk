@@ -1,15 +1,9 @@
 import { Stack, Typography } from '@mui/material';
 import React from 'react';
 import CardContainer from "../CardContainer";
-import { Fade } from "react-awesome-reveal";
 
 const Servicios = ({ array }) => {
   return (
-    <Fade
-    delay={250}
-    duration={3000}
-    triggerOnce={true}
-  >
     <Stack
       m={2}
       >
@@ -26,7 +20,6 @@ const Servicios = ({ array }) => {
       </Typography>
       <CardContainer array={array} />
     </Stack>
-    </Fade>
   )
 }
 

@@ -8,124 +8,128 @@ import { Fade } from "react-awesome-reveal";
 const Puesta = () => {
   return (
     <Fade
-    delay={250}
-    duration={3000}
-    triggerOnce={true}
-  >
-    <Stack
-      py={10}
-      px={20}
-      direction="column"
-      justifyContent="center"
-      alignItems="center"
-      sx={{ bgcolor: '#00796B' }}>
+      delay={250}
+      duration={3000}
+      triggerOnce={true}
+    >
       <Stack
-        mb={5}>
-        <Typography
-          variant="h4"
-          component="h4"
-          align="center"
-          color="#FFFFFF"
-          fontWeight={600}
-        >
-          Alcanzá los objetivos de tu empresa
-          <br />
-          y cuidá lo que más importa
-        </Typography>
-      </Stack>
-      <Grid container
+        direction="column"
+        justifyContent="center"
+        alignItems="center"
         sx={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          flexDirection: 'row'
+          bgcolor: '#00796B',
+          minHeight: '70vh',
+          width: '100%'
         }}
       >
-        <Grid item
-          md={3}
-          py={4}
-          sx={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            flexDirection: 'column'
-          }}
+        <Stack
+          mb={6}
         >
-          <WarningAmberIcon
-            sx={{
-              color: '#FFFFFF',
-              fontSize: '160px'
-            }}
-          />
           <Typography
-            variant="h6"
-            component="p"
+            variant="h4"
+            component="h4"
             align="center"
             color="#FFFFFF"
             fontWeight={600}
           >
-            Reducción de
+            Alcanzá los objetivos de tu empresa
             <br />
-            riesgos laborales
+            y cuidá lo que más importa
           </Typography>
-        </Grid>
-        <Grid item
-          md={3}
-          py={4}
+        </Stack>
+        <Grid container
           sx={{
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            flexDirection: 'column'
+            flexDirection: 'row'
           }}
         >
-          <InventorySharpIcon
+          <Grid item
+            md={3}
+            py={4}
             sx={{
-              color: '#FFFFFF',
-              fontSize: '160px'
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              flexDirection: 'column'
             }}
-          />
-          <Typography
-            variant="h6"
-            component="p"
-            align="center"
-            color="#FFFFFF"
-            fontWeight={600}
           >
-            Cumplimiento de toda
-            <br />
-            legislación vigente
-          </Typography>
-        </Grid>
-        <Grid item
-          md={3}
-          py={4}
-          sx={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            flexDirection: 'column'
-          }}
-        >
-          <ForestIcon
+            <WarningAmberIcon
+              sx={{
+                color: '#FFFFFF',
+                fontSize: '160px'
+              }}
+            />
+            <Typography
+              variant="h6"
+              component="p"
+              align="center"
+              color="#FFFFFF"
+              fontWeight={600}
+            >
+              Reducción de
+              <br />
+              riesgos laborales
+            </Typography>
+          </Grid>
+          <Grid item
+            md={3}
+            py={4}
             sx={{
-              color: '#FFFFFF',
-              fontSize: '160px'
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              flexDirection: 'column'
             }}
-          />
-          <Typography
-            variant="h6"
-            component="p"
-            align="center"
-            color="#FFFFFF"
-            fontWeight={600}>
-            Protección del
-            <br />
-            medioambiente
-          </Typography>
+          >
+            <InventorySharpIcon
+              sx={{
+                color: '#FFFFFF',
+                fontSize: '160px'
+              }}
+            />
+            <Typography
+              variant="h6"
+              component="p"
+              align="center"
+              color="#FFFFFF"
+              fontWeight={600}
+            >
+              Cumplimiento de toda
+              <br />
+              legislación vigente
+            </Typography>
+          </Grid>
+          <Grid item
+            md={3}
+            py={4}
+            sx={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              flexDirection: 'column'
+            }}
+          >
+            <ForestIcon
+              sx={{
+                color: '#FFFFFF',
+                fontSize: '160px'
+              }}
+            />
+            <Typography
+              variant="h6"
+              component="p"
+              align="center"
+              color="#FFFFFF"
+              fontWeight={600}>
+              Protección del
+              <br />
+              medioambiente
+            </Typography>
+          </Grid>
         </Grid>
-      </Grid>
-    </Stack>
+      </Stack>
     </Fade>
   )
 }

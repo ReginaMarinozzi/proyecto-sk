@@ -34,10 +34,10 @@ const Formulario = () => {
       {({ submitForm, isSubmitting }) => (
         <Stack
           id='contacto'
-          height='60vh'
-          px={10}
-          pb={10}
-          pt={10}
+          minHeight='70vh'
+          width='100%'
+          alignItems='center'
+          justifyContent='center'
           spacing={2}
           sx={{
             backgroundImage: 'url("https://i.ibb.co/s2qrkrg/Disen-o-sin-ti-tulo-47.png")',
@@ -47,6 +47,7 @@ const Formulario = () => {
           }}
         >
           <Stack
+          mb={6}
           >
             <Typography
               variant="h4"
@@ -71,15 +72,19 @@ const Formulario = () => {
           <Form
           >
             <Grid container
-              justifyContent="center"
-              alignItems="center"
+              sx={{
+                display: 'flex',
+                alignItems: 'center',
+              }}
               spacing={2}
             >
               <Grid item
                 md={6}
-                display='flex'
-                justifyContent="center"
-                alignItems="center"
+                sx={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'center',
+                }}
               >
                 <Field
                   fullWidth
@@ -91,9 +96,11 @@ const Formulario = () => {
               </Grid>
               <Grid item
                 md={6}
-                display='flex'
-                justifyContent="center"
-                alignItems="center"
+                sx={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'center',
+                }}
               >
                 <Field
                   fullWidth
@@ -105,9 +112,11 @@ const Formulario = () => {
               </Grid>
               <Grid item
                 md={6}
-                display='flex'
-                justifyContent="center"
-                alignItems="center"
+                sx={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'center',
+                }}
               >
                 <Field
                   fullWidth
@@ -119,9 +128,11 @@ const Formulario = () => {
               </Grid>
               <Grid item
                 md={6}
-                display='flex'
-                justifyContent="center"
-                alignItems="center"
+                sx={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'center',
+                }}
               >
                 <Field
                   fullWidth
@@ -132,23 +143,31 @@ const Formulario = () => {
                 />
               </Grid>
             </Grid>
-            <Stack
-            >
-              <Button
-                sx={{
-                  marginTop: 2, padding: 1,
-                  bgcolor: "#00796B", '&:hover': {
-                    backgroundColor: '#006458'
-                  }
-                }}
-                disabled={isSubmitting}
-                onClick={submitForm}
-                size='small'
-                variant="contained"
+            <Grid container>
+              <Grid item 
+              md={12}
+              sx={{
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+              }}
               >
-                Enviar
-              </Button>
-            </Stack>
+                <Button
+                fullWidth
+                  sx={{
+                    marginTop: 2, padding: 1,
+                    bgcolor: "#00796B", '&:hover': {
+                      backgroundColor: '#006458'
+                    }
+                  }}
+                  disabled={isSubmitting}
+                  onClick={submitForm}
+                  variant="contained"
+                >
+                  Enviar
+                </Button>
+              </Grid>
+            </Grid>
           </Form>
         </Stack>
       )}

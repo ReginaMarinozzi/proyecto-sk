@@ -1,26 +1,29 @@
-import { Box, Stack, Typography } from '@mui/material';
+import { Box, Stack, Typography, Grid } from '@mui/material';
 import * as React from 'react';
-import { Fade } from "react-awesome-reveal";
 
 const Nosotros = () => {
     return (
-        <Fade
-            delay={250}
-            duration={3000}
-            triggerOnce={true}
+        <Grid container
+            spacing={4}
+            p={2}
+            sx={{
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center'
+            }}
         >
-            <Stack
-                alignItems='center'
-                flexDirection='row'
-                justifyContent='center'
-                mt={5}
-                px={20}>
+            <Grid item
+                md={5}
+                sx={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                }}
+            >
                 <Stack
                     p={3}
-                    my={5}
-                    ml={10}
                     spacing={2}
-                    sx={{ maxWidth: '60%', bgcolor: '#FFFFFF' }}
+                    sx={{ bgcolor: '#FFFFFF' }}
                 >
                     <Stack
                         flexDirection='row'
@@ -37,7 +40,6 @@ const Nosotros = () => {
                         >
                             Nosotros
                         </Typography>
-
                     </Stack>
                     <Stack
                     >
@@ -78,12 +80,18 @@ const Nosotros = () => {
                         </Box>
                     </Stack>
                 </Stack>
+            </Grid>
+            <Grid item
+                md={5}
+                sx={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                }}
+            >
                 <Stack
                     alignItems='center'
                     justifyContent='center'
-                    sx={{ maxWidth: '40%' }}
-                    p={6}
-                    mr={5}
                 >
                     <Box
                         component="img"
@@ -97,9 +105,8 @@ const Nosotros = () => {
                         alt='trabajadores en una construcción usando protección'
                     />
                 </Stack>
-            </Stack>
-        </Fade>
-
+            </Grid>
+        </Grid>
     )
 }
 

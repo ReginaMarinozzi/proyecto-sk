@@ -1,21 +1,16 @@
 import { Grid, Stack, Typography, Avatar } from '@mui/material';
 import * as React from 'react';
-import { Fade } from "react-awesome-reveal";
 
 
 const Plan = () => {
   return (
-    <Fade
-    delay={250}
-    duration={3000}
-    triggerOnce={true}
-  >
     <Stack
       direction="column"
       justifyContent="center"
       alignItems="center"
       textAlign='center'
-      m={15}
+      minHeight='60vh'
+      width='100%'
     >
       <Stack
         mb={6}
@@ -42,6 +37,7 @@ const Plan = () => {
         <Grid item
           md={3}
           px={2}
+          m={2}
           sx={{
             bgcolor: '#FFD6A0',
             borderRadius: '30px',
@@ -96,6 +92,7 @@ const Plan = () => {
         <Grid item
           md={3}
           px={2}
+          m={2}
           sx={{
             bgcolor: '#FFD6A0',
             borderRadius: '30px',
@@ -149,6 +146,7 @@ const Plan = () => {
         </Grid>
         <Grid item
           md={3}
+          m={2}
           px={2}
           sx={{
             bgcolor: '#FFD6A0',
@@ -201,7 +199,6 @@ const Plan = () => {
         </Grid>
       </Grid>
     </Stack>
-    </Fade>
   )
 }
 
