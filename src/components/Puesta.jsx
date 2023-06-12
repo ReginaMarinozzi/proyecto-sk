@@ -3,10 +3,9 @@ import React from 'react';
 import WarningAmberIcon from '@mui/icons-material/WarningAmber';
 import InventorySharpIcon from '@mui/icons-material/InventorySharp';
 import ForestIcon from '@mui/icons-material/Forest';
-import { useTheme } from '@mui/material/styles';
+
 
 const Puesta = () => {
-  const theme = useTheme();
   return (  
       <Stack
         direction="column"
@@ -22,7 +21,12 @@ const Puesta = () => {
           mb={6}
         >
           <Typography
-            variant={theme.breakpoints.up('md') ? 'h4' : 'p'}
+            sx={{
+              fontSize: {
+                md: '2.625rem',
+                xs: '1.5rem'
+              }
+            }}
             component="h4"
             align="center"
             color="#FFFFFF"

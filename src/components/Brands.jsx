@@ -5,7 +5,6 @@ import React from 'react';
 const Brands = () => {
   return (
     <Stack
-      m={2}
       py={5}
       alignItems='center'
       spacing={4}
@@ -13,7 +12,12 @@ const Brands = () => {
       <Stack
         my={2}>
         <Typography
-          fontSize='1.125rem'
+          sx={{
+            fontSize: {
+              md: '1.125rem',
+              xs: '1rem'
+            }
+          }}
           component="p"
           color="#7c828d"
           fontWeight={500}

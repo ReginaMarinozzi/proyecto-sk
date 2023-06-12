@@ -4,6 +4,7 @@ import * as React from 'react';
 const Nosotros = () => {
     return (
         <Grid container
+            id='nosotros'
             spacing={2}
             my={2}
             sx={{
@@ -11,7 +12,7 @@ const Nosotros = () => {
                 justifyContent: 'center',
                 alignItems: 'center',
                 minHeight: '50vh',
-                
+
             }}
         >
             <Grid item

@@ -1,4 +1,4 @@
-import { Box, Stack, Typography } from '@mui/material';
+import { Box, Stack, Typography, Grid } from '@mui/material';
 import * as React from 'react';
 import HealthAndSafetyIcon from '@mui/icons-material/HealthAndSafety';
 
@@ -6,81 +6,97 @@ import HealthAndSafetyIcon from '@mui/icons-material/HealthAndSafety';
 const Seguridad = () => {
 
     return (
-        <Stack
-            alignItems='center'
-            flexDirection='row'
-            justifyContent='center'
-            mt={20}
-            mb={10}
-            px={20}
+        <Grid container
+            spacing={2}
+            sx={{
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+                mt: { xs: 8, md: 10 },
+                p: { xs: 4, md: 2 },
+                minHeight: { xs: '50vh', md: '70vh' }
+            }}
         >
-            <Stack
-                p={3}
-                my={5}
-                ml={10}
-                spacing={2}
+            <Grid item md={5}
                 sx={{
-                    maxWidth: '70%',
-                    bgcolor: '#FFFFFF'
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
                 }}
             >
                 <Stack
-                    flexDirection='row'
-                    alignItems='center'
-                    justifyContent='left'
+                    spacing={5}
+                    sx={{ bgcolor: '#FFFFFF', padding: 2 }}
                 >
-                    <Typography
-                        variant="h4"
-                        component="h4"
-                        align="center"
-                        color="#212121"
-                        fontWeight={600}
-                        mr={1}
-                    >
-                        Seguridad laboral en la construcción
-                    </Typography>
-                    <Box
+                    <Stack
+                        flexDirection='row'
                         alignItems='center'
-                        justifyContent='center'
+                        justifyContent='left'
                     >
-                        <HealthAndSafetyIcon />
-                    </Box>
-                </Stack>
-                <Stack
-                >
-                    <Typography
-                        fontSize='1.250rem'
-                        component="p"
-                        color="#212121"
-                        fontWeight={500}
+                        <Typography
+                            variant="h4"
+                            component="h4"
+                            color="#212121"
+                            fontWeight={600}
+                            sx={{
+                                mr: { xs: 0, md: 1 }
+                            }}
+                        >
+                            Seguridad laboral en la construcción
+                        </Typography>
+                        <Stack
+                             sx={{
+                                ml: { xs: 0.2, md: 3 },
+                                mb: { xs: 1, md: 0 }
+                            }}
+                        >
+                            <HealthAndSafetyIcon sx={{
+                                fontSize: { xs: '2rem', md: '2.5rem' }
+                            }} />
+                        </Stack>
+                    </Stack>
+                    <Stack
                     >
-                        Contamos con el servicio de seguridad en
-                        la construcción porque nuestro principal
-                        objetivo es la prevención y corrección de las
-                        condiciones laborales.
-                    </Typography>
+                        <Typography
+                            fontSize='1.250rem'
+                            component="p"
+                            color="#212121"
+                            fontWeight={500}
+                        >
+                            Contamos con el servicio de seguridad en
+                            la construcción porque nuestro principal
+                            objetivo es la prevención y corrección de las
+                            condiciones laborales.
+                        </Typography>
+                    </Stack>
                 </Stack>
-            </Stack>
-            <Stack
-                alignItems='center'
-                justifyContent='center'
-                sx={{ maxWidth: '35%' }}
-                p={6}
-                mr={5}
+            </Grid>
+            <Grid item md={5}
+                sx={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                }}
             >
-                <Box
-                    component="img"
-                    sx={{
-                        borderRadius: '30px',
-                        display: 'block',
-                        overflow: 'hidden',
-                        width: '100%',
-                    }}
-                    src='https://i.ibb.co/qsvpxbx/max-larochelle-Qz-P1-Gc-DOSC8-unsplash.jpg'
-                    alt='cascos logo'
-                />
-            </Stack>
-        </Stack>
+                <Stack
+                    alignItems='center'
+                    justifyContent='center'
+                    p={2}
+                >
+                    <Box
+                        component="img"
+                        sx={{
+                            borderRadius: '30px',
+                            display: 'block',
+                            overflow: 'hidden',
+                            width: '100%',
+                        }}
+                        src='https://i.ibb.co/qsvpxbx/max-larochelle-Qz-P1-Gc-DOSC8-unsplash.jpg'
+                        alt='Hombre trabajando son una soldadora'
+                    />
+                </Stack>
+            </Grid>
+        </Grid>
     )
 }
 

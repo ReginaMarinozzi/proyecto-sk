@@ -67,7 +67,7 @@ const Formulario = () => {
               align="center"
               color="#212121"
               fontWeight={500}
-              mb={5}
+              mb={2}
             >
               Completá tus datos y te contactamos
             </Typography>

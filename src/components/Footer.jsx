@@ -11,13 +11,12 @@ const Footer = () => {
   return (
     <Grid
       container
-      spacing={2}
       pt={8}
       sx={{
         bgcolor: '#00796B',
-        width: '100%',
         minHeight: '25vh',
-        justifyContent: 'space-evenly'
+        alignItems: 'start',
+        justifyContent: 'space-around'
       }}
     >
       <Grid
@@ -25,15 +24,9 @@ const Footer = () => {
         md={3}
         xs={8}
         sx={{
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center'
+          p: 2
         }}
       >
-        <Stack
-          justifyContent='left'
-          spacing={2}
-        >
           <Typography
             color="#FFFFFF"
             variant="p"
@@ -56,21 +49,14 @@ const Footer = () => {
             <br />
             MAT: 0646
           </Typography>
-        </Stack>
       </Grid>
       <Grid
         item
         md={3}
         xs={8}
         sx={{
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center'
+          p: 2
         }}>
-        <Stack
-          justifyContent='left'
-          spacing={2}
-        >
           <Typography
             color="#FFFFFF"
             variant="p"
@@ -106,26 +92,20 @@ const Footer = () => {
               3416111111
             </Typography>
           </Stack>
-        </Stack>
       </Grid>
       <Grid
         item
         md={3}
         xs={8}
         sx={{
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center'
+          p: 2
         }}
       >
-        <Stack
-          justifyContent='left'
-          spacing={2}
-        >
           <Typography
             color="#FFFFFF"
             variant="p"
             component='p'
+            fontWeight={500}
             textTransform='uppercase'
           >
             Redes Sociales
@@ -133,6 +113,7 @@ const Footer = () => {
           <Stack
             direction='row'
             spacing={2}
+            alignSelf='left'
           >
             <IconButton
               component={Link}
@@ -155,7 +136,7 @@ const Footer = () => {
               />
             </IconButton>
           </Stack>
-        </Stack>
+
       </Grid>
     </Grid >
   )

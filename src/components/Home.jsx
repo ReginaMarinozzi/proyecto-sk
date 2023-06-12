@@ -13,7 +13,7 @@ import { Fade } from "react-awesome-reveal";
 
 const Home = () => {
     return (
-        <div>
+        <div id='home'>
             <Header />
             < Fade
                 delay={250}
