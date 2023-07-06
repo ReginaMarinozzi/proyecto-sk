@@ -46,7 +46,7 @@ const Header = () => {
               color="#212121"
               fontWeight={600}
             >
-              Higienesegurida laboral. Salud ocupacional y medio ambiente
+              Higiene y seguridad laboral. Salud ocupacional y medio ambiente
             </Typography>
             <Typography
               sx={{
