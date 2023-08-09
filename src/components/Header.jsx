@@ -22,7 +22,7 @@ const Header = () => {
         }}
       >
         <Grid item
-          md={8}
+          md={7}
           xs={12}
           sx={{
             display: 'flex',
@@ -141,18 +141,18 @@ const Header = () => {
           </Stack>
         </Grid>
         <Grid item
-          md={4}
+          md={5}
           xs={12}
           sx={{
-            display: { xs: 'none', md: 'flex' },
+            display: { xs: 'flex', md: 'flex' },
             flexDirection: 'column',
             alignItems: 'center',
           }}
         >
           <CardMedia
             component="img"
-            image='https://i.ibb.co/FYcDvGq/Imagen-Header.png'
-            alt='chica'
+            image='https://i.ibb.co/k6mGb6T/Dise-o-sin-t-tulo.png'
+            alt='hombre'
           />
         </Grid>
       </Grid>
