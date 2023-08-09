@@ -1,4 +1,4 @@
-import { Stack, Button, Typography, CardMedia, Grid } from "@mui/material";
+import { Stack, Button, Typography, CardMedia, Grid, Box } from "@mui/material";
 import React from "react";
 import { HashLink } from 'react-router-hash-link'
 
@@ -73,6 +73,42 @@ const Header = () => {
               fontWeight={500}>
               Consultor, experto y perito en medio ambiente - MAT: 0646
             </Typography>
+            <Stack
+              flexDirection='row'
+              alignItems='center'
+              justifyContent='left'
+            >
+              <Typography
+                sx={{
+                  fontSize: {
+                    md: '1rem',
+                    xs: '0.8rem'
+                  }
+                }}
+                component="h2"
+                color="#212121"
+                fontWeight={500}
+              >
+                Rosario, Santa Fe, Argentina
+              </Typography>
+              <Stack
+                alignItems='center'
+                justifyContent='center'
+                sx={{ maxWidth: '4%', marginLeft: 1 }}
+              >
+                <Box
+                  sx={{
+                    display: 'block',
+                    maxWidth: 400,
+                    overflow: 'hidden',
+                    width: '100%',
+                  }}
+                  component="img"
+                  src='https://i.ibb.co/2KmF06t/27120.jpg'
+                  alt='bandera argentina'
+                />
+              </Stack>
+            </Stack>
             <Stack
               direction="row"
               spacing={2}

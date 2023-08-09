@@ -11,7 +11,7 @@ const Mision = () => {
         justifyContent: 'center',
         alignItems: 'center',
         minHeight: '70vh',
-        
+
       }}
     >
       <Grid item md={5}
@@ -95,7 +95,7 @@ const Mision = () => {
               overflow: 'hidden',
               width: '100%',
             }}
-            src='https://i.ibb.co/k6SJDqt/pop-zebra-wp81-Dx-KUd1-E-unsplash.jpg'
+            src='https://i.ibb.co/M8WbQJP/IMG-20230508-WA0055.jpg'
             alt='cascos logo'
           />
         </Stack>

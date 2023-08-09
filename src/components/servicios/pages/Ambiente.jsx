@@ -91,8 +91,8 @@ const Ambiente = () => {
                             overflow: 'hidden',
                             width: '100%',
                         }}
-                        src='https://i.ibb.co/3RVGvfD/cdc-wz3ij-PHv-L54-unsplash.jpg'
-                        alt='hombre fumigando plantas'
+                        src='https://i.ibb.co/jfd85rP/ingamb.jpg'
+                        alt='casco sobre panel solar'
                     />
                 </Stack>
             </Grid>
