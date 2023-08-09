@@ -39,7 +39,7 @@ const Plan = () => {
           px={2}
           m={2}
           sx={{
-            bgcolor: '#FFD6A0',
+            bgcolor: '#ffebcf',
             borderRadius: '30px',
             display: 'flex',
             alignItems: 'center',
@@ -93,7 +93,7 @@ const Plan = () => {
           px={2}
           m={2}
           sx={{
-            bgcolor: '#FFD6A0',
+            bgcolor: '#ffebcf',
             borderRadius: '30px',
             display: 'flex',
             alignItems: 'center',
@@ -147,7 +147,7 @@ const Plan = () => {
           m={2}
           px={2}
           sx={{
-            bgcolor: '#FFD6A0',
+            bgcolor: '#ffebcf',
             borderRadius: '30px',
             display: 'flex',
             alignItems: 'center',

@@ -52,7 +52,7 @@ const Nosotros = () => {
                             color="#212121"
                             fontWeight={500}
                         >
-                            Nuestro compromiso es con brindar un servicio integral y de calidad, en materia de Higiene, Seguridad y Medio Ambiente.  Vinculando el conocimiento legal y práctico, para la prevención de riesgos laborales.
+                            Nuestro compromiso es brindar un servicio integral y de calidad, en materia de Higiene, Seguridad y Medio Ambiente.  Vinculando el conocimiento legal y práctico, para la prevención de riesgos laborales.
                             Manteniéndonos en constante formación para poder proveer las mejores soluciones a medida, para cada requerimiento planteado.
                             Nuestro trabajo se enfoca hacía industrias, comercios, instituciones privadas, públicas y obras en construcción.
                             Herramientas de trabajo y legales.
