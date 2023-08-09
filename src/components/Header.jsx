@@ -151,7 +151,7 @@ const Header = () => {
         >
           <CardMedia
             component="img"
-            image='https://i.ibb.co/k6mGb6T/Dise-o-sin-t-tulo.png'
+            image='https://i.ibb.co/QF4mf3N/Dise-o-sin-t-tulo-1.png'
             alt='hombre'
           />
         </Grid>
