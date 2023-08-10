@@ -104,7 +104,7 @@ const Header = () => {
                     width: '100%',
                   }}
                   component="img"
-                  src='https://i.ibb.co/2KmF06t/27120.jpg'
+                  src='https://i.ibb.co/HXJktfV/Dise-o-sin-t-tulo.png'
                   alt='bandera argentina'
                 />
               </Stack>
@@ -151,7 +151,7 @@ const Header = () => {
         >
           <CardMedia
             component="img"
-            image='https://i.ibb.co/QF4mf3N/Dise-o-sin-t-tulo-1.png'
+            image='https://i.ibb.co/xj0QwGK/santi.png'
             alt='hombre'
           />
         </Grid>
