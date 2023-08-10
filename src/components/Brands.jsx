@@ -8,6 +8,10 @@ const Brands = () => {
       py={5}
       alignItems='center'
       spacing={4}
+      sx={{ 
+        paddingTop: { xs: '0' }
+      }}
+    
     >
       <Stack
         my={2}>

@@ -10,7 +10,7 @@ const Header = () => {
       width='100%'
       sx={{
         mt: { xs: 5, md: 10 },
-        
+
         minHeight: { xs: '50vh', md: '70vh' }
       }}
     >
@@ -146,7 +146,6 @@ const Header = () => {
           md={5}
           xs={12}
           sx={{
-            margin: { xs: '1' },
             flexDirection: 'column',
             alignItems: 'center',
           }}
