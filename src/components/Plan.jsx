@@ -75,7 +75,7 @@ const Plan = () => {
             textAlign='center'
             textTransform='uppercase'
             mb={2}>
-            Relevamiento inicial
+            Identificación
           </Typography>
           <Typography
             variant="p"
@@ -129,7 +129,7 @@ const Plan = () => {
             textAlign='center'
             textTransform='uppercase'
             mb={2}>
-            Estudio
+            Evaluación
           </Typography>
           <Typography
             variant="p"
@@ -140,7 +140,8 @@ const Plan = () => {
           >
             Confeccionamos todos
             los documentos en corto plazo,
-            sobre todo aquellos que estén en infracción.
+            sobre todo aquellos que estén en
+            incumplimiento de la normativa vigente.
           </Typography>
         </Grid>
         <Grid item md={3} xs={12}
@@ -182,7 +183,7 @@ const Plan = () => {
             fontWeight={600}
             textTransform='uppercase'
             mb={1}>
-            Acción
+            Acción y Control
           </Typography>
           <Typography
             variant="p"

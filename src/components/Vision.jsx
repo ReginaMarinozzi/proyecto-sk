@@ -4,15 +4,15 @@ import * as React from 'react';
 const Vision = () => {
   return (
     <Grid container
-    spacing={2}
-    mb={2}
-    mt={1}
+      spacing={2}
+      mb={2}
+      mt={1}
       sx={{
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
         minHeight: '70vh',
-        
+
       }}
     >
       <Grid item md={5}
@@ -36,8 +36,8 @@ const Vision = () => {
               overflow: 'hidden',
               width: '100%',
             }}
-            src="https://i.ibb.co/zSZ5L2b/thisisengineering-raeng-u-Oh-Bx-B23-Wao-unsplash.jpg"
-            alt='chico y chica mostrando una pizarra'
+            src="https://i.ibb.co/jVmZBDr/valores.jpg"
+            alt='pilocia capacitando a grupo de personas en caso de emergencia'
           />
         </Stack>
       </Grid>

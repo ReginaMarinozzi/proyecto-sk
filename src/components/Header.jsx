@@ -5,18 +5,15 @@ import { HashLink } from 'react-router-hash-link'
 const Header = () => {
   return (
     <Stack
-      flexDirection='row'
       alignItems='center'
-      width='100%'
       sx={{
-        mt: { xs: 5, md: 10 },
-
+        mt: { xs: 12, md: 10 },
         minHeight: { xs: '50vh', md: '70vh' }
       }}
     >
       <Grid container
-        p={5}
         sx={{
+          width: '80%',
           pb: { xs: 0 },
           display: 'flex',
           justifyContent: 'center',
@@ -42,13 +39,15 @@ const Header = () => {
                 fontSize: {
                   md: '4rem',
                   xs: '2rem'
-                }
+                },
+                marginTop: { xs: '3' }
               }}
               component="h1"
               color="#212121"
               fontWeight={600}
+              textTransform="uppercase"
             >
-              Higiene y seguridad laboral. Salud ocupacional y medio ambiente
+              Higiene y seguridad y medio ambiente
             </Typography>
             <Typography
               sx={{

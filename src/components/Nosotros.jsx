@@ -6,7 +6,8 @@ const Nosotros = () => {
         <Grid container
             id='nosotros'
             spacing={2}
-            my={2}
+            my={3}
+            pt={3}
             sx={{
                 display: 'flex',
                 justifyContent: 'center',
@@ -24,7 +25,7 @@ const Nosotros = () => {
                 }}
             >
                 <Stack
-                    p={3}
+                    px={3}
                     spacing={2}
                     sx={{ bgcolor: '#FFFFFF' }}
                 >
@@ -95,7 +96,7 @@ const Nosotros = () => {
                 <Stack
                     alignItems='center'
                     justifyContent='center'
-                    p={3}
+                    px={3}
                 >
                     <Box
                         component="img"
