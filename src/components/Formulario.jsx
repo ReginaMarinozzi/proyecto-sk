@@ -69,7 +69,7 @@ const Formulario = () => {
               fontWeight={500}
               mb={2}
             >
-              Completá tus datos y te contactamos
+              Completá tus datos y te contactamos o podés llamarnos al +5493413760134
             </Typography>
           </Stack>
           <Form
