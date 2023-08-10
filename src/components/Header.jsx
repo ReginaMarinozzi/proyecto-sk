@@ -10,12 +10,14 @@ const Header = () => {
       width='100%'
       sx={{
         mt: { xs: 5, md: 10 },
+        
         minHeight: { xs: '50vh', md: '70vh' }
       }}
     >
       <Grid container
         p={5}
         sx={{
+          pb: { xs: 0 },
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center'
@@ -144,7 +146,7 @@ const Header = () => {
           md={5}
           xs={12}
           sx={{
-            display: { xs: 'flex', md: 'flex' },
+            margin: { xs: '1' },
             flexDirection: 'column',
             alignItems: 'center',
           }}
