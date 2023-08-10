@@ -47,7 +47,7 @@ const Header = () => {
               fontWeight={600}
               textTransform="uppercase"
             >
-              Higiene y seguridad y medio ambiente
+              Higiene, seguridad y medio ambiente
             </Typography>
             <Typography
               sx={{

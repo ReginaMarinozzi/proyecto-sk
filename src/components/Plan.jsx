@@ -75,7 +75,7 @@ const Plan = () => {
             textAlign='center'
             textTransform='uppercase'
             mb={2}>
-            Identificación
+            Relevamiento Inicial
           </Typography>
           <Typography
             variant="p"
@@ -84,7 +84,7 @@ const Plan = () => {
             fontWeight={500}
             textAlign='center'
           >
-            Relevamos toda la empresa, establecemos
+            Identificamos toda la empresa, establecemos
             las prioridades según los objetivos del cliente y
             proyectamos un plan de trabajo.
           </Typography>

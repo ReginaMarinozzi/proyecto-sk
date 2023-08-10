@@ -5,11 +5,12 @@ import React from 'react';
 const Brands = () => {
   return (
     <Stack
-      py={5}
+      py={6}
+      mt={5}
       alignItems='center'
       spacing={4}
       sx={{ 
-        paddingTop: { xs: '0' }
+        paddingTop: { xs: '0', mt: '0' }
       }}
     
     >
@@ -27,7 +28,7 @@ const Brands = () => {
           fontWeight={500}
           textAlign='center'
         >
-          Algunas de las empresas que ya han confian en nosotros
+          Algunas de las empresas que ya han confiado en nosotros
         </Typography>
       </Stack>
       <Grid container

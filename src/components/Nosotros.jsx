@@ -13,7 +13,6 @@ const Nosotros = () => {
                 justifyContent: 'center',
                 alignItems: 'center',
                 minHeight: '50vh',
-
             }}
         >
             <Grid item
