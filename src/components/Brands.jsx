@@ -28,7 +28,7 @@ const Brands = () => {
           fontWeight={500}
           textAlign='center'
         >
-          Algunas de las empresas que ya han confiado en nosotros
+          Algunas de las empresas que ya han confiado en nuestro trabajo
         </Typography>
       </Stack>
       <Grid container
