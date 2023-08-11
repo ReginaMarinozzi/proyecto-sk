@@ -42,7 +42,7 @@ const Prevencion = () => {
                                 mr: { xs: 0, md: 0 }
                             }}
                         >
-                            Prevención
+                            Prevención y
                             <br />
                             Protección contra incendios
                         </Typography>
@@ -65,10 +65,9 @@ const Prevencion = () => {
                             color="#212121"
                             fontWeight={500}
                         >
-                            Protección Contra Incendios. Control y recarga de matafuegos
-                            e instalación de nueva, mantenimiento y/o mejora de Red de Incendio.
-                            Liderar/propones actividades para el seguimiento o formación de
-                            Brigada de Emergencia Licenciado en Seguridad y Salud Ocupacional
+                            Mantenimiento y mejora de red de incendio. 
+                            Liderar y capacitar a Brigada Interna de Emergencias. 
+                            Acciones preventivas para proteger el patrimonio de la empresa.
                         </Typography>
                     </Stack>
                 </Stack>
