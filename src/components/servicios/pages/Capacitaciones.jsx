@@ -58,7 +58,7 @@ const Capacitaciones = () => {
                             color="#212121"
                             fontWeight={500}
                         >
-                            Simulacros y entrenamientos. (Cap. 21 Art.  208 a 210 Dec. 351/79)
+                            Ley 19587 - Capacitaciones (Cap. 21 Art.  208 a 210 Dec. 351/79)
                             Capacitaciones presenciales a personal operativo, mandos medios y
                             gerentes en temas específicos de Higiene y Seguridad Laboral;
                             ya sean instruidos teóricamente y también entrenados en temas

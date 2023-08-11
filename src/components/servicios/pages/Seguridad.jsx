@@ -45,7 +45,7 @@ const Seguridad = () => {
                             Seguridad laboral en la construcción
                         </Typography>
                         <Stack
-                             sx={{
+                            sx={{
                                 ml: { xs: 0.2, md: 3 },
                                 mb: { xs: 1, md: 0 }
                             }}
@@ -63,10 +63,10 @@ const Seguridad = () => {
                             color="#212121"
                             fontWeight={500}
                         >
-                            Contamos con el servicio de seguridad en
+                            Contamos con el servicio de seguridad laborar en
                             la construcción porque nuestro principal
                             objetivo es la prevención y corrección de las
-                            condiciones laborales.
+                            condiciones laborales, en base a Dec. 911/96.
                         </Typography>
                     </Stack>
                 </Stack>

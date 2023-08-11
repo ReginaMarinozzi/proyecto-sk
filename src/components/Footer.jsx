@@ -41,7 +41,7 @@ const Footer = () => {
           variant="p"
           component='p'
         >
-          Licenciado en higiene, salud y seguridad ocupacional
+          Licenciado en Seguridad y Salud Ocupacional
           <br />
           MAT: L2- 10068-4
           <br />

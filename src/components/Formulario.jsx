@@ -148,11 +148,11 @@ const Formulario = () => {
               </Grid>
             </Grid>
             <Grid container
-             sx={{
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center'
-            }}>
+              sx={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center'
+              }}>
               <Grid item md={12} xs={8}
                 sx={{
                   display: 'flex',

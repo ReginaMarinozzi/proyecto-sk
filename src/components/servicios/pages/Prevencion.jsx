@@ -53,7 +53,7 @@ const Prevencion = () => {
                             }}
                         >
                             <LocalFireDepartmentIcon sx={{
-                                fontSize: { xs: '2rem', md: '2.5rem' } 
+                                fontSize: { xs: '2rem', md: '2.5rem' }
                             }} />
                         </Stack>
                     </Stack>
@@ -67,6 +67,8 @@ const Prevencion = () => {
                         >
                             Protección Contra Incendios. Control y recarga de matafuegos
                             e instalación de nueva, mantenimiento y/o mejora de Red de Incendio.
+                            Liderar/propones actividades para el seguimiento o formación de
+                            Brigada de Emergencia Licenciado en Seguridad y Salud Ocupacional
                         </Typography>
                     </Stack>
                 </Stack>
