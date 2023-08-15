@@ -58,12 +58,26 @@ const Capacitaciones = () => {
                             color="#212121"
                             fontWeight={500}
                         >
-                            Ley 19587 - Capacitaciones (Cap. 21 Art.  208 a 210 Dec. 351/79)
-                            Capacitaciones presenciales a personal operativo, mandos medios y
-                            gerentes en temas específicos de Higiene y Seguridad Laboral;
-                            ya sean instruidos teóricamente y también entrenados en temas
-                            vinculados al bienestar laboral.
+                            Ley 19.587 – Capacitaciones (Cap. 21 Art 208 a 210. Dec.351/79).
+                            Sistema de capacitaciones dinámicas a personal operativo, mandos medios y gerentes en temas específicos de Higiene y Seguridad Laboral.
                         </Typography>
+                        <Box
+                            sx={{
+                                fontFamily: 'Roboto',
+                                fontWeight: '500',
+                                fontSize: '20px',
+                                lineHeight: '30px',
+                                color: '#212121'
+                            }} >
+                            <ul>
+                                <li>
+                                    Formación teórica y también entrenamientos en temas vinculados al bienestar laboral.
+                                </li>
+                                <li>
+                                    Prevención, detección y corrección en "Actos Inseguros".
+                                </li>
+                            </ul>
+                        </Box>
                     </Stack>
                 </Stack>
             </Grid>

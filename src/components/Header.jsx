@@ -60,7 +60,7 @@ const Header = () => {
               color="#212121"
               fontWeight={500}
             >
-              Licenciado en higiene, salud y seguridad ocupacional - MAT: L2- 10068-4
+              Licenciado en Seguridad y Salud Ocupacional - MAT: L2- 10068-4
             </Typography>
             <Typography
               sx={{

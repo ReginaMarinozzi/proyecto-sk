@@ -76,9 +76,7 @@ const Vision = () => {
               color="#212121"
               fontWeight={500}
             >
-              Ser una referencia en cuanto a servicios de higiene,
-              seguridad y medio ambiente en nuestra zona de influencia,
-              manteniendo nuestros valores y acompañando el crecimiento de cada organización.
+              Ser una referencia en cuanto a servicios de Higiene, Seguridad y Medio Ambiente en nuestra región, manteniendo nuestros valores y acompañando el crecimiento de cada organización.
             </Typography>
             <Box
               sx={{

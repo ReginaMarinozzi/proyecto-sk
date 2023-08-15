@@ -62,12 +62,32 @@ const Ambiente = () => {
                             color="#212121"
                             fontWeight={500}
                         >
-                            Brindamos servicios ambientales basados
-                            en las diferentes normativas, para la implementación
-                            de políticas de desarrollo sustentable, con el principal
-                            objetivo de lograr un equilibrio entre el crecimiento de
-                            su actividad y el cuidado del medioambiente.
+                            Nos basamos en normativas ambientales vigentes para la implementación de políticas de desarrollo sustentables.
+                            Logrando un equilibrio entre el crecimiento de su actividad y el cuidado del medioambiente.
                         </Typography>
+                        <Box
+                            sx={{
+                                fontFamily: 'Roboto',
+                                fontWeight: '500',
+                                fontSize: '20px',
+                                lineHeight: '30px',
+                                color: '#212121'
+                            }} >
+                            <ul>
+                                <li>
+                                    Gestión de residuos peligrosos industriales y contaminación generada por la actividad laboral.
+                                </li>
+                                <li>
+                                    Propuestas técnicas o tecnológicas tendientes a generar conductas eficientes ambientales.
+                                </li>
+                                <li>
+                                    Ley General del Ambiente – Ley N°25.675
+                                </li>
+                                <li>
+                                    Plan de Gestión Ambiental.
+                                </li>
+                            </ul>
+                        </Box>
                     </Stack>
                 </Stack>
             </Grid>

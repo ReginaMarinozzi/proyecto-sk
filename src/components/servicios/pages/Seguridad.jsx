@@ -63,11 +63,26 @@ const Seguridad = () => {
                             color="#212121"
                             fontWeight={500}
                         >
-                            Contamos con el servicio de seguridad laborar en
-                            la construcción porque nuestro principal
-                            objetivo es la prevención y corrección de las
-                            condiciones laborales, en base a Dec. 911/96.
+                            Seguridad laboral en la construcción teniendo como objetivo la prevención y corrección de las condiciones laborales, en base al Decreto 911/96.
                         </Typography>
+                        <Box
+                            sx={{
+                                fontFamily: 'Roboto',
+                                fontWeight: '500',
+                                fontSize: '20px',
+                                lineHeight: '30px',
+                                color: '#212121'
+                            }}
+                        >
+                            <ul>
+                                <li>
+                                    Confección y seguimiento a Programas de Seguridad Laboral correspondiente a la obra.
+                                </li>
+                                <li>
+                                    Seguimiento del Legajo Técnico en obra.
+                                </li>
+                            </ul>
+                        </Box>
                     </Stack>
                 </Stack>
             </Grid>

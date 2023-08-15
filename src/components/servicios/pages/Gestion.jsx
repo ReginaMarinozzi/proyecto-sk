@@ -64,11 +64,8 @@ const Gestion = () => {
                             color="#212121"
                             fontWeight={500}
                         >
-                            Contamos con una amplia variedad de servicios
-                            de asesoría en Higiene y Seguridad Laboral
-                            adaptados a cada rubro y necesidad; con finalidad
-                            de cumplimiento de normativas vigentes
-                            de forma inmediata.
+                            Nos adaptamos a cada rubro y necesidad; con finalidad de cumplimiento de normativas vigentes de forma inmediata.
+                            Por cada servicio ofrecemos visitas de campo para la evaluación, seguimiento y gestión sobre riesgos y oportunidades de mejoras laborales.
                         </Typography>
                     </Stack>
                 </Stack>

@@ -60,18 +60,26 @@ const Mision = () => {
           </Stack>
           <Stack
           >
-            <Typography
-              fontSize='1.250rem'
-              component="p"
-              color="#212121"
-              fontWeight={500}
-            >
-              Agregar valor profesional en el desarrollo de nuestros clientes,
-              garantizando el cumplimiento de la normativa vigente.
-              Aportar soluciones fomentando la prevención en cuanto a Higiene,
-              seguridad y medio ambiente. Cuidar sus instalaciones, sostener
-              la salud y el bienestar del personal.
-            </Typography>
+            <Box
+              sx={{
+                fontFamily: 'Roboto',
+                fontWeight: '500',
+                fontSize: '1.250rem',
+                lineHeight: '30px',
+                color: '#212121'
+              }} >
+              <ul>
+                <li>
+                  Agregar valor profesional en el desarrollo de nuestros clientes, garantizando el cumplimiento de la Normativa Vigente.
+                </li>
+                <li>
+                  Aportar soluciones fomentando la prevención en cuanto a la Higiene, Seguridad y Medio Ambiente.
+                </li>
+                <li>
+                  Cuidar sus instalaciones, sostener la Salud y Bienestar del personal.
+                </li>
+              </ul>
+            </Box>
           </Stack>
         </Stack>
       </Grid>

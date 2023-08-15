@@ -39,7 +39,8 @@ const Mediciones = () => {
                             color="#212121"
                             fontWeight={600}
                             sx={{
-                                mr: { xs: 0, md: 1 }
+                                mr: { xs: 0, md: 1 },
+                                mt: 3 
                             }}
                         >
                             Mediciones y Estudios
@@ -47,7 +48,8 @@ const Mediciones = () => {
                         <Stack
                             sx={{
                                 ml: { xs: 1, md: 3 },
-                                mb: { xs: 1, md: 0 }
+                                mb: { xs: 1, md: 0 },
+                                mt: 3 
                             }}
                         >
                             <SquareFootIcon sx={{
@@ -63,10 +65,32 @@ const Mediciones = () => {
                             color="#212121"
                             fontWeight={500}
                         >
-                            Mediciones y estudios de Higiene y Seguridad Laboral y
-                            Medio Ambiente. Así adoptar correcciones en los
-                            puestos y/o lugares de trabajo de ser necesario.
+                            Contamos con profesionales acreditados y una amplia gama de equipamientos de precisión homologados.
+                            Mediciones laborales, ambientales y estudios de ergonomía en los sectores de trabajo requeridos:
                         </Typography>
+                        <Box
+                            sx={{
+                                fontFamily: 'Roboto',
+                                fontWeight: '500',
+                                fontSize: '20px',
+                                lineHeight: '30px',
+                                color: '#212121'
+                            }} >
+                            <ul>
+                                <li>
+                                    Medición y elaboración de protocolo de puesta a tierra y continuidad de las masas en instalaciones eléctricas, bajo Res. SRT. N°900/15.
+                                </li>
+                                <li>
+                                    Medición de niveles de iluminación y elaboración de protocolo, según la legislación vigente. Res. SRT. 84/12.
+                                </li>
+                                <li>
+                                    Medición de nivel sonoro continúo equivalente, acorde a la legislación vigente y elaboración de protocolo bajo Res. SRT. N°85/12.
+                                </li>
+                                <li>
+                                    Evaluación y confección de estudio de Ergonomía en los puestos de trabajo bajo Res. 295/03; Res SRT 886/15.
+                                </li>
+                            </ul>
+                        </Box>
                     </Stack>
                 </Stack>
             </Grid>

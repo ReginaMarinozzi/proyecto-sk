@@ -65,10 +65,31 @@ const Prevencion = () => {
                             color="#212121"
                             fontWeight={500}
                         >
-                            Mantenimiento y mejora de red de incendio. 
-                            Liderar y capacitar a Brigada Interna de Emergencias. 
-                            Acciones preventivas para proteger el patrimonio de la empresa.
+                            Acciones preventivas y correctivas para proteger el patrimonio de vuestra empresa.
                         </Typography>
+                        <Box
+                            sx={{
+                                fontFamily: 'Roboto',
+                                fontWeight: '500',
+                                fontSize: '20px',
+                                lineHeight: '30px',
+                                color: '#212121'
+                            }} >
+                            <ul>
+                                <li>
+                                    Control, recarga y/o reparación de extintores (matafuegos) presentes.
+                                </li>
+                                <li>
+                                    Instalación de nueva, mantenimiento y/o mejora de Red de Incendio.
+                                </li>
+                                <li>
+                                    Capacitar; liderar actividades de formación o seguimiento a Brigadas de Emergencias.
+                                </li>
+                                <li>
+                                    Elaboración de "Estudio carga de fuego". Cap. 18. Anexo VII.
+                                </li>
+                            </ul>
+                        </Box>
                     </Stack>
                 </Stack>
             </Grid>
