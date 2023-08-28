@@ -113,7 +113,7 @@ const Prevencion = () => {
                             overflow: 'hidden',
                             width: '100%',
                         }}
-                        src='https://i.ibb.co/RDxvztj/piotr-chrobot-M0-Wb-GFRTXq-U-unsplash.jpg'
+                        src='https://www.undef.edu.ar/wp-content/uploads/2019/06/matafuegos.jpg'
                         alt='extintor de fuego'
                     />
                 </Stack>
