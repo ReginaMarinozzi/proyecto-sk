@@ -152,7 +152,7 @@ const Header = () => {
           <CardMedia
             component="img"
             image='https://i.ibb.co/xj0QwGK/santi.png'
-            alt='hombre'
+            alt='hombre sonriendo'
           />
         </Grid>
       </Grid>

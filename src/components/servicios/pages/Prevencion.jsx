@@ -114,7 +114,7 @@ const Prevencion = () => {
                             width: '100%',
                         }}
                         src='https://www.undef.edu.ar/wp-content/uploads/2019/06/matafuegos.jpg'
-                        alt='extintor de fuego'
+                        alt='extintores de fuego alineados'
                     />
                 </Stack>
             </Grid>

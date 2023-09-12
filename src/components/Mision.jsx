@@ -104,7 +104,7 @@ const Mision = () => {
               width: '100%',
             }}
             src='https://i.ibb.co/M8WbQJP/IMG-20230508-WA0055.jpg'
-            alt='cascos logo'
+            alt='Capacitación de una empresa, hombres reunidos simulando un accidente laboral '
           />
         </Stack>
       </Grid>

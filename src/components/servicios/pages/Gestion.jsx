@@ -92,7 +92,7 @@ const Gestion = () => {
                             width: '100%',
                         }}
                         src='https://i.ibb.co/6t0xQV5/thisisengineering-raeng-Sy-Rl-D4s-amw-unsplash.jpg'
-                        alt='personas viendo juntas un mapa'
+                        alt='personas viendo juntas un mapa y una laptop abierta'
                     />
                 </Stack>
             </Grid>

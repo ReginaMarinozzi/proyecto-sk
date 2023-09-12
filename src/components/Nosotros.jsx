@@ -84,7 +84,7 @@ const Nosotros = () => {
                                 width: '100%',
                             }}
                             src='https://i.ibb.co/JQgH3cz/scott-blake-x-ghf9-Ljr-Vg-unsplash.jpg'
-                            alt='trabajadores en una construcción usando protección'
+                            alt='grupo de trabajadores en una construcción grande usando protección'
                         />
                     </Stack>
                 </Grid>

@@ -37,7 +37,7 @@ const Vision = () => {
               width: '100%',
             }}
             src="https://i.ibb.co/jVmZBDr/valores.jpg"
-            alt='pilocia capacitando a grupo de personas en caso de emergencia'
+            alt='hombre bombero capacitando a grupo de personas al ire libre, en caso de una emergencia'
           />
         </Stack>
       </Grid>

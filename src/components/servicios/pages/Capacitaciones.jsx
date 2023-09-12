@@ -102,7 +102,7 @@ const Capacitaciones = () => {
                             width: '100%',
                         }}
                         src='https://i.ibb.co/wN1ttMf/Image-2023-04-24-at-14-22-57.jpg'
-                        alt='personas siendo instruidas por otra sobre seguridad laboral'
+                        alt='Personas siendo instruidas por otra sobre seguridad laboral por un bombero que sostiene una manguera para aapagar fuegos'
                     />
                 </Stack>
             </Grid>
