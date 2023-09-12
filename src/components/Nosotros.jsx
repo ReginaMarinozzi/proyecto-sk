@@ -3,9 +3,11 @@ import * as React from 'react';
 
 const Nosotros = () => {
     return (
-        <Stack>
+        <Stack
+        mx={4}
+        >
             <Stack
-            mt={5}
+                mt={5}
                 flexDirection='row'
                 alignItems='center'
                 justifyContent='center'
