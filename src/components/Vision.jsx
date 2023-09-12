@@ -12,7 +12,6 @@ const Vision = () => {
         justifyContent: 'center',
         alignItems: 'center',
         minHeight: '70vh',
-
       }}
     >
       <Grid item md={5}
@@ -36,7 +35,7 @@ const Vision = () => {
               overflow: 'hidden',
               width: '100%',
             }}
-            src="https://i.ibb.co/jVmZBDr/valores.jpg"
+            src="/images/imgvision.jpeg"
             alt='hombre bombero capacitando a grupo de personas al ire libre, en caso de una emergencia'
           />
         </Stack>

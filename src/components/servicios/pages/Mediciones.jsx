@@ -114,7 +114,7 @@ const Mediciones = () => {
                             overflow: 'hidden',
                             width: '100%',
                         }}
-                        src='https://i.ibb.co/09Q0m2t/scott-graham-5f-Nm-Wej4t-AA-unsplash.jpg'
+                        src='/images/imgmediciones.jpg'
                         alt='mano de persona sosteniendo un lapiz  sobre una hoja con apuntes, al lado de dos laptops'
                     />
                 </Stack>

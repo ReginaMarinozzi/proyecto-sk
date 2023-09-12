@@ -111,7 +111,7 @@ const Ambiente = () => {
                             overflow: 'hidden',
                             width: '100%',
                         }}
-                        src='https://i.ibb.co/jfd85rP/ingamb.jpg'
+                        src='/images/imgambiente.jpg'
                         alt='casco blanco sobre panel solar'
                     />
                 </Stack>

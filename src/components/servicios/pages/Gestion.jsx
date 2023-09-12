@@ -91,7 +91,7 @@ const Gestion = () => {
                             overflow: 'hidden',
                             width: '100%',
                         }}
-                        src='https://i.ibb.co/6t0xQV5/thisisengineering-raeng-Sy-Rl-D4s-amw-unsplash.jpg'
+                        src='/images/imggestion.jpg'
                         alt='personas viendo juntas un mapa y una laptop abierta'
                     />
                 </Stack>

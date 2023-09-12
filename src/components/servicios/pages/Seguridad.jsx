@@ -106,7 +106,7 @@ const Seguridad = () => {
                             overflow: 'hidden',
                             width: '100%',
                         }}
-                        src='https://i.ibb.co/qsvpxbx/max-larochelle-Qz-P1-Gc-DOSC8-unsplash.jpg'
+                        src='/images/imgseguridad.jpg'
                         alt='Hombre trabajando son una soldadora con la protección necesaria'
                     />
                 </Stack>

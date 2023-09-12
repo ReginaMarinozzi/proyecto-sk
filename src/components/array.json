@@ -3,21 +3,21 @@
     "id": 1,
     "name": "Gestión y diseño",
     "description": "Contamos con una amplia variedad de servicios de asesoría en Higiene y Seguridad Laboral adaptados a cada rubro y necesidad; con finalidad de cumplimiento de normativas vigentes de forma inmediata.",
-    "img": "https://i.ibb.co/6t0xQV5/thisisengineering-raeng-Sy-Rl-D4s-amw-unsplash.jpg",
+    "img": "../images/imggestion.png",
     "link": "/gestion"
   },
   {
     "id": 2,
     "name": "Seguridad laboral en la construcción",
     "description": "Contamos con el servicio de seguridad en la construcción porque nuestro principal objetivo es la prevención y corrección de las condiciones laborales.",
-    "img": "https://i.ibb.co/qsvpxbx/max-larochelle-Qz-P1-Gc-DOSC8-unsplash.jpg",
+    "img": "../images/imgseguridad.jpg",
     "link": "/seguridad"
   },
   {
     "id": 3,
     "name": "Prevención - protección contra incendios",
     "description": "Protección Contra Incendios. Control y recarga de matafuegos e instalación de nueva, mantenimiento y/o mejora de Red de Incendio.",
-    "img": "https://www.undef.edu.ar/wp-content/uploads/2019/06/matafuegos.jpg",
+    "img": "../images/imgmatafuegos.png",
     "link": "/prevencion"
   },
   {
@@ -31,14 +31,14 @@
     "id": 5,
     "name": "Servicios de medio ambiente",
     "description": "Brindamos servicios ambientales basados en las diferentes normativas, para la implementación de políticas de desarrollo sustentable, con el principal objetivo de lograr un equilibrio entre el crecimiento de su actividad y el cuidado del medioambiente.",
-    "img": "https://i.ibb.co/jfd85rP/ingamb.jpg",
+    "img": "../images/imgservicios.png",
     "link": "/ambiente"
   },
   {
     "id": 6,
     "name": "Capacitaciones",
     "description": "Ley 19587 - Capacitaciones (Cap. 21 Art.  208 a 210 Dec. 351/79) Capacitaciones presenciales a personal operativo, mandos medios y gerentes en temas específicos de Higiene y Seguridad Laboral; ya sean instruidos teóricamente y también entrenados en temas vinculados al bienestar laboral.",
-    "img": "https://i.ibb.co/wN1ttMf/Image-2023-04-24-at-14-22-57.jpg",
+    "img": "../images/imgcapacitaciones.jpeg",
     "link": "/capacitaciones"
   }
 ]

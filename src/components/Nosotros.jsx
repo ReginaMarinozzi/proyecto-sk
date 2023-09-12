@@ -4,7 +4,7 @@ import * as React from 'react';
 const Nosotros = () => {
     return (
         <Stack
-        mx={4}
+            mx={4}
         >
             <Stack
                 mt={5}
@@ -83,7 +83,7 @@ const Nosotros = () => {
                                 overflow: 'hidden',
                                 width: '100%',
                             }}
-                            src='https://i.ibb.co/JQgH3cz/scott-blake-x-ghf9-Ljr-Vg-unsplash.jpg'
+                            src='/images/imgnosotros.jpg'
                             alt='grupo de trabajadores en una construcción grande usando protección'
                         />
                     </Stack>

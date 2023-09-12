@@ -9,10 +9,9 @@ const Brands = () => {
       mt={5}
       alignItems='center'
       spacing={4}
-      sx={{ 
+      sx={{
         paddingTop: { xs: '0', mt: '0' }
       }}
-    
     >
       <Stack
         my={2}>
@@ -46,7 +45,7 @@ const Brands = () => {
               overflow: 'hidden',
               width: '100%',
             }}
-            src='https://i.ibb.co/J7x0mF6/1.png'
+            src='/images/1.png'
             alt='marca logo'
           />
         </Grid>
@@ -60,7 +59,7 @@ const Brands = () => {
               overflow: 'hidden',
               width: '100%',
             }}
-            src='https://i.ibb.co/K0qrSwW/2.png'
+            src='/images/2.png'
             alt='marca logo'
           />
         </Grid>
@@ -74,7 +73,7 @@ const Brands = () => {
               overflow: 'hidden',
               width: '100%',
             }}
-            src='https://i.ibb.co/zJYV5Lg/3.png'
+            src='/images/3.png'
             alt='marca logo'
           />
         </Grid>
@@ -88,7 +87,7 @@ const Brands = () => {
               overflow: 'hidden',
               width: '100%',
             }}
-            src='https://i.ibb.co/JpgSnjk/4.png'
+            src='/images/4.png'
             alt='marca logo'
           />
         </Grid>
@@ -102,7 +101,7 @@ const Brands = () => {
               overflow: 'hidden',
               width: '100%',
             }}
-            src='https://i.ibb.co/7j2Hbwn/5.png'
+            src='/images/5.png'
             alt='marca logo'
           />
         </Grid>
@@ -116,7 +115,7 @@ const Brands = () => {
               overflow: 'hidden',
               width: '100%',
             }}
-            src='https://i.ibb.co/wBMqVcN/6.png'
+            src='/images/6.png'
             alt='marca logo'
           />
         </Grid>
@@ -130,7 +129,7 @@ const Brands = () => {
               overflow: 'hidden',
               width: '100%',
             }}
-            src='https://i.ibb.co/bKL9f7L/7.png'
+            src='/images/7.png'
             alt='marca logo'
           />
 

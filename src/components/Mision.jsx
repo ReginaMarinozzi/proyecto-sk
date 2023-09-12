@@ -11,7 +11,6 @@ const Mision = () => {
         justifyContent: 'center',
         alignItems: 'center',
         minHeight: '70vh',
-
       }}
     >
       <Grid item md={5}
@@ -53,7 +52,7 @@ const Mision = () => {
                   width: '100%',
                 }}
                 component="img"
-                src='https://i.ibb.co/72Fj2mN/direct-hit-microsoft.webp'
+                src='/images/imgtiro.png'
                 alt='tiro al blanco'
               />
             </Stack>
@@ -103,7 +102,7 @@ const Mision = () => {
               overflow: 'hidden',
               width: '100%',
             }}
-            src='https://i.ibb.co/M8WbQJP/IMG-20230508-WA0055.jpg'
+            src='/images/imgmision.jpg'
             alt='Capacitación de una empresa, hombres reunidos simulando un accidente laboral '
           />
         </Stack>
