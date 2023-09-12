@@ -13,7 +13,7 @@ const Ambiente = () => {
                 alignItems: 'center',
                 mt: { xs: 8, md: 4 },
                 p: { xs: 4, md: 0 },
-                minHeight: { xs: '50vh', md: '70vh' }
+                minHeight: { xs: '50vh', md: '75vh' }
             }}
         >
             <Grid item md={5}

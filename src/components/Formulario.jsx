@@ -1,34 +1,43 @@
 import { Button, Typography, Grid, Stack } from '@mui/material'
 import { Formik, Form, Field } from 'formik'
 import { TextField } from 'formik-mui'
-import * as React from 'react'
+import emailjs from '@emailjs/browser';
 import * as Yup from 'yup'
 
 
 const Formulario = () => {
-
-  const phoneRegExp = /^((\\+[1-9]{1,4}[ \\-])|(\\([0-9]{2,3}\\)[ \\-])|([0-9]{2,4})[ \\-])?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/
-
+  
+  const phoneRegExp = /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/
+  
+  const sendEmail = (templateParams) => {
+    emailjs.send("service_uc6qf39", "template_3l1yj0y", templateParams, "JfiehChk0njD7uTj1")
+        .then((result) => {
+            console.log(result.text)
+        }, (error) => {
+            console.log(error.text)
+        })
+}
   return (
 
     <Formik
-      initialValues={{ nombre: '', apellido: '', email: '', telefono: '' }}
+      initialValues={{ user_name: '', user_lastname: '', user_email: '', user_phone: '' }}
       validationSchema={Yup.object({
-        nombre: Yup.string()
+        user_name: Yup.string()
           .required('Requerido'),
-        apellido: Yup.string()
+        user_lastname: Yup.string()
           .required('Requerido'),
-        email: Yup.string()
+        user_email: Yup.string()
           .required('Requerido'),
-        telefono: Yup.string()
+        user_phone: Yup.string()
           .matches(phoneRegExp, 'Telefono incorrecto')
           .required('Requerido'),
       })}
+      
       onSubmit={(values, { setSubmitting }) => {
         setTimeout(() => {
-          alert(JSON.stringify(values, null, 2));
-          setSubmitting(false);
-        }, 400);
+          sendEmail(values)
+          setSubmitting(false)
+        }, 1000);
       }}
     >
       {({ submitForm, isSubmitting }) => (
@@ -92,7 +101,7 @@ const Formulario = () => {
                   fullWidth
                   sx={{ bgcolor: '#FFFFFF', borderRadius: '5px' }}
                   component={TextField}
-                  name="nombre"
+                  name="user_name"
                   type="nombre"
                   label="Nombre"
 
@@ -109,7 +118,7 @@ const Formulario = () => {
                   fullWidth
                   sx={{ bgcolor: '#FFFFFF', borderRadius: '5px' }}
                   component={TextField}
-                  name="apellido"
+                  name="user_lastname"
                   type="apellido"
                   label="Apellido"
                 />
@@ -126,7 +135,7 @@ const Formulario = () => {
                   sx={{ bgcolor: '#FFFFFF', borderRadius: '5px' }}
                   component={TextField}
                   type="email"
-                  name="email"
+                  name="user_email"
                   label="Email"
                 />
               </Grid>
@@ -142,7 +151,7 @@ const Formulario = () => {
                   sx={{ bgcolor: '#FFFFFF', borderRadius: '5px' }}
                   component={TextField}
                   type="telefono"
-                  name="telefono"
+                  name="user_phone"
                   label="Telefono"
                 />
               </Grid>
@@ -168,8 +177,8 @@ const Formulario = () => {
                       backgroundColor: '#006458'
                     }
                   }}
+                  type="submit"
                   disabled={isSubmitting}
-                  onClick={submitForm}
                   variant="contained"
                 >
                   Enviar

@@ -26,7 +26,7 @@ function ResponsiveAppBar() {
         <Toolbar disableGutters>
 
           <Stack
-            component={HashLink} smooth to={'/proyecto-sk/#home'}
+            component={HashLink} smooth to={'/#home'}
           >
             <Box
               component="img"
@@ -71,7 +71,7 @@ function ResponsiveAppBar() {
 
               <MenuItem
                 component={HashLink}
-                smooth to={'/proyecto-sk/#servicios'}>
+                smooth to={'/#servicios'}>
                 <Typography 
                 textAlign="center"
                 >
@@ -80,7 +80,7 @@ function ResponsiveAppBar() {
               </MenuItem>
               <MenuItem
                 component={HashLink}
-                smooth to={'/proyecto-sk/#nosotros'}
+                smooth to={'/#nosotros'}
               >
                 <Typography 
                 textAlign="center"
@@ -94,13 +94,13 @@ function ResponsiveAppBar() {
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex', justifyContent: 'flex-end' } }}>
 
             <Button
-              component={HashLink} smooth to={'/proyecto-sk/#servicios'}
+              component={HashLink} smooth to={'/#servicios'}
               sx={{ my: 1, mx: 3, color: 'white', display: 'block' }}
             >
               Servicios
             </Button>
             <Button
-              component={HashLink} smooth to={'/proyecto-sk/#nosotros'}
+              component={HashLink} smooth to={'/#nosotros'}
               sx={{ my: 1, mx: 3, color: 'white', display: 'block' }}
             >
               Nosotros
@@ -113,7 +113,7 @@ function ResponsiveAppBar() {
               '&:hover': { backgroundColor: '#C97400' }
             }}
             variant="contained"
-            component={HashLink} smooth to={'/proyecto-sk/#contacto'}
+            component={HashLink} smooth to={'/#contacto'}
           >
             CONTACTANOS
           </Button>

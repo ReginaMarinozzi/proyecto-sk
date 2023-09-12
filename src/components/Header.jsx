@@ -122,7 +122,7 @@ const Header = () => {
                   }
                 }}
                 variant="contained"
-                component={HashLink} smooth to={'/proyecto-sk/#servicios'}
+                component={HashLink} smooth to={'/#servicios'}
               >
                 Nuestros servicios
               </Button>
@@ -134,7 +134,7 @@ const Header = () => {
                 }
                 }
                 variant="contained"
-                component={HashLink} smooth to={'/proyecto-sk/#contacto'}
+                component={HashLink} smooth to={'/#contacto'}
               >
                 CONTACTANOS
               </Button>
