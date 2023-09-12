@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Gestión y diseño",
     "description": "Contamos con una amplia variedad de servicios de asesoría en Higiene y Seguridad Laboral adaptados a cada rubro y necesidad; con finalidad de cumplimiento de normativas vigentes de forma inmediata.",
-    "img": "../images/imggestion.png",
+    "img": "../images/imggestion.jpg",
     "link": "/gestion"
   },
   {
@@ -31,7 +31,7 @@
     "id": 5,
     "name": "Servicios de medio ambiente",
     "description": "Brindamos servicios ambientales basados en las diferentes normativas, para la implementación de políticas de desarrollo sustentable, con el principal objetivo de lograr un equilibrio entre el crecimiento de su actividad y el cuidado del medioambiente.",
-    "img": "../images/imgservicios.png",
+    "img": "../images/imgambiente.jpg",
     "link": "/ambiente"
   },
   {
