@@ -17,14 +17,14 @@
     "id": 3,
     "name": "Prevención - protección contra incendios",
     "description": "Protección Contra Incendios. Control y recarga de matafuegos e instalación de nueva, mantenimiento y/o mejora de Red de Incendio.",
-    "img": "../images/imgmatafuegos.png",
+    "img": "../images/imgmatafuegos.jpg",
     "link": "/prevencion"
   },
   {
     "id": 4,
     "name": "Mediciones y estudios",
     "description": "Mediciones y estudios de Higiene y Seguridad Laboral y Medio Ambiente. Así adoptar correcciones en los puestos y/o lugares de trabajo de ser necesario.",
-    "img": "https://i.ibb.co/09Q0m2t/scott-graham-5f-Nm-Wej4t-AA-unsplash.jpg",
+    "img": "../images/imgmediciones.jpg",
     "link": "/mediciones"
   },
   {
