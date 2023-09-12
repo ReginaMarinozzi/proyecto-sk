@@ -36,11 +36,10 @@ const Formulario = () => {
       onSubmit={(values, { setSubmitting }) => {
         setTimeout(() => {
           sendEmail(values)
-          setSubmitting(false)
         }, 1000);
       }}
     >
-      {({ submitForm, isSubmitting }) => (
+      {({ isSubmitting }) => (
         <Stack
           id='contacto'
           minHeight='50vh'
