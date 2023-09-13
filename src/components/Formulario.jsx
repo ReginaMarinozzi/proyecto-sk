@@ -50,7 +50,7 @@ const Formulario = () => {
           py={5}
           spacing={2}
           sx={{
-            backgroundImage: 'url("/images/imgfondo.png)',
+            backgroundImage: 'url("/images/imgfondo.png")',
             backgroundPosition: 'top',
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover',
