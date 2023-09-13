@@ -12,7 +12,7 @@ const Mediciones = () => {
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'center',
-                mt: { xs: 8, md: 6 },
+                mt: { xs: 6, md: 10 },
                 p: { xs: 4, md: 0 },
                 minHeight: { xs: '50vh', md: '80vh' }
             }}

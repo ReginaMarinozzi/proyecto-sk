@@ -6,6 +6,7 @@ const Servicios = ({ array }) => {
   return (
     <Stack
       width='100%'
+      id='servicios'
     >
       <Typography
         py={3}
@@ -14,7 +15,6 @@ const Servicios = ({ array }) => {
         align="center"
         color="#212121"
         fontWeight={600}
-        id='servicios'
       >
         Nuestros Servicios
       </Typography>
@@ -26,7 +26,6 @@ const Servicios = ({ array }) => {
         align="center"
         color="#212121"
         fontWeight={500}
-        id='servicios'
       >
         Los servicios que ofrecemos permiten cumplir con las disposiciones legales en vigencia, siguiendo lo estipulado por la Ley N° 19587 y sus decretos reglamentarios. Brindamos acciones preventivas para proteger el patrimonio de tu empresa.
       </Typography>

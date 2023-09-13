@@ -33,7 +33,7 @@ const Formulario = () => {
           .required('Requerido'),
       })}
       
-      onSubmit={(values, { setSubmitting }) => {
+      onSubmit={(values) => {
         setTimeout(() => {
           sendEmail(values)
         }, 1000);
@@ -103,7 +103,6 @@ const Formulario = () => {
                   name="user_name"
                   type="nombre"
                   label="Nombre"
-
                 />
               </Grid>
               <Grid item md={6} xs={8}

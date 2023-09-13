@@ -104,7 +104,7 @@ const Seguridad = () => {
                             borderRadius: '30px',
                             display: 'block',
                             overflow: 'hidden',
-                            width: '100%',
+                            width: '80%',
                         }}
                         src='/images/imgseguridad.jpg'
                         alt='Hombre trabajando son una soldadora con la protección necesaria'

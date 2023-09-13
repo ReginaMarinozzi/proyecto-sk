@@ -89,7 +89,7 @@ const Gestion = () => {
                             borderRadius: '30px',
                             display: 'block',
                             overflow: 'hidden',
-                            width: '100%',
+                            width: '70%',
                         }}
                         src='/images/imggestion.jpg'
                         alt='personas viendo juntas un mapa y una laptop abierta'
