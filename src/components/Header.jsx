@@ -7,7 +7,7 @@ const Header = () => {
     <Stack
       alignItems='center'
       sx={{
-        mt: { xs: 12, md: 10 },
+        mt: { xs: 15, md: 15 },
         minHeight: { xs: '50vh', md: '70vh' }
       }}
     >
@@ -114,6 +114,9 @@ const Header = () => {
               direction="row"
               spacing={2}
               mt={2}
+              sx={{
+                display: { xs: 'none', md: 'flex' }
+              }}      
             >
               <Button
                 sx={{
@@ -130,13 +133,13 @@ const Header = () => {
                 sx={{
                   bgcolor: "#F79D21", '&:hover': {
                     backgroundColor: '#C97400'
-                  }
-                }
-                }
+                  },
+                  textTransform: 'uppercase'
+                }}
                 variant="contained"
                 component={HashLink} smooth to={'/#contacto'}
               >
-                CONTACTANOS
+                Contactanos
               </Button>
             </Stack>
           </Stack>

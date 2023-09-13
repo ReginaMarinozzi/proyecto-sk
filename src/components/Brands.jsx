@@ -5,12 +5,11 @@ import React from 'react';
 const Brands = () => {
   return (
     <Stack
-      py={6}
-      mt={5}
       alignItems='center'
       spacing={4}
       sx={{
-        paddingTop: { xs: '0', mt: '0' }
+        paddingY: { xs: 0, md: 6 },
+        marginY: { xs: 4, md: 4 }
       }}
     >
       <Stack

@@ -24,7 +24,6 @@ function ResponsiveAppBar() {
     >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-
           <Stack
             component={HashLink} smooth to={'/#home'}
           >
@@ -33,9 +32,9 @@ function ResponsiveAppBar() {
               sx={{
                 display: { xs: "none", md: "flex" },
                 overflow: 'hidden',
-                width: '12%',
+                width: '8%',
               }}
-              src="https://i.ibb.co/PGPhjYg/sklogoo.png"
+              src="/images/sklogo.png"
               alt='logo'
             />
           </Stack>
@@ -68,12 +67,11 @@ function ResponsiveAppBar() {
                 display: { xs: 'block', md: 'none' },
               }}
             >
-
               <MenuItem
                 component={HashLink}
                 smooth to={'/#servicios'}>
-                <Typography 
-                textAlign="center"
+                <Typography
+                  textAlign="center"
                 >
                   Servicios
                 </Typography>
@@ -82,40 +80,39 @@ function ResponsiveAppBar() {
                 component={HashLink}
                 smooth to={'/#nosotros'}
               >
-                <Typography 
-                textAlign="center"
+                <Typography
+                  textAlign="center"
                 >
                   Nosotros
                 </Typography>
               </MenuItem>
             </Menu>
           </Box>
-
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex', justifyContent: 'flex-end' } }}>
-
             <Button
               component={HashLink} smooth to={'/#servicios'}
-              sx={{ my: 1, mx: 3, color: 'white', display: 'block' }}
+              sx={{ my: 1, px: 2, color: 'white', display: 'block' }}
             >
               Servicios
             </Button>
             <Button
               component={HashLink} smooth to={'/#nosotros'}
-              sx={{ my: 1, mx: 3, color: 'white', display: 'block' }}
+              sx={{ my: 1, px: 2, color: 'white', display: 'block' }}
             >
               Nosotros
             </Button>
           </Box>
-
           <Button
             sx={{
               bgcolor: "#F79D21",
-              '&:hover': { backgroundColor: '#C97400' }
+              '&:hover': { backgroundColor: '#C97400' },
+              textTransform: "uppercase",
+              px: 4
             }}
             variant="contained"
             component={HashLink} smooth to={'/#contacto'}
           >
-            CONTACTANOS
+            Contactanos
           </Button>
         </Toolbar>
       </Container>
